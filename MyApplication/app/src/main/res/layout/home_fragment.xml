@@ -2,4 +2,22 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent" android:layout_height="match_parent">
 
+
+     <TextView
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:gravity="center"
+         style="@style/heading1"
+         android:text="@string/home_fragment_header"
+         android:layout_marginBottom="@dimen/primary_margin_bottom"
+         />
+
+     <ListView
+         android:id="@+id/stockList"
+         android:divider="@color/dividerColor"
+         android:layout_width="match_parent"
+         android:layout_height="match_parent"/>
+
+
+
 </RelativeLayout>

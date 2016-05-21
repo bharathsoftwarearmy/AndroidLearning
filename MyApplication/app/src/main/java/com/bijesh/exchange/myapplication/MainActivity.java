@@ -13,7 +13,10 @@ import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
 
-public class MainActivity extends AppCompatActivity
+import com.bijesh.exchange.myapplication.activities.BaseActivity;
+import com.bijesh.exchange.myapplication.fragments.HomeFragment;
+
+public class MainActivity extends BaseActivity
         implements NavigationView.OnNavigationItemSelectedListener {
 
     @Override
@@ -21,9 +24,12 @@ public class MainActivity extends AppCompatActivity
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         initComponents();
-
+        initHomeScreen();
     }
 
+    private void initHomeScreen(){
+        fragmentTransaction(R.id.mainContainer,new HomeFragment());
+    }
 
     private void initComponents(){
 
@@ -33,7 +39,7 @@ public class MainActivity extends AppCompatActivity
         fab.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
+                Snackbar.make(view, "Yet to implement", Snackbar.LENGTH_LONG)
                         .setAction("Action", null).show();
             }
         });
