@@ -33,5 +33,12 @@ public class HomeFragment extends BaseFragment{
 
     }
 
-
+//    private void callValidatePaymentService() {
+//        setValidateRequestObject();
+//        params.clear();
+//        screen = ProgressDialog.show(getActivity(), "", BPMessageConstants.BP_VALIDATE_PAYMENTS_MESSAGE, true);
+//        String url = securePref.getString(BPMessageConstants.BP_HOST_URLPATH) + BPMessageConstants.BP_SENDMONEY_VALIDATE_PAYMENT;
+//        gsonRequest = new GsonRequest(Request.Method.POST, VolleyUtil.getUrl(params, securePref, url), BillpayValidatePaymentResponse.class, validatePaymentRequest, this, this, VolleyUtil.getHeaders(securePref));
+//        requestQueue.add(gsonRequest);
+//    }
 }
