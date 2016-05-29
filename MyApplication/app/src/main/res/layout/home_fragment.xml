@@ -4,6 +4,7 @@
 
 
      <TextView
+         android:id="@+id/home_title"
          android:layout_width="match_parent"
          android:layout_height="wrap_content"
          android:gravity="center"
@@ -12,9 +13,41 @@
          android:layout_marginBottom="@dimen/primary_margin_bottom"
          />
 
+    <RelativeLayout
+        android:layout_marginLeft="@dimen/app_default_screen_margin"
+        android:layout_marginRight="@dimen/app_default_screen_margin"
+        android:layout_below="@+id/home_title"
+        android:id="@+id/listHeader"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_alignParentLeft="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/header_company"
+            />
+
+        <TextView
+            android:layout_centerInParent="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/header_price"
+            />
+
+        <TextView
+            android:layout_alignParentRight="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/header_per_change"
+            />
+
+    </RelativeLayout>
+
      <ListView
+         style="@style/dividedListStyle"
+         android:layout_below="@+id/listHeader"
          android:id="@+id/stockList"
-         android:divider="@color/dividerColor"
          android:layout_width="match_parent"
          android:layout_height="match_parent"/>
 
