@@ -1,7 +1,7 @@
 package com.bijesh.exchange.myapplication.restservices;
 
 /**
- * Created by kperiaperuma on 9/16/2015.
+ * Created by Bijesh on 9/16/2015.
  */
 
 import android.content.Context;
@@ -15,21 +15,21 @@ import com.android.volley.toolbox.BasicNetwork;
 import com.android.volley.toolbox.DiskBasedCache;
 import com.android.volley.toolbox.HurlStack;
 import com.android.volley.toolbox.ImageLoader;
-import com.fiserv.billpay.util.BPMessageConstants;
-import com.fiserv.billpay.util.SecureSharedPreferences;
+import com.bijesh.exchange.myapplication.restservices.utils.SSLUtils;
+
 
 /**
  * Custom implementation of Volley Request Queue
  */
 public class CustomRequestQueue {
     private static final long serialVersionUID = 8161610343375187070L;
-    public static String CVSID = "$Id: CustomRequestQueue.java 12762 2016-05-06 00:51:59Z anurags $";
+
 
     private static CustomRequestQueue mInstance;
     private static Context mCtx;
     private RequestQueue mRequestQueue;
     private ImageLoader mImageLoader;
-    private SecureSharedPreferences securePref;
+//    private SecureSharedPreferences securePref;
 
     private CustomRequestQueue(Context context) {
         mCtx = context;
@@ -59,15 +59,15 @@ public class CustomRequestQueue {
     public RequestQueue getRequestQueue() {
         if (mRequestQueue == null) {
             Cache cache = new DiskBasedCache(mCtx.getCacheDir(), 10 * 1024 * 1024);
-            securePref =SecureSharedPreferences.getInstance(mCtx, BPMessageConstants.BP_SECURE_PREF_KEY, BPMessageConstants.BP_SECURE_PREF_KEY_VALUE, true);
-            String envValue = securePref.getString(BPMessageConstants.BP_ENV_VALUE);
+//            securePref =SecureSharedPreferences.getInstance(mCtx, BPMessageConstants.BP_SECURE_PREF_KEY, BPMessageConstants.BP_SECURE_PREF_KEY_VALUE, true);
+//            String envValue = securePref.getString(BPMessageConstants.BP_ENV_VALUE);
           //  BPCustomLog.d("CustomRequestQueue:: env",envValue);
             HurlStack hurlStack=null;
-            if(!BPMessageConstants.BP_PROD_ENV.equalsIgnoreCase(envValue)){
+//            if(!BPMessageConstants.BP_PROD_ENV.equalsIgnoreCase(envValue)){
                 hurlStack = new HurlStack(null, SSLUtils.createSslSocketFactory());
-            }else{
-                hurlStack = new HurlStack();
-            }
+//            }else{
+//                hurlStack = new HurlStack();
+//            }
             Network network = new BasicNetwork(hurlStack);
             mRequestQueue = new RequestQueue(cache, network);
             mRequestQueue.start();

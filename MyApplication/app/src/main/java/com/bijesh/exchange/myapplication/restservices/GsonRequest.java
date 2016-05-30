@@ -8,14 +8,10 @@ import com.android.volley.Response;
 import com.android.volley.VolleyError;
 import com.android.volley.toolbox.HttpHeaderParser;
 import com.android.volley.toolbox.JsonRequest;
-import com.fiserv.billpay.util.BPCustomLog;
-import com.fiserv.billpay.util.BPHelper;
-import com.fiserv.billpay.util.BPMessageConstants;
-import com.fiserv.billpay.util.TimerClass;
 import com.google.gson.Gson;
 import com.google.gson.JsonSyntaxException;
 
-import org.apache.http.entity.StringEntity;
+//import org.apache.http.entity.StringEntity;
 import org.json.JSONObject;
 
 import java.io.UnsupportedEncodingException;
@@ -30,7 +26,7 @@ import java.util.Random;
  */
 public class GsonRequest<T> extends JsonRequest<T> {
     private static final long serialVersionUID = 8161610343375187070L;
-    public static String CVSID = "$Id: GsonRequest.java 13216 2016-05-21 00:24:43Z anurags $";
+
 
     private static final int RETRY_TIMEOUT = 80 * 1000;
     private final Gson gson = new Gson();
@@ -70,8 +66,6 @@ private boolean retry = true;
                 errorListener);
         clazz = classtype;
         this.headers = headers;
-        BPCustomLog.d("Super constructor", "constructor");
-        BPCustomLog.d("RequestBody","Body  : "+requestBody);
         /*mRequestBody = requestBody;
         mListener = listener;
         configureRequest();*/
@@ -151,12 +145,11 @@ private boolean retry = true;
      * @param listener:      Listener of the request
      * @param errorListener: Error handler of the request
      */
-    public GsonRequest(int method, String url, Class<T> classtype, String requestBody,
-                       Response.Listener<T> listener, Response.ErrorListener errorListener) {
-        this(method, classtype, url, getEncodedString(requestBody), listener,
-                errorListener, new HashMap<String, String>());
-        BPCustomLog.d("Calling", "Main Method");
-    }
+//    public GsonRequest(int method, String url, Class<T> classtype, String requestBody,
+//                       Response.Listener<T> listener, Response.ErrorListener errorListener) {
+//        this(method, classtype, url, getEncodedString(requestBody), listener,
+//                errorListener, new HashMap<String, String>());
+//    }
 
     /**
      * Method to be called if you want to GET something from the server and receive the POJO directly after the call (no JSON). (Without header)
@@ -305,62 +298,54 @@ private boolean retry = true;
             if (response.statusCode >= 200 && response.statusCode <= 299) {
                 // If the status is correct, we return a success but with a null object, because the server didn't return anything
 
-                BPCustomLog.d("Tesssstttt","Status COddddddddddddeeeee mute : "+response.statusCode);
                 return Response.success(null, HttpHeaderParser.parseCacheHeaders(response));
             }
         } else {
             try {
                 // If it's not muted; we just need to create our POJO from the returned JSON and handle correctly the errors
-                BPCustomLog.d("Tesssstttt","fadkadfafdas");
-                BPCustomLog.d("Tesssstttt","Status COddddddddddddeeeee : "+response.statusCode);
                 String json = new String(response.data, HttpHeaderParser.parseCharset(response.headers));
-                BPCustomLog.d("String Json","Jssssssssssonnnn : "+json.toString());
-                TimerClass.userInteractedTrigger();
                 T parsedObject= null;
-                if(!BPHelper.isNullObj(clazz)) {
+                if(clazz != null) {
                     parsedObject = gson.fromJson(json, clazz);
                 }
-                else if(!BPHelper.isNullObj(classType)){
+                else if(classType != null){
                     Gson gson = new Gson();
-                    BPCustomLog.d("String Json", "22222222 :" + json + ":::" + classType);
                     List list = (List) gson.fromJson(json, classType);
                     parsedObject = (T) list;
                   //  BPCustomLog.d("String Json", "222 :" + list.get(0).toString());
                 }
                 return Response.success(parsedObject, HttpHeaderParser.parseCacheHeaders(response));
             } catch (UnsupportedEncodingException e) {
-                BPCustomLog.i("UnsupportedEncodingException", e.getMessage().toString());
                 return Response.error(new ParseError(e));
             } catch (JsonSyntaxException e) {
-                BPCustomLog.i("JsonSyntaxException", e.getMessage().toString());
                 return Response.error(new ParseError(e));
             }
         }
         return null;
     }
 
-    private static String getEncodedString(String str){
-        String stringNew=str;
-        try {
-            stringNew= new StringEntity(str,"UTF-8").toString();
-        } catch (Exception e) {
-            stringNew=str;
-        }
-
-        return stringNew;
-    }
-    @Override
-    public Map<String, String> getHeaders() throws AuthFailureError {
-        BPCustomLog.d("Header Payee", "Header Payee : " + headers.get("Authorization"));
-        this.headers.put(BPMessageConstants.BP_HEADER_USER_AGENT, BPMessageConstants.BP_MOBILE_DEVICE_ANDROID + BPMessageConstants.BP_STRING_SPACE
-                + android.os.Build.VERSION.RELEASE + BPMessageConstants.BP_STRING_SPACE + android.os.Build.BRAND + BPMessageConstants.BP_STRING_SPACE + android.os.Build.DEVICE +
-                BPMessageConstants.BP_STRING_SPACE + BPMessageConstants.BP_APPLICATION_NAME + BPMessageConstants.BP_STRING_FORWARDSLASH + BPMessageConstants.BP_APPLICATION_VER + BPMessageConstants.BP_STRING_SPACE
-                + BPMessageConstants.BP_TIS_PLUGIN_VER);
-        BPCustomLog.d("Header Payee", "Header Payee : " + headers.get(BPMessageConstants.BP_HEADER_USER_AGENT));
-       this.headers.put(BPMessageConstants.BP_HEADER_CORRELATION_ID,getRandomString());
-        BPCustomLog.d("Header Payee", "Header Payee : " + headers.get(BPMessageConstants.BP_HEADER_CORRELATION_ID));
-        return headers;
-    }
+//    private static String getEncodedString(String str){
+//        String stringNew=str;
+//        try {
+//            stringNew= new StringEntity(str,"UTF-8").toString();
+//        } catch (Exception e) {
+//            stringNew=str;
+//        }
+//
+//        return stringNew;
+//    }
+//    @Override
+//    public Map<String, String> getHeaders() throws AuthFailureError {
+//        BPCustomLog.d("Header Payee", "Header Payee : " + headers.get("Authorization"));
+//        this.headers.put(BPMessageConstants.BP_HEADER_USER_AGENT, BPMessageConstants.BP_MOBILE_DEVICE_ANDROID + BPMessageConstants.BP_STRING_SPACE
+//                + android.os.Build.VERSION.RELEASE + BPMessageConstants.BP_STRING_SPACE + android.os.Build.BRAND + BPMessageConstants.BP_STRING_SPACE + android.os.Build.DEVICE +
+//                BPMessageConstants.BP_STRING_SPACE + BPMessageConstants.BP_APPLICATION_NAME + BPMessageConstants.BP_STRING_FORWARDSLASH + BPMessageConstants.BP_APPLICATION_VER + BPMessageConstants.BP_STRING_SPACE
+//                + BPMessageConstants.BP_TIS_PLUGIN_VER);
+//        BPCustomLog.d("Header Payee", "Header Payee : " + headers.get(BPMessageConstants.BP_HEADER_USER_AGENT));
+//       this.headers.put(BPMessageConstants.BP_HEADER_CORRELATION_ID,getRandomString());
+//        BPCustomLog.d("Header Payee", "Header Payee : " + headers.get(BPMessageConstants.BP_HEADER_CORRELATION_ID));
+//        return headers;
+//    }
 
     public static String getRandomString() {
         int leftLimit = 97; // letter 'a'
