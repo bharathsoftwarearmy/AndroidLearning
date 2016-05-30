@@ -8,5 +8,15 @@
 
     <string name="home_fragment_header">Stocks Change from pre close to current close</string>
 
+    <string name="default_company_name">Crompton Greaves</string>
+    <string name="default_stock_exchange">NSE</string>
+    <string name="default_price">0.00</string>
+    <string name="default_price_change">0.00</string>
+    <string name="default_percentage_change">0.00%</string>
+
+    <string name="header_company">Company</string>
+    <string name="header_price">Price</string>
+    <string name="header_per_change">% Change</string>
+
 
 </resources>
