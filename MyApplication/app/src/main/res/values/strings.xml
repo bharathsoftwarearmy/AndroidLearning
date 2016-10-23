@@ -14,9 +14,18 @@
     <string name="default_price_change">0.00</string>
     <string name="default_percentage_change">0.00%</string>
 
+    <string name="pre_close">Pre Cls: </string>
+    <string name="open_price">Opn Prc: </string>
+    <string name="per_change">Per Chg: </string>
+    <string name="day_high">Day Hgh: </string>
+    <string name="day_low">Day Low: </string>
+
     <string name="header_company">Company</string>
     <string name="header_price">Price</string>
-    <string name="header_per_change">% Change</string>
+    <string name="header_per_change">Simple Details</string>
+    <string name="action_login">Login</string>
+    <string name="hint_login">Login username</string>
+    <string name="header_login">Application Login</string>
 
 
 </resources>

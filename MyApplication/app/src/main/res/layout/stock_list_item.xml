@@ -1,37 +1,41 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_marginTop="@dimen/app_default_screen_margin"
-    android:layout_marginBottom="@dimen/app_default_screen_margin"
-    android:layout_marginLeft="@dimen/app_default_screen_margin"
-    android:layout_marginRight="@dimen/app_default_screen_margin"
+    android:id="@+id/stockItemListContainer"
     android:background="@color/lightPrimaryColor"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-    <LinearLayout
-        android:orientation="vertical"
+    <RelativeLayout
         android:layout_alignParentLeft="true"
-        android:layout_centerInParent="true"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content">
 
-        <TextView
-            android:id="@+id/companyName"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/default_company_name"
-            />
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/default_stock_exchange"
-            />
-    </LinearLayout>
 
+        <LinearLayout
+            android:id="@+id/companyNameContainer"
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/companyName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/default_company_name"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/default_stock_exchange"
+                />
+        </LinearLayout>
+
+
+    </RelativeLayout>
 
     <LinearLayout
         android:orientation="vertical"
-        android:layout_centerInParent="true"
+        android:layout_toLeftOf="@+id/simpleDetailsContainer"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content">
 
@@ -48,26 +52,88 @@
             />
     </LinearLayout>
 
-
-    <LinearLayout
-        android:orientation="vertical"
+    <RelativeLayout
+        android:id="@+id/simpleDetailsContainer"
+        android:layout_marginLeft="@dimen/activity_horizontal_margin"
         android:layout_alignParentRight="true"
-        android:layout_centerInParent="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:id="@+id/labelContainer"
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/pre_close"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/open_price"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/per_change"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/day_high"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/day_low"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_toRightOf="@+id/labelContainer"
+        android:orientation="vertical"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content">
 
         <TextView
-            android:id="@+id/priceChange"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/default_price_change"
-            />
+        android:id="@+id/pre"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/default_price_change"
+        />
         <TextView
-            android:id="@+id/percentageChange"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/default_percentage_change"
-            />
-    </LinearLayout>
+        android:id="@+id/open"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/default_price_change"
+        />
+            <TextView
+                android:id="@+id/perChange"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/default_price_change"
+                />
+            <TextView
+                android:id="@+id/dayHigh"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/default_price_change"
+                />
+            <TextView
+                android:id="@+id/dayLow"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/default_price_change"
+                />
+        </LinearLayout>
+
+
+    </RelativeLayout>
+
+
+
 
 </RelativeLayout>

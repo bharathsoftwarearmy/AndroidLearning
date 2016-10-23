@@ -15,6 +15,7 @@ import android.view.MenuItem;
 
 import com.bijesh.exchange.myapplication.activities.BaseActivity;
 import com.bijesh.exchange.myapplication.fragments.HomeFragment;
+import com.bijesh.exchange.myapplication.fragments.LoginFragment;
 
 public class MainActivity extends BaseActivity
         implements NavigationView.OnNavigationItemSelectedListener {
@@ -83,7 +84,16 @@ public class MainActivity extends BaseActivity
             return true;
         }
 
+        if (id == R.id.action_login){
+            showLoginScreen();
+        }
+
         return super.onOptionsItemSelected(item);
+    }
+
+
+    private void showLoginScreen(){
+        fragmentTransaction(R.id.mainContainer,new LoginFragment());
     }
 
     @SuppressWarnings("StatementWithEmptyBody")

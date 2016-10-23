@@ -14,8 +14,6 @@
          />
 
     <RelativeLayout
-        android:layout_marginLeft="@dimen/app_default_screen_margin"
-        android:layout_marginRight="@dimen/app_default_screen_margin"
         android:layout_below="@+id/home_title"
         android:id="@+id/listHeader"
         android:layout_width="match_parent"
