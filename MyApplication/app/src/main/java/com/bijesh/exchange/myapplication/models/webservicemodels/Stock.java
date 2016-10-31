@@ -5,8 +5,10 @@ package com.bijesh.exchange.myapplication.models.webservicemodels;
 import com.google.gson.annotations.Expose;
 import com.google.gson.annotations.SerializedName;
 
+import java.io.Serializable;
 
-public class Stock {
+
+public class Stock implements Serializable{
 
     @SerializedName("extremeLossMargin")
     @Expose

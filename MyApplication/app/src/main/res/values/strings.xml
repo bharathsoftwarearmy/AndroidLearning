@@ -10,6 +10,9 @@
 
     <string name="default_company_name">Crompton Greaves</string>
     <string name="default_stock_exchange">NSE</string>
+    <string name="buy_quantity">Buy Qty:{0}</string>
+    <string name="add_share">Add Share</string>
+    <string name="sell_quantity">Sell Qty:{0}</string>
     <string name="default_price">0.00</string>
     <string name="default_price_change">0.00</string>
     <string name="default_percentage_change">0.00%</string>
@@ -26,6 +29,14 @@
     <string name="action_login">Login</string>
     <string name="hint_login">Login username</string>
     <string name="header_login">Application Login</string>
+
+    <string name="enter_share">Enter the symbol of share</string>
+
+    <string name="notify_price">Trigger price: </string>
+    <string name="dialog_trigger_price">Enter the Trigger Price</string>
+
+    <string name="ok">Ok</string>
+    <string name="cancel">Cancel</string>
 
 
 </resources>

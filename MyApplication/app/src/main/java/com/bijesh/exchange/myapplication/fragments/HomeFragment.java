@@ -9,17 +9,29 @@ import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.AdapterView;
+import android.widget.Button;
+import android.widget.EditText;
+import android.widget.ImageView;
 import android.widget.ListView;
+import android.widget.RelativeLayout;
+import android.widget.Toast;
 
 import com.android.volley.Request;
 import com.android.volley.Response;
 import com.android.volley.VolleyError;
+import com.bijesh.exchange.myapplication.BaseApplication;
 import com.bijesh.exchange.myapplication.R;
 import com.bijesh.exchange.myapplication.adapters.listviewadapters.HomeScreenAdapter;
+import com.bijesh.exchange.myapplication.constants.ApplicationConstants;
+import com.bijesh.exchange.myapplication.contentproviders.MyApplicationDBHandler;
 import com.bijesh.exchange.myapplication.dialogs.ApplicationProgressDialog;
 import com.bijesh.exchange.myapplication.models.adaptermodels.StockChange;
+import com.bijesh.exchange.myapplication.models.dbmodels.Share;
 import com.bijesh.exchange.myapplication.models.webservicemodels.StockData;
 import com.bijesh.exchange.myapplication.restservices.GsonRequest;
+import com.bijesh.exchange.myapplication.utils.DBUtils;
+import com.bijesh.exchange.myapplication.utils.StringUtil;
 import com.google.gson.Gson;
 
 import java.io.BufferedReader;
@@ -39,7 +51,7 @@ import javax.net.ssl.HttpsURLConnection;
 /**
  * Created by bijesh on 5/21/2016.
  */
-public class HomeFragment extends BaseFragment implements Response.Listener, Response.ErrorListener{
+public class HomeFragment extends BaseFragment implements Response.Listener, Response.ErrorListener, ApplicationConstants{
 
 
     private static final String TAG = HomeFragment.class.getCanonicalName();
@@ -49,6 +61,10 @@ public class HomeFragment extends BaseFragment implements Response.Listener, Res
 //    private ApplicationProgressDialog mProgressDialog;
     private ProgressDialog mProgressDialog;
     private Object waitingObject;
+    private ImageView imgViewAddShare;
+    private RelativeLayout relativeLayoutShareInput;
+    private Button mBtnAddShare;
+    private EditText mEdtTxtShare;
 
     @Nullable
     @Override
@@ -66,10 +82,58 @@ public class HomeFragment extends BaseFragment implements Response.Listener, Res
         return mRootView;
     }
 
+    private void addShare(Share share){
+        MyApplicationDBHandler dbHandler = BaseApplication.getDBHandler();
+        dbHandler.insertShare(share);
+//        Share askShare = dbHandler.getShare("ASHOKLEY");
+//        Log.d(TAG,"$$$ share retrieved "+askShare);
+    }
+
+
+
     private void initComponents(View mRootView){
         mStockListView = (ListView) mRootView.findViewById(R.id.stockList);
-//        attachAdapter(mStockListView);
+        imgViewAddShare = (ImageView) mRootView.findViewById(R.id.imgViewAddShare);
+        relativeLayoutShareInput = (RelativeLayout) mRootView.findViewById(R.id.inputShareDetailContainer);
+        mBtnAddShare = (Button) mRootView.findViewById(R.id.btnAddShare);
+        mEdtTxtShare = (EditText) mRootView.findViewById(R.id.edtTxtShareSymbol);
+
+        imgViewAddShare.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                if(relativeLayoutShareInput.getVisibility() == View.VISIBLE){
+                    relativeLayoutShareInput.setVisibility(View.GONE);
+                    mEdtTxtShare.setText("");
+                }else {
+                    relativeLayoutShareInput.setVisibility(View.VISIBLE);
+                }
+            }
+        });
+
+        mBtnAddShare.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Share share = new Share();
+                share.setShareSymbol(mEdtTxtShare.getText().toString().toUpperCase().trim());
+                addShare(share);
+                relativeLayoutShareInput.setVisibility(View.GONE);
+                mEdtTxtShare.setText("");
+            }
+        });
+
+        mStockListView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+            @Override
+            public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
+                Toast.makeText(getActivity(),"Item selected",Toast.LENGTH_LONG);
+                ShareDetailFragment shareDetailFragment = new ShareDetailFragment();
+                Bundle bundle = new Bundle();
+                bundle.putSerializable(BUNDLE_STOCK,mStockList.get(position).getStock().get(0));
+                shareDetailFragment.setArguments(bundle);
+                fragmentTransaction(R.id.mainContainer,shareDetailFragment);
+            }
+        });
     }
+
 
     private void attachAdapter(List<StockData> stockData){
         HomeScreenAdapter homeScreenAdapter = new HomeScreenAdapter(getContext(),R.layout.stock_list_item,stockData);
@@ -78,24 +142,25 @@ public class HomeFragment extends BaseFragment implements Response.Listener, Res
 
     private void downloadStockData(){
         DownloadStockDataTask task = new DownloadStockDataTask();
-        List<String> urls = getUrls();
+//        String tempUrl = StringUtil.getShareUrl();
+        List<String> urls = StringUtil.getShareUrls(DBUtils.getAllShare());
         task.execute(urls);
     }
 
-    private List<String> getUrls(){
-        List<String> urls = new ArrayList<>();
-//
-        urls.add( "https://www.nseindia.com/live_market/dynaContent/live_watch/get_quote/ajaxGetQuoteJSON.jsp?symbol=ASHOKLEY");
-        urls.add( "https://www.nseindia.com/live_market/dynaContent/live_watch/get_quote/ajaxGetQuoteJSON.jsp?symbol=INOXWIND");
-        urls.add( "https://www.nseindia.com/live_market/dynaContent/live_watch/get_quote/ajaxGetQuoteJSON.jsp?symbol=GOKEX");
-        urls.add( "https://www.nseindia.com/live_market/dynaContent/live_watch/get_quote/ajaxGetQuoteJSON.jsp?symbol=MAWANASUG");
-        urls.add( "https://www.nseindia.com/live_market/dynaContent/live_watch/get_quote/ajaxGetQuoteJSON.jsp?symbol=METALFORGE");
-        urls.add( "https://www.nseindia.com/live_market/dynaContent/live_watch/get_quote/ajaxGetQuoteJSON.jsp?symbol=RCOM");
-        urls.add( "https://www.nseindia.com/live_market/dynaContent/live_watch/get_quote/ajaxGetQuoteJSON.jsp?symbol=KCPSUGIND");
-        urls.add( "https://www.nseindia.com/live_market/dynaContent/live_watch/get_quote/ajaxGetQuoteJSON.jsp?symbol=MANDHANA");
-        urls.add( "https://www.nseindia.com/live_market/dynaContent/live_watch/get_quote/ajaxGetQuoteJSON.jsp?symbol=SHRENUJ");
-        return urls;
-    }
+//    private List<String> getUrls(){
+//        List<String> urls = new ArrayList<>();
+////
+//        urls.add( "https://www.nseindia.com/live_market/dynaContent/live_watch/get_quote/ajaxGetQuoteJSON.jsp?symbol=ASHOKLEY");
+//        urls.add( "https://www.nseindia.com/live_market/dynaContent/live_watch/get_quote/ajaxGetQuoteJSON.jsp?symbol=INOXWIND");
+//        urls.add( "https://www.nseindia.com/live_market/dynaContent/live_watch/get_quote/ajaxGetQuoteJSON.jsp?symbol=GOKEX");
+//        urls.add( "https://www.nseindia.com/live_market/dynaContent/live_watch/get_quote/ajaxGetQuoteJSON.jsp?symbol=MAWANASUG");
+//        urls.add( "https://www.nseindia.com/live_market/dynaContent/live_watch/get_quote/ajaxGetQuoteJSON.jsp?symbol=METALFORGE");
+//        urls.add( "https://www.nseindia.com/live_market/dynaContent/live_watch/get_quote/ajaxGetQuoteJSON.jsp?symbol=RCOM");
+//        urls.add( "https://www.nseindia.com/live_market/dynaContent/live_watch/get_quote/ajaxGetQuoteJSON.jsp?symbol=KCPSUGIND");
+//        urls.add( "https://www.nseindia.com/live_market/dynaContent/live_watch/get_quote/ajaxGetQuoteJSON.jsp?symbol=MANDHANA");
+//        urls.add( "https://www.nseindia.com/live_market/dynaContent/live_watch/get_quote/ajaxGetQuoteJSON.jsp?symbol=SHRENUJ");
+//        return urls;
+//    }
 
 
     private void callWebService(){

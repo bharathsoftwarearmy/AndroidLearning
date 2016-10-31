@@ -34,40 +34,57 @@ public class HomeScreenAdapter extends ArrayAdapter<StockData>{
     @Override
     public View getView(int position, View convertView, ViewGroup parent) {
 
-        // TODO: 10/23/2016 use view holder pattern 
-        
-        StockData stockData = getItem(position);
+        // TODO: 10/23/2016 use view holder pattern
+
+        ViewHolder viewHolder = null;
         if(convertView == null){
             convertView = LayoutInflater.from(getContext()).inflate(mResource,parent,false);
+            viewHolder = new ViewHolder();
+            viewHolder.relativeLayout = (RelativeLayout)convertView.findViewById(R.id.stockItemListContainer);
+            viewHolder.company = (TextView)convertView.findViewById(R.id.companyName);
+            viewHolder.price = (TextView) convertView.findViewById(R.id.price);
+            viewHolder.preClose = (TextView) convertView.findViewById(R.id.pre);
+            viewHolder.open = (TextView) convertView.findViewById(R.id.open);
+            viewHolder.perChange = (TextView) convertView.findViewById(R.id.perChange);
+            viewHolder.high = (TextView) convertView.findViewById(R.id.dayHigh);
+            viewHolder.low = (TextView) convertView.findViewById(R.id.dayLow);
+            viewHolder.buyQty = (TextView) convertView.findViewById(R.id.buyQty);
+            viewHolder.sellQty = (TextView) convertView.findViewById(R.id.sellQty);
+            convertView.setTag(viewHolder);
+        }else{
+            viewHolder = (ViewHolder)convertView.getTag();
         }
-
-        RelativeLayout relativeLayout = (RelativeLayout)convertView.findViewById(R.id.stockItemListContainer);
-        TextView company = (TextView)convertView.findViewById(R.id.companyName);
-        TextView price = (TextView) convertView.findViewById(R.id.price);
-        TextView preClose = (TextView) convertView.findViewById(R.id.pre);
-        TextView open = (TextView) convertView.findViewById(R.id.open);
-        TextView perChange = (TextView) convertView.findViewById(R.id.perChange);
-        TextView high = (TextView) convertView.findViewById(R.id.dayHigh);
-        TextView low = (TextView) convertView.findViewById(R.id.dayLow);
-
-
+        StockData stockData = getItem(position);
         Stock stock = stockData.getStock().get(0);
 
         if(stock != null) {
-            company.setText(getCompanyNameTrimmed(stock.getCompanyName()));
-            price.setText(stock.getLastPrice());
-            preClose.setText(stock.getPreviousClose());
-            open.setText(stock.getOpen());
-            perChange.setText(stock.getPChange());
-            high.setText(stock.getDayHigh());
-            low.setText(stock.getDayLow());
-            relativeLayout.setBackgroundColor(setStockMoodColor(perChange.getText().toString()));
+            viewHolder.company.setText(getCompanyNameTrimmed(stock.getCompanyName()));
+            viewHolder.price.setText(stock.getLastPrice());
+            viewHolder.preClose.setText(stock.getPreviousClose());
+            viewHolder.open.setText(stock.getOpen());
+            viewHolder.perChange.setText(stock.getPChange());
+            viewHolder.high.setText(stock.getDayHigh());
+            viewHolder.low.setText(stock.getDayLow());
+            viewHolder.buyQty.setText(viewHolder.buyQty.getText().toString().replace("{0}",stock.getTotalBuyQuantity()));
+            viewHolder.sellQty.setText(viewHolder.sellQty.getText().toString().replace("{0}",stock.getTotalSellQuantity()));
+            viewHolder.relativeLayout.setBackgroundColor(setStockMoodColor(viewHolder.perChange.getText().toString()));
         }else{
-            company.setText("No Data Available.....");
+            viewHolder.company.setText("No Data Available.....");
         }
-
-
         return convertView;
+    }
+
+    static class ViewHolder{
+        TextView company;
+        TextView price;
+        TextView preClose;
+        TextView open;
+        TextView perChange;
+        TextView high;
+        TextView low;
+        TextView buyQty;
+        TextView sellQty;
+        RelativeLayout relativeLayout;
     }
 
     private String getCompanyNameTrimmed(String companyName){

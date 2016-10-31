@@ -3,6 +3,8 @@ package com.bijesh.exchange.myapplication.fragments;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.support.v4.app.Fragment;
+import android.support.v4.app.FragmentManager;
+import android.support.v4.app.FragmentTransaction;
 import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -34,6 +36,14 @@ public class BaseFragment extends Fragment {
 
     protected RequestQueue getRequestQueue(){
         return BaseApplication.getBaseApplication().getRequestQueue();
+    }
+
+    protected void fragmentTransaction(int containerId, BaseFragment fragment){
+        FragmentManager fragmentManager = getActivity().getSupportFragmentManager();
+        FragmentTransaction fragmentTransaction = fragmentManager.beginTransaction();
+        fragmentTransaction.replace(containerId,fragment);
+        fragmentTransaction.addToBackStack(fragment.getTag());
+        fragmentTransaction.commit();
     }
 
 }

@@ -33,7 +33,7 @@ public class DateAndTime {
         Calendar calendar = Calendar.getInstance();
         int marketOpenHour = 9,marketCloseHour=16;
         int currentHour = calendar.get(Calendar.HOUR_OF_DAY);
-        if((currentHour > marketOpenHour) && (currentHour < marketCloseHour)){
+        if((currentHour >= marketOpenHour) && (currentHour < marketCloseHour)){
             return true;
         }else {
             return false;

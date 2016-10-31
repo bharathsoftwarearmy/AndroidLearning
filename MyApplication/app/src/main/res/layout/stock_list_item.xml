@@ -26,7 +26,14 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/default_stock_exchange"
+                android:text="@string/buy_quantity"
+                android:id="@+id/buyQty"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/sell_quantity"
+                android:id="@+id/sellQty"
                 />
         </LinearLayout>
 

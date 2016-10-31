@@ -11,8 +11,10 @@ import android.os.Message;
 import android.support.annotation.Nullable;
 import android.widget.Toast;
 
+import com.bijesh.exchange.myapplication.constants.ApplicationConstants;
 import com.bijesh.exchange.myapplication.fragments.HomeFragment;
 import com.bijesh.exchange.myapplication.restservices.asynctasks.DownloadStockDataTask;
+import com.bijesh.exchange.myapplication.utils.DBUtils;
 import com.bijesh.exchange.myapplication.utils.DateAndTime;
 import com.bijesh.exchange.myapplication.utils.StringUtil;
 
@@ -27,9 +29,8 @@ import java.util.logging.LogRecord;
  * Created by Bijesh on 10/23/2016.
  */
 
-public class ApplicationService extends Service {
+public class ApplicationService extends Service implements ApplicationConstants{
 
-    private static final int WEB_SERVICE_CALL_TIME_INTERVAL = 600000; // 10000
     private Timer timer;
     private TimerTask timerTask;
     private final Handler handler = new Handler();
@@ -90,7 +91,7 @@ public class ApplicationService extends Service {
                                 +" is Market hr : "+DateAndTime.isMarketHours(), Toast.LENGTH_LONG);
                         toast.show();
                         DownloadStockDataTask task = new DownloadStockDataTask(mContext);
-                        List<String> urls = StringUtil.getUrls();
+                        List<String> urls = StringUtil.getShareUrls(DBUtils.getAllShare());
                         task.execute(urls);
                     }
                 });

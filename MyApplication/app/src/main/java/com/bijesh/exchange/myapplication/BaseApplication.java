@@ -4,6 +4,7 @@ import android.app.Application;
 import android.content.Intent;
 
 import com.android.volley.RequestQueue;
+import com.bijesh.exchange.myapplication.contentproviders.MyApplicationDBHandler;
 import com.bijesh.exchange.myapplication.restservices.CustomRequestQueue;
 import com.bijesh.exchange.myapplication.services.ApplicationService;
 
@@ -13,7 +14,7 @@ import com.bijesh.exchange.myapplication.services.ApplicationService;
 public class BaseApplication extends Application {
     private RequestQueue requestQueue;
     private static BaseApplication mBaseApplication;
-
+    private static MyApplicationDBHandler mDBHandler;
     @Override
     public void onCreate() {
         super.onCreate();
@@ -23,6 +24,8 @@ public class BaseApplication extends Application {
         mBaseApplication = this;
         Intent serviceIntent = new Intent(this, ApplicationService.class);
         startService(serviceIntent);
+        // initiliaze db
+        mDBHandler = new MyApplicationDBHandler(this);
     }
 
     public RequestQueue getRequestQueue(){
@@ -34,6 +37,13 @@ public class BaseApplication extends Application {
 
     public static BaseApplication getBaseApplication(){
         return mBaseApplication;
+    }
+
+    public static MyApplicationDBHandler getDBHandler(){
+        if(mDBHandler == null){
+            mDBHandler = new MyApplicationDBHandler(mBaseApplication);
+        }
+        return mDBHandler;
     }
 
 }

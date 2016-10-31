@@ -5,17 +5,25 @@ import android.app.PendingIntent;
 import android.app.ProgressDialog;
 import android.content.Context;
 import android.content.Intent;
+import android.media.RingtoneManager;
+import android.net.Uri;
 import android.os.AsyncTask;
 import android.support.v4.app.TaskStackBuilder;
 import android.support.v7.app.NotificationCompat;
 import android.util.Log;
 
+import com.bijesh.exchange.myapplication.BaseApplication;
 import com.bijesh.exchange.myapplication.MainActivity;
 import com.bijesh.exchange.myapplication.R;
+import com.bijesh.exchange.myapplication.constants.ApplicationConstants;
+import com.bijesh.exchange.myapplication.contentproviders.MyApplicationDBHandler;
 import com.bijesh.exchange.myapplication.fragments.HomeFragment;
+import com.bijesh.exchange.myapplication.models.dbmodels.Share;
 import com.bijesh.exchange.myapplication.models.webservicemodels.Stock;
 import com.bijesh.exchange.myapplication.models.webservicemodels.StockData;
+import com.bijesh.exchange.myapplication.utils.DBUtils;
 import com.bijesh.exchange.myapplication.utils.JsonPojoConverter;
+import com.bijesh.exchange.myapplication.utils.NumberUtil;
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -23,6 +31,7 @@ import java.io.InputStream;
 import java.io.InputStreamReader;
 import java.net.URL;
 import java.util.ArrayList;
+import java.util.Calendar;
 import java.util.List;
 
 import javax.net.ssl.HttpsURLConnection;
@@ -31,7 +40,7 @@ import javax.net.ssl.HttpsURLConnection;
  * Created by Bijesh on 10/23/2016.
  */
 
-public class DownloadStockDataTask extends AsyncTask<List<String>,Void,List<StockData>> {
+public class DownloadStockDataTask extends AsyncTask<List<String>,Void,List<StockData>> implements ApplicationConstants{
 
     private static final String TAG = DownloadStockDataTask.class.getCanonicalName();
     private List<StockData> mStockList = new ArrayList<>();
@@ -65,13 +74,42 @@ public class DownloadStockDataTask extends AsyncTask<List<String>,Void,List<Stoc
             if(stockData != null) {
                 Stock stock = stockData.getStock().get(0);
                 if (stock != null){
-                    if (Double.parseDouble(stock.getPChange()) < -3 || Double.parseDouble(stock.getPChange()) > 3){
+                    if (shouldShowStockNotification(stock)){
                         initializeNotification(stock);
                     }
                 }
             }
         }
     }
+
+    private boolean shouldShowStockNotification(Stock stock){
+        boolean retFlag = false;
+        if(Double.parseDouble(stock.getPChange()) < -3 || Double.parseDouble(stock.getPChange()) > 3){
+            MyApplicationDBHandler dbHandler = BaseApplication.getDBHandler();
+            Share share = dbHandler.getShare(stock.getSymbol());
+            long currentTime = Calendar.getInstance().getTimeInMillis();
+            if(share.getPreviousNotificationTime() == 0){
+                share.setPreviousNotificationTime(currentTime);
+                dbHandler.updateShare(share);
+                return true;
+            }
+            if(isGreaterThanAnHour(share.getPreviousNotificationTime(),currentTime)){
+                share.setPreviousNotificationTime(currentTime);
+                dbHandler.updateShare(share);
+                return true;
+            }
+        }
+        return retFlag;
+    }
+
+    private boolean isGreaterThanAnHour(long time,long currentTime){
+        Log.d(TAG,"$$$ currentTime "+currentTime);
+        if(currentTime > (AN_HOUR + time))
+            return true;
+        else
+            return false;
+    }
+
 
     private int getNotificationIcon(String perChange){
         Double percentageChange = Double.parseDouble(perChange);
@@ -82,6 +120,8 @@ public class DownloadStockDataTask extends AsyncTask<List<String>,Void,List<Stoc
     }
 
     private void initializeNotification(Stock stock){
+        long[] v = {500,1000};
+        Uri uri = RingtoneManager.getDefaultUri(RingtoneManager.TYPE_NOTIFICATION);
 //        NotificationCompat.Builder mBuilder =
 //                new NotificationCompat.Builder(mContext)
 //                        .setSmallIcon(R.drawable.bear_notify)
@@ -91,6 +131,8 @@ public class DownloadStockDataTask extends AsyncTask<List<String>,Void,List<Stoc
         mBuilder.setSmallIcon(getNotificationIcon(stock.getPChange()));
         mBuilder.setContentTitle(stock.getCompanyName());
         mBuilder.setContentText("Watch out "+stock.getCompanyName()+" Moving bearish/bullish");
+        mBuilder.setVibrate(v);
+        mBuilder.setSound(uri);
 // Creates an explicit intent for an Activity in your app
         Intent resultIntent = new Intent(mContext, MainActivity.class);
 
@@ -112,7 +154,7 @@ public class DownloadStockDataTask extends AsyncTask<List<String>,Void,List<Stoc
         NotificationManager mNotificationManager =
                 (NotificationManager) mContext.getSystemService(Context.NOTIFICATION_SERVICE);
 // mId allows you to update the notification later on.
-        mNotificationManager.notify(9999, mBuilder.build());
+        mNotificationManager.notify(NumberUtil.generateRandomNumber(), mBuilder.build());
     }
 
 
