@@ -18,6 +18,7 @@ import com.bijesh.exchange.myapplication.R;
 import com.bijesh.exchange.myapplication.constants.ApplicationConstants;
 import com.bijesh.exchange.myapplication.contentproviders.MyApplicationDBHandler;
 import com.bijesh.exchange.myapplication.fragments.HomeFragment;
+import com.bijesh.exchange.myapplication.logging.MyLog;
 import com.bijesh.exchange.myapplication.models.dbmodels.Share;
 import com.bijesh.exchange.myapplication.models.webservicemodels.Stock;
 import com.bijesh.exchange.myapplication.models.webservicemodels.StockData;
@@ -42,7 +43,7 @@ import javax.net.ssl.HttpsURLConnection;
 
 public class DownloadStockDataTask extends AsyncTask<List<String>,Void,List<StockData>> implements ApplicationConstants{
 
-    private static final String TAG = DownloadStockDataTask.class.getCanonicalName();
+    private static final String TAG = DownloadStockDataTask.class.getSimpleName();
     private List<StockData> mStockList = new ArrayList<>();
     private Context mContext;
 
@@ -57,6 +58,7 @@ public class DownloadStockDataTask extends AsyncTask<List<String>,Void,List<Stoc
 
     @Override
     protected List<StockData> doInBackground(List<String>... params) {
+        MyLog.w(TAG,"downloading the stocks...");
         List<String> urls = params[0];
         mStockList = callWebServiceViaHttp(urls);
         return mStockList;
@@ -66,10 +68,12 @@ public class DownloadStockDataTask extends AsyncTask<List<String>,Void,List<Stoc
     protected void onPostExecute(List<StockData> stockDatas) {
         super.onPostExecute(stockDatas);
 //        populateUI(stockDatas);
+        MyLog.w(TAG,"received the stocks data from server...");
         notifyUser(stockDatas);
     }
 
     private void notifyUser(List<StockData> stockDatas){
+        MyLog.w(TAG,"notifyUser method called...");
         for(StockData stockData:stockDatas){
             if(stockData != null) {
                 Stock stock = stockData.getStock().get(0);
@@ -83,10 +87,12 @@ public class DownloadStockDataTask extends AsyncTask<List<String>,Void,List<Stoc
     }
 
     private boolean shouldShowStockNotification(Stock stock){
+        MyLog.w(TAG,"shouldShowStockNotification... "+stock.getCompanyName());
         boolean retFlag = false;
+        Share share = null;
+        MyApplicationDBHandler dbHandler = BaseApplication.getDBHandler();
+        share = dbHandler.getShare(stock.getSymbol());
         if(Double.parseDouble(stock.getPChange()) < -3 || Double.parseDouble(stock.getPChange()) > 3){
-            MyApplicationDBHandler dbHandler = BaseApplication.getDBHandler();
-            Share share = dbHandler.getShare(stock.getSymbol());
             long currentTime = Calendar.getInstance().getTimeInMillis();
             if(share.getPreviousNotificationTime() == 0){
                 share.setPreviousNotificationTime(currentTime);
@@ -98,6 +104,9 @@ public class DownloadStockDataTask extends AsyncTask<List<String>,Void,List<Stoc
                 dbHandler.updateShare(share);
                 return true;
             }
+        }
+        if(Double.parseDouble(stock.getLastPrice().trim()) >= share.getTriggerPrice()){
+            retFlag = true;
         }
         return retFlag;
     }
@@ -120,6 +129,7 @@ public class DownloadStockDataTask extends AsyncTask<List<String>,Void,List<Stoc
     }
 
     private void initializeNotification(Stock stock){
+        MyLog.w(TAG,"sending the notification to the user...");
         long[] v = {500,1000};
         Uri uri = RingtoneManager.getDefaultUri(RingtoneManager.TYPE_NOTIFICATION);
 //        NotificationCompat.Builder mBuilder =

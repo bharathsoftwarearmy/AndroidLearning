@@ -15,7 +15,7 @@ import java.util.List;
 
 public class DBUtils implements DBConstants {
 
-    private static final String TAG = DBUtils.class.getCanonicalName();
+    private static final String TAG = DBUtils.class.getSimpleName();
 
     public static String createUserTable(){
         String CREATE_USER_TABLE = "CREATE TABLE " + TABLE_USERS + "("+

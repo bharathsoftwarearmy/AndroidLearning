@@ -16,7 +16,7 @@ import javax.net.ssl.X509TrustManager;
 public class SSLUtils {
 
 
-    private static final String TAG = SSLUtils.class.getCanonicalName();
+    private static final String TAG = SSLUtils.class.getSimpleName();
 
     public static SSLSocketFactory createSslSocketFactory() {
         TrustManager[] byPassTrustManagers = new TrustManager[]{new X509TrustManager() {

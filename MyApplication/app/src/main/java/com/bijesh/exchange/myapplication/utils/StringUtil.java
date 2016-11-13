@@ -37,4 +37,8 @@ public class StringUtil {
     }
 
 
+    public static boolean isNotNullOrEmpty(String value){
+        return (value != null && value.length() > 0);
+    }
+
 }

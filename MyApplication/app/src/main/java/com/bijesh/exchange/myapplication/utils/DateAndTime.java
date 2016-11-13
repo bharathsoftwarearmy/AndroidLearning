@@ -1,5 +1,7 @@
 package com.bijesh.exchange.myapplication.utils;
 
+import com.bijesh.exchange.myapplication.logging.MyLog;
+
 import java.text.SimpleDateFormat;
 import java.util.Calendar;
 
@@ -9,6 +11,7 @@ import java.util.Calendar;
 
 public class DateAndTime {
 
+    private static final String TAG = DateAndTime.class.getSimpleName();
 
     public static final String getCurrentTime(){
         //get the current timeStamp
@@ -19,6 +22,7 @@ public class DateAndTime {
     }
 
     public static boolean isWeekEnd(){
+        MyLog.w(TAG,"isWeekEnd...");
         Calendar calendar = Calendar.getInstance();
         int day = calendar.get(Calendar.DAY_OF_WEEK);
         switch (day){
@@ -30,6 +34,7 @@ public class DateAndTime {
     }
 
     public static boolean isMarketHours(){
+        MyLog.w(TAG,"isMarketHours...");
         Calendar calendar = Calendar.getInstance();
         int marketOpenHour = 9,marketCloseHour=16;
         int currentHour = calendar.get(Calendar.HOUR_OF_DAY);

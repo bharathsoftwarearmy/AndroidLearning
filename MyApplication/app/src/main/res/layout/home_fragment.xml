@@ -97,12 +97,20 @@
 
     </RelativeLayout>
 
-     <ListView
+    <android.support.v4.widget.SwipeRefreshLayout
+        android:layout_below="@+id/listHeader"
+        android:id="@+id/swipe_refresh_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+    <ListView
          style="@style/dividedListStyle"
-         android:layout_below="@+id/listHeader"
          android:id="@+id/stockList"
          android:layout_width="match_parent"
          android:layout_height="match_parent"/>
+
+    </android.support.v4.widget.SwipeRefreshLayout>
 
 
 

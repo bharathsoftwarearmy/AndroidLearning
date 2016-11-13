@@ -2,27 +2,40 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent" android:layout_height="match_parent">
 
-
-    <TextView
-        android:id="@+id/txtViewPrice"
-        android:layout_width="wrap_content"
+    <LinearLayout
+        android:id="@+id/dialogpriceContainer"
+        android:weightSum="2"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_centerInParent="true"
-        style="@style/heading1"
-        android:text="@string/header_price"
-        android:layout_marginLeft="@dimen/activity_horizontal_margin"
-        />
+        >
+        <TextView
+            android:id="@+id/txtViewPrice"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            style="@style/heading1"
+            android:text="@string/header_price"
+            android:layout_marginLeft="@dimen/activity_horizontal_margin"
+            />
 
-    <EditText
-        android:id="@+id/edtTxtPrice"
-        android:layout_width="120dp"
-        android:layout_height="wrap_content"
-        android:layout_centerInParent="true"
-        android:layout_toRightOf="@+id/txtViewPrice"
-        />
+        <EditText
+            android:id="@+id/edtTxtPrice"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:inputType="numberDecimal"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_toRightOf="@+id/txtViewPrice"
+            />
+    </LinearLayout>
+
+
 
     <LinearLayout
-        android:layout_below="@+id/txtViewPrice"
+        android:layout_below="@+id/dialogpriceContainer"
         android:weightSum="2"
         android:orientation="horizontal"
         android:layout_width="match_parent"

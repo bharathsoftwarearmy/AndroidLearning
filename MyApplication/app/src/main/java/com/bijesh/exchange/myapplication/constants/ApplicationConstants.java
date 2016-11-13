@@ -10,4 +10,8 @@ public interface ApplicationConstants {
     static final int WEB_SERVICE_CALL_TIME_INTERVAL = 600000; //10000
     int AN_HOUR = 3600000;
     String BUNDLE_STOCK = "bundleStock";
+    String BUNDLE_TRIGGER_PRICE = "triggerPrice";
+
+    String BUNDLE_AMOUNT = "AMOUNT";
+
 }

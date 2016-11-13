@@ -12,17 +12,19 @@ import android.view.ViewGroup;
 
 import com.android.volley.RequestQueue;
 import com.bijesh.exchange.myapplication.BaseApplication;
+import com.bijesh.exchange.myapplication.dialogs.TriggerInputDialog;
 import com.bijesh.exchange.myapplication.restservices.CustomRequestQueue;
 import com.bijesh.exchange.myapplication.restservices.GsonRequest;
 
 /**
  * Created by Admin on 5/21/2016.
  */
-public class BaseFragment extends Fragment {
+public class BaseFragment extends Fragment implements TriggerInputDialog.OnInputDialogReceivedListener{
 
-    private static final String TAG = BaseFragment.class.getCanonicalName();
+    private static final String TAG = BaseFragment.class.getSimpleName();
     protected GsonRequest gsonRequest;
     protected RequestQueue requestQueue;
+    protected Bundle mDialogBundle;
 
     @Nullable
     @Override
@@ -38,6 +40,7 @@ public class BaseFragment extends Fragment {
         return BaseApplication.getBaseApplication().getRequestQueue();
     }
 
+
     protected void fragmentTransaction(int containerId, BaseFragment fragment){
         FragmentManager fragmentManager = getActivity().getSupportFragmentManager();
         FragmentTransaction fragmentTransaction = fragmentManager.beginTransaction();
@@ -46,4 +49,8 @@ public class BaseFragment extends Fragment {
         fragmentTransaction.commit();
     }
 
+    @Override
+    public void onInputReceived(Bundle bundle) {
+        this.mDialogBundle = bundle;
+    }
 }

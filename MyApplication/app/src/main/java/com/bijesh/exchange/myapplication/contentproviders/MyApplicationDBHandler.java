@@ -21,7 +21,7 @@ import java.util.List;
 
 public class MyApplicationDBHandler extends SQLiteOpenHelper implements DBConstants{
 
-    private static final String TAG = MyApplicationDBHandler.class.getCanonicalName();
+    private static final String TAG = MyApplicationDBHandler.class.getSimpleName();
 
     public MyApplicationDBHandler(Context context) {
         super(context, DATABASE_NAME, null, DATABASE_VERSION);

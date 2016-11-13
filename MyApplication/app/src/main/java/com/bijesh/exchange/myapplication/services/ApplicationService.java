@@ -13,6 +13,7 @@ import android.widget.Toast;
 
 import com.bijesh.exchange.myapplication.constants.ApplicationConstants;
 import com.bijesh.exchange.myapplication.fragments.HomeFragment;
+import com.bijesh.exchange.myapplication.logging.MyLog;
 import com.bijesh.exchange.myapplication.restservices.asynctasks.DownloadStockDataTask;
 import com.bijesh.exchange.myapplication.utils.DBUtils;
 import com.bijesh.exchange.myapplication.utils.DateAndTime;
@@ -31,6 +32,7 @@ import java.util.logging.LogRecord;
 
 public class ApplicationService extends Service implements ApplicationConstants{
 
+    private static final String TAG = ApplicationService.class.getSimpleName();
     private Timer timer;
     private TimerTask timerTask;
     private final Handler handler = new Handler();
@@ -38,11 +40,14 @@ public class ApplicationService extends Service implements ApplicationConstants{
     @Override
     public void onCreate() {
         super.onCreate();
+        MyLog.w(TAG,"onCreate...");
     }
 
     @Override
     public int onStartCommand(Intent intent, int flags, int startId) {
+        MyLog.w(TAG,"onStartCommand...");
         if(shouldDownloadStockDetails()) {
+            MyLog.w(TAG,"shouldDownloadStockDetails returns true...");
             mContext = this;
             startTimer();
         }
@@ -50,6 +55,7 @@ public class ApplicationService extends Service implements ApplicationConstants{
     }
 
     private boolean shouldDownloadStockDetails(){
+        MyLog.w(TAG,"shouldDownloadStockDetails...");
         boolean retFlag = false;
         if(!DateAndTime.isWeekEnd() && DateAndTime.isMarketHours()){
             return true;
@@ -65,6 +71,7 @@ public class ApplicationService extends Service implements ApplicationConstants{
 
 
     public void startTimer() {
+        MyLog.w(TAG,"timer started...");
         //set a new Timer
         timer = new Timer();
         //initialize the TimerTask's job
@@ -87,6 +94,7 @@ public class ApplicationService extends Service implements ApplicationConstants{
                 //use a handler to run a toast that shows the current timestamp
                 handler.post(new Runnable() {
                     public void run() {
+                        MyLog.w(TAG,"timer thread running...");
                         Toast toast = Toast.makeText(getApplicationContext(), "is WeekEnd "+DateAndTime.isWeekEnd()+" "
                                 +" is Market hr : "+DateAndTime.isMarketHours(), Toast.LENGTH_LONG);
                         toast.show();

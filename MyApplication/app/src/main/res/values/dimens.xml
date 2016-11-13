@@ -12,4 +12,7 @@
 
     <dimen name="textSizePrimary">16sp</dimen>
 
+
+    <dimen name="instructionalLayoutMinHeight">51dp</dimen>
+
 </resources>

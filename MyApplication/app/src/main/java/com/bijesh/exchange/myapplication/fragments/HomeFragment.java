@@ -5,6 +5,7 @@ import android.os.AsyncTask;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.support.v4.app.Fragment;
+import android.support.v4.widget.SwipeRefreshLayout;
 import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -54,17 +55,19 @@ import javax.net.ssl.HttpsURLConnection;
 public class HomeFragment extends BaseFragment implements Response.Listener, Response.ErrorListener, ApplicationConstants{
 
 
-    private static final String TAG = HomeFragment.class.getCanonicalName();
+    private static final String TAG = HomeFragment.class.getSimpleName();
     private List<StockData> mStockList = new ArrayList<>();
     private View mRootView;
     private ListView mStockListView;
 //    private ApplicationProgressDialog mProgressDialog;
-    private ProgressDialog mProgressDialog;
+//    private ProgressDialog mProgressDialog;
     private Object waitingObject;
     private ImageView imgViewAddShare;
     private RelativeLayout relativeLayoutShareInput;
     private Button mBtnAddShare;
     private EditText mEdtTxtShare;
+    private SwipeRefreshLayout mSwipeRefreshLayout;
+    List<String> mUrls;
 
     @Nullable
     @Override
@@ -74,7 +77,6 @@ public class HomeFragment extends BaseFragment implements Response.Listener, Res
             waitingObject = new Object();
             mRootView = inflater.inflate(R.layout.home_fragment,container,false);
             initComponents(mRootView);
-            downloadStockData();
 //            callWebService();
 //            callWebService1();
 //            callWebServiceViaHttp();
@@ -92,11 +94,26 @@ public class HomeFragment extends BaseFragment implements Response.Listener, Res
 
 
     private void initComponents(View mRootView){
+
+        mSwipeRefreshLayout = (SwipeRefreshLayout) mRootView.findViewById(R.id.swipe_refresh_layout);
+
         mStockListView = (ListView) mRootView.findViewById(R.id.stockList);
         imgViewAddShare = (ImageView) mRootView.findViewById(R.id.imgViewAddShare);
         relativeLayoutShareInput = (RelativeLayout) mRootView.findViewById(R.id.inputShareDetailContainer);
         mBtnAddShare = (Button) mRootView.findViewById(R.id.btnAddShare);
         mEdtTxtShare = (EditText) mRootView.findViewById(R.id.edtTxtShareSymbol);
+
+
+
+
+        mSwipeRefreshLayout.setOnRefreshListener(new SwipeRefreshLayout.OnRefreshListener() {
+            @Override
+            public void onRefresh() {
+                downloadStockData();
+            }
+        });
+
+
 
         imgViewAddShare.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -118,6 +135,9 @@ public class HomeFragment extends BaseFragment implements Response.Listener, Res
                 addShare(share);
                 relativeLayoutShareInput.setVisibility(View.GONE);
                 mEdtTxtShare.setText("");
+                mUrls = StringUtil.getShareUrls(DBUtils.getAllShare());
+                mSwipeRefreshLayout.setRefreshing(true);
+                downloadStockData();
             }
         });
 
@@ -134,6 +154,23 @@ public class HomeFragment extends BaseFragment implements Response.Listener, Res
         });
     }
 
+    @Override
+    public void onResume() {
+        super.onResume();
+        mUrls = StringUtil.getShareUrls(DBUtils.getAllShare());
+        /**
+         * Showing Swipe Refresh animation on activity create
+         * As animation won't start on onCreate, post runnable is used
+         */
+        mSwipeRefreshLayout.post(new Runnable() {
+                                     @Override
+                                     public void run() {
+                                         mSwipeRefreshLayout.setRefreshing(true);
+                                         downloadStockData();
+                                     }
+                                 }
+        );
+    }
 
     private void attachAdapter(List<StockData> stockData){
         HomeScreenAdapter homeScreenAdapter = new HomeScreenAdapter(getContext(),R.layout.stock_list_item,stockData);
@@ -143,8 +180,7 @@ public class HomeFragment extends BaseFragment implements Response.Listener, Res
     private void downloadStockData(){
         DownloadStockDataTask task = new DownloadStockDataTask();
 //        String tempUrl = StringUtil.getShareUrl();
-        List<String> urls = StringUtil.getShareUrls(DBUtils.getAllShare());
-        task.execute(urls);
+        task.execute(mUrls);
     }
 
 //    private List<String> getUrls(){
@@ -201,9 +237,10 @@ public class HomeFragment extends BaseFragment implements Response.Listener, Res
     }
 
     private void populateUI(List<StockData> stockData){
-        if(mProgressDialog != null){
-            mProgressDialog.dismiss();
-        }
+//        if(mProgressDialog != null){
+//            mProgressDialog.dismiss();
+//        }
+        mSwipeRefreshLayout.setRefreshing(false);
         attachAdapter(stockData);
     }
 
@@ -318,8 +355,10 @@ public class HomeFragment extends BaseFragment implements Response.Listener, Res
         @Override
         protected void onPreExecute() {
             super.onPreExecute();
-            mProgressDialog = new ProgressDialog(HomeFragment.this.getActivity());
-            mProgressDialog.show();
+//            mProgressDialog = new ProgressDialog(HomeFragment.this.getActivity());
+//            mProgressDialog.show(); ,...
+            mStockList.clear();
+            mStockListView.setAdapter(null);
         }
 
         @Override

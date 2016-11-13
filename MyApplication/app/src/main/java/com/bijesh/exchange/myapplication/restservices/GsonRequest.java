@@ -29,7 +29,7 @@ import java.util.Random;
 public class GsonRequest<T> extends JsonRequest<T> {
     private static final long serialVersionUID = 8161610343375187070L;
 
-    private static final String TAG = GsonRequest.class.getCanonicalName();
+    private static final String TAG = GsonRequest.class.getSimpleName();
     private static final int RETRY_TIMEOUT = 80 * 1000;
     private final Gson gson = new Gson();
     private Class<T> clazz = null;
