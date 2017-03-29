@@ -29,7 +29,7 @@ public class ShareDetailFragment extends BaseFragment implements ApplicationCons
     private View mRootView;
     private Stock mStock;
     private TextView mTxtViewShareName,mTxtViewTriggerPrice;
-    private FloatingActionButton mFabNotify;
+    private FloatingActionButton mFabNotify,mFabDelete;
     private MyApplicationDBHandler myApplicationDBHandler;
     private MyApplicationButton mBtnDelete;
     private Share mShare;
@@ -62,6 +62,7 @@ public class ShareDetailFragment extends BaseFragment implements ApplicationCons
             mTxtViewShareName = (TextView)rootView.findViewById(R.id.txtViewShareName);
             mTxtViewTriggerPrice = (TextView) rootView.findViewById(R.id.txtViewTriggerPrice);
             mFabNotify = (FloatingActionButton) rootView.findViewById(R.id.fabNotify);
+            mFabDelete = (FloatingActionButton) rootView.findViewById(R.id.fabDelete);
 
             mTxtViewShareName.setText(stock.getCompanyName());
             mTxtViewTriggerPrice.setText(mShare.getTriggerPrice()+"");
@@ -87,6 +88,15 @@ public class ShareDetailFragment extends BaseFragment implements ApplicationCons
                     TriggerInputDialog triggerInputDialog = new TriggerInputDialog(getActivity(),ShareDetailFragment.this);
                     triggerInputDialog.setArguments(bundle);
                     triggerInputDialog.show();
+                }
+            });
+
+            mFabDelete.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View v) {
+                    MyApplicationDBHandler dbHandler = BaseApplication.getDBHandler();
+                    dbHandler.deleteShare(mShare);
+                    FragmentUtil.removeFragment(getActivity(),ShareDetailFragment.this);
                 }
             });
 
