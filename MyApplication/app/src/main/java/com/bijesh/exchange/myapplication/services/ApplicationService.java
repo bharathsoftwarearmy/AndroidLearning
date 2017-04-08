@@ -95,9 +95,9 @@ public class ApplicationService extends Service implements ApplicationConstants{
                 handler.post(new Runnable() {
                     public void run() {
                         MyLog.w(TAG,"timer thread running...");
-                        Toast toast = Toast.makeText(getApplicationContext(), "is WeekEnd "+DateAndTime.isWeekEnd()+" "
-                                +" is Market hr : "+DateAndTime.isMarketHours(), Toast.LENGTH_LONG);
-                        toast.show();
+//                        Toast toast = Toast.makeText(getApplicationContext(), "is WeekEnd "+DateAndTime.isWeekEnd()+" "
+//                                +" is Market hr : "+DateAndTime.isMarketHours(), Toast.LENGTH_LONG);
+//                        toast.show();
                         DownloadStockDataTask task = new DownloadStockDataTask(mContext);
                         List<String> urls = StringUtil.getShareUrls(DBUtils.getAllShare());
                         task.execute(urls);

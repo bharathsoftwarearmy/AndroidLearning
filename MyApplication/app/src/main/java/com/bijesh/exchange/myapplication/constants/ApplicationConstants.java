@@ -7,7 +7,7 @@ package com.bijesh.exchange.myapplication.constants;
 public interface ApplicationConstants {
 
     public static final int NOTIFICATION_MAXIMUM = 5;
-    static final int WEB_SERVICE_CALL_TIME_INTERVAL = 600000; //10000
+    static final int WEB_SERVICE_CALL_TIME_INTERVAL = 10000; // for testing: 10000 // for live:600000
     int AN_HOUR = 3600000;
     String BUNDLE_STOCK = "bundleStock";
     String BUNDLE_TRIGGER_PRICE = "triggerPrice";

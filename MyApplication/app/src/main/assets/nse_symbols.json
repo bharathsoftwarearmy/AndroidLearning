@@ -1,0 +1,2750 @@
+[
+  {
+    "SYMB_COMPANY_NAME": "3M India Limited",
+    " SM_KEY_SYMBOL": "BIRLA3M",
+    " SM_NEW_SYMBOL": "3MINDIA",
+    " SM_APPLICABLE_FROM": "Jun-15-2004"
+  },
+  {
+    "SYMB_COMPANY_NAME": "A2Z INFRA ENGINEERING LIMITED",
+    " SM_KEY_SYMBOL": "A2ZMES",
+    " SM_NEW_SYMBOL": "A2ZINFRA",
+    " SM_APPLICABLE_FROM": "Dec-31-2014"
+  },
+  {
+    "SYMB_COMPANY_NAME": "AGC Networks Limited",
+    " SM_KEY_SYMBOL": "TATATELECM",
+    " SM_NEW_SYMBOL": "AVAYAGCL",
+    " SM_APPLICABLE_FROM": "Nov-01-2004"
+  },
+  {
+    "SYMB_COMPANY_NAME": "AGC Networks Limited",
+    " SM_KEY_SYMBOL": "AVAYAGCL",
+    " SM_NEW_SYMBOL": "AGCNET",
+    " SM_APPLICABLE_FROM": "Jun-08-2010"
+  },
+  {
+    "SYMB_COMPANY_NAME": "AMD Industries Limited",
+    " SM_KEY_SYMBOL": "AMDMET",
+    " SM_NEW_SYMBOL": "AMDIND",
+    " SM_APPLICABLE_FROM": "Feb-25-2008"
+  },
+  {
+    "SYMB_COMPANY_NAME": "ANG Industries Limited",
+    " SM_KEY_SYMBOL": "ANGAUTO",
+    " SM_NEW_SYMBOL": "ANGIND",
+    " SM_APPLICABLE_FROM": "Jun-16-2010"
+  },
+  {
+    "SYMB_COMPANY_NAME": "ATN International Limited",
+    " SM_KEY_SYMBOL": "ARIHANTCRE",
+    " SM_NEW_SYMBOL": "ATNINT",
+    " SM_APPLICABLE_FROM": "Sep-17-2003"
+  },
+  {
+    "SYMB_COMPANY_NAME": "AXISCADES Engineering Technologies Limited",
+    " SM_KEY_SYMBOL": "IT&T",
+    " SM_NEW_SYMBOL": "AXIS-IT&T",
+    " SM_APPLICABLE_FROM": "Aug-16-2005"
+  },
+  {
+    "SYMB_COMPANY_NAME": "AXISCADES Engineering Technologies Limited",
+    " SM_KEY_SYMBOL": "AXIS-IT&T",
+    " SM_NEW_SYMBOL": "AXISCADES",
+    " SM_APPLICABLE_FROM": "Oct-08-2014"
+  },
+  {
+    "SYMB_COMPANY_NAME": "AYM Syntex Limited",
+    " SM_KEY_SYMBOL": "WELSYNTEX",
+    " SM_NEW_SYMBOL": "AYMSYNTEX",
+    " SM_APPLICABLE_FROM": "Feb-03-2016"
+  },
+  {
+    "SYMB_COMPANY_NAME": "Aban Offshore Limited",
+    " SM_KEY_SYMBOL": "ABANLLOYD",
+    " SM_NEW_SYMBOL": "ABANLOYD",
+    " SM_APPLICABLE_FROM": "Jan-17-2005"
+  },
+  {
+    "SYMB_COMPANY_NAME": "Aban Offshore Limited",
+    " SM_KEY_SYMBOL": "ABANLOYD",
+    " SM_NEW_SYMBOL": "ABAN",
+    " SM_APPLICABLE_FROM": "Aug-18-2006"
+  },
+  {
+    "SYMB_COMPANY_NAME": "Abhishek Corporation Limited",
+    " SM_KEY_SYMBOL": "AML",
+    " SM_NEW_SYMBOL": "ABHISHEK",
+    " SM_APPLICABLE_FROM": "Jun-26-2008"
+  },
+  {
+    "SYMB_COMPANY_NAME": "Accelya Kale Solutions Limited",
+    " SM_KEY_SYMBOL": "KALECONSUL",
+    " SM_NEW_SYMBOL": "ACCELYA",
+    " SM_APPLICABLE_FROM": "Sep-06-2012"
+  },
+  {
+    "SYMB_COMPANY_NAME": "Adani Enterprises Limited",
+    " SM_KEY_SYMBOL": "ADANIEXPO",
+    " SM_NEW_SYMBOL": "ADANIENT",
+    " SM_APPLICABLE_FROM": "Sep-20-2006"
+  },
+  {
+    "SYMB_COMPANY_NAME": "Adani Ports and Special Economic Zone Limited",
+    " SM_KEY_SYMBOL": "MUNDRAPORT",
+    " SM_NEW_SYMBOL": "ADANIPORTS",
+    " SM_APPLICABLE_FROM": "Jan-17-2012"
+  },
+  {
+    "SYMB_COMPANY_NAME": "Aditya Birla Chemicals (India) Limited",
+    " SM_KEY_SYMBOL": "BIHARCAUST",
+    " SM_NEW_SYMBOL": "BCCL",
+    " SM_APPLICABLE_FROM": "Dec-05-2005"
+  },
+  {
+    "SYMB_COMPANY_NAME": "Aditya Birla Chemicals (India) Limited",
+    " SM_KEY_SYMBOL": "BCCL",
+    " SM_NEW_SYMBOL": "ABCIL",
+    " SM_APPLICABLE_FROM": "Mar-09-2009"
+  },
+  {
+    "SYMB_COMPANY_NAME": "Aditya Birla Fashion and Retail Limited",
+    " SM_KEY_SYMBOL": "PFRL",
+    " SM_NEW_SYMBOL": "ABFRL",
+    " SM_APPLICABLE_FROM": "Jan-29-2016"
+  },
+  {
+    "SYMB_COMPANY_NAME": "Aditya Birla Money Limited",
+    " SM_KEY_SYMBOL": "APOLLOSIND",
+    " SM_NEW_SYMBOL": "BIRLAMONEY",
+    " SM_APPLICABLE_FROM": "Sep-09-2009"
+  },
+  {
+    "SYMB_COMPANY_NAME": "Aditya Birla Nuvo Limited",
+    " SM_KEY_SYMBOL": "INDRAYON",
+    " SM_NEW_SYMBOL": "ABIRLANUVO",
+    " SM_APPLICABLE_FROM": "Dec-07-2005"
+  },
+  {
+    "SYMB_COMPANY_NAME": "Ador Welding Limited",
+    " SM_KEY_SYMBOL": "ADVANIORLI",
+    " SM_NEW_SYMBOL": "ADORWELD",
+    " SM_APPLICABLE_FROM": "Sep-27-2004"
+  },
+  {
+    "SYMB_COMPANY_NAME": "Advani Hotels & Resorts (India) Limited",
+    " SM_KEY_SYMBOL": "RAMADHOTEL",
+    " SM_NEW_SYMBOL": "ADVANIHOTR",
+    " SM_APPLICABLE_FROM": "Jun-25-2007"
+  },
+  {
+    "SYMB_COMPANY_NAME": "Aftek Limited",
+    " SM_KEY_SYMBOL": "AFTEKINFO",
+    " SM_NEW_SYMBOL": "AFTEK",
+    " SM_APPLICABLE_FROM": "Nov-27-2006"
+  },
+  {
+    "SYMB_COMPANY_NAME": "Agro Tech Foods Limited",
+    " SM_KEY_SYMBOL": "ITCAGRO",
+    " SM_NEW_SYMBOL": "ATFL",
+    " SM_APPLICABLE_FROM": "Dec-31-2002"
+  },
+  {
+    "SYMB_COMPANY_NAME": "Ajmera Realty & Infra India Limited",
+    " SM_KEY_SYMBOL": "SHREE",
+    " SM_NEW_SYMBOL": "AJMERA",
+    " SM_APPLICABLE_FROM": "Jun-23-2009"
+  },
+  {
+    "SYMB_COMPANY_NAME": "Akzo Nobel India Limited",
+    " SM_KEY_SYMBOL": "ICI",
+    " SM_NEW_SYMBOL": "AKZOINDIA",
+    " SM_APPLICABLE_FROM": "May-27-2010"
+  },
+  {
+    "SYMB_COMPANY_NAME": "Alembic Limited",
+    " SM_KEY_SYMBOL": "ALMBICHEM",
+    " SM_NEW_SYMBOL": "ALEMBICLTD",
+    " SM_APPLICABLE_FROM": "Sep-22-1999"
+  },
+  {
+    "SYMB_COMPANY_NAME": "Alicon Castalloy Limited",
+    " SM_KEY_SYMBOL": "ENKEI",
+    " SM_NEW_SYMBOL": "ALICON",
+    " SM_APPLICABLE_FROM": "Mar-04-2011"
+  },
+  {
+    "SYMB_COMPANY_NAME": "Ambuja Cement Rajasthan Limited",
+    " SM_KEY_SYMBOL": "DLFCEMENT",
+    " SM_NEW_SYMBOL": "AMBUJARAJN",
+    " SM_APPLICABLE_FROM": "Aug-20-2001"
+  },
+  {
+    "SYMB_COMPANY_NAME": "Ambuja Cements Limited",
+    " SM_KEY_SYMBOL": "GUJAMBCEM",
+    " SM_NEW_SYMBOL": "AMBUJACEM",
+    " SM_APPLICABLE_FROM": "Jul-24-2007"
+  },
+  {
+    "SYMB_COMPANY_NAME": "Anik Industries Limited",
+    " SM_KEY_SYMBOL": "MPGLYCEM",
+    " SM_NEW_SYMBOL": "ANIKINDS",
+    " SM_APPLICABLE_FROM": "May-21-2008"
+  },
+  {
+    "SYMB_COMPANY_NAME": "Ansal Properties & Infrastructure Limited",
+    " SM_KEY_SYMBOL": "ANSALPROP",
+    " SM_NEW_SYMBOL": "ANSALINFRA",
+    " SM_APPLICABLE_FROM": "Jan-27-2006"
+  },
+  {
+    "SYMB_COMPANY_NAME": "Ansal Properties & Infrastructure Limited",
+    " SM_KEY_SYMBOL": "ANSALINFRA",
+    " SM_NEW_SYMBOL": "ANSALAPI",
+    " SM_APPLICABLE_FROM": "May-14-2010"
+  },
+  {
+    "SYMB_COMPANY_NAME": "Apcotex Industries Limited",
+    " SM_KEY_SYMBOL": "APCOTEXLAT",
+    " SM_NEW_SYMBOL": "APCOTEXIND",
+    " SM_APPLICABLE_FROM": "Nov-01-2006"
+  },
+  {
+    "SYMB_COMPANY_NAME": "Arrow Greentech Limited",
+    " SM_KEY_SYMBOL": "ARROWCOAT",
+    " SM_NEW_SYMBOL": "ARROWGREEN",
+    " SM_APPLICABLE_FROM": "May-11-2016"
+  },
+  {
+    "SYMB_COMPANY_NAME": "Arvind Limited",
+    " SM_KEY_SYMBOL": "ARVINDMILL",
+    " SM_NEW_SYMBOL": "ARVIND",
+    " SM_APPLICABLE_FROM": "Jul-07-2008"
+  },
+  {
+    "SYMB_COMPANY_NAME": "AstraZeneca Pharma India Limited",
+    " SM_KEY_SYMBOL": "ASTRAIDL",
+    " SM_NEW_SYMBOL": "ASTRAZEN",
+    " SM_APPLICABLE_FROM": "Apr-10-2007"
+  },
+  {
+    "SYMB_COMPANY_NAME": "Atcom Technologies Limited",
+    " SM_KEY_SYMBOL": "ATCOIND",
+    " SM_NEW_SYMBOL": "ATCOM",
+    " SM_APPLICABLE_FROM": "Apr-29-2004"
+  },
+  {
+    "SYMB_COMPANY_NAME": "Atul Limited",
+    " SM_KEY_SYMBOL": "ATULPROD",
+    " SM_NEW_SYMBOL": "ATUL",
+    " SM_APPLICABLE_FROM": "Mar-10-2005"
+  },
+  {
+    "SYMB_COMPANY_NAME": "Ausom Enterprise Limited",
+    " SM_KEY_SYMBOL": "COREBIO",
+    " SM_NEW_SYMBOL": "COREEMBLG",
+    " SM_APPLICABLE_FROM": "Oct-15-2001"
+  },
+  {
+    "SYMB_COMPANY_NAME": "Ausom Enterprise Limited",
+    " SM_KEY_SYMBOL": "COREEMBLG",
+    " SM_NEW_SYMBOL": "AUSOMENT",
+    " SM_APPLICABLE_FROM": "Dec-01-2009"
+  },
+  {
+    "SYMB_COMPANY_NAME": "Automotive Stampings and Assemblies Limited",
+    " SM_KEY_SYMBOL": "JBMT",
+    " SM_NEW_SYMBOL": "ASAL",
+    " SM_APPLICABLE_FROM": "Oct-14-2003"
+  },
+  {
+    "SYMB_COMPANY_NAME": "Axis Bank Limited",
+    " SM_KEY_SYMBOL": "UTIBANK",
+    " SM_NEW_SYMBOL": "AXISBANK",
+    " SM_APPLICABLE_FROM": "Aug-16-2007"
+  },
+  {
+    "SYMB_COMPANY_NAME": "Aztecsoft Limited",
+    " SM_KEY_SYMBOL": "AZTEC",
+    " SM_NEW_SYMBOL": "AZTECSOFT",
+    " SM_APPLICABLE_FROM": "Sep-20-2006"
+  },
+  {
+    "SYMB_COMPANY_NAME": "BS LIMITED",
+    " SM_KEY_SYMBOL": "BSTRANSCOM",
+    " SM_NEW_SYMBOL": "BSLIMITED",
+    " SM_APPLICABLE_FROM": "Nov-29-2012"
+  },
+  {
+    "SYMB_COMPANY_NAME": "BSEL Infrastructure Realty Limited",
+    " SM_KEY_SYMBOL": "BSELINFO",
+    " SM_NEW_SYMBOL": "BSELINFRA",
+    " SM_APPLICABLE_FROM": "Mar-12-2004"
+  },
+  {
+    "SYMB_COMPANY_NAME": "Bajaj Finance Limited",
+    " SM_KEY_SYMBOL": "BAJAUTOFIN",
+    " SM_NEW_SYMBOL": "BAJFINANCE",
+    " SM_APPLICABLE_FROM": "Sep-29-2010"
+  },
+  {
+    "SYMB_COMPANY_NAME": "Bajaj Holdings & Investment Limited",
+    " SM_KEY_SYMBOL": "BAJAJAUTO",
+    " SM_NEW_SYMBOL": "BAJAJHLDNG",
+    " SM_APPLICABLE_FROM": "Mar-14-2008"
+  },
+  {
+    "SYMB_COMPANY_NAME": "Balkrishna Paper Mills Limited",
+    " SM_KEY_SYMBOL": "NIRVIKARA",
+    " SM_NEW_SYMBOL": "BALKRISHNA",
+    " SM_APPLICABLE_FROM": "Sep-06-2016"
+  },
+  {
+    "SYMB_COMPANY_NAME": "Banco Products (I) Limited",
+    " SM_KEY_SYMBOL": "BANCOPROD",
+    " SM_NEW_SYMBOL": "BANCOINDIA",
+    " SM_APPLICABLE_FROM": "Dec-22-2006"
+  },
+  {
+    "SYMB_COMPANY_NAME": "Bhagyanagar India Limited",
+    " SM_KEY_SYMBOL": "BAGYAMETAL",
+    " SM_NEW_SYMBOL": "BHAGYNAGAR",
+    " SM_APPLICABLE_FROM": "Sep-12-2006"
+  },
+  {
+    "SYMB_COMPANY_NAME": "Bhansali Engineering Polymers Limited",
+    " SM_KEY_SYMBOL": "BHANSALENG",
+    " SM_NEW_SYMBOL": "BEPL",
+    " SM_APPLICABLE_FROM": "Mar-21-2005"
+  },
+  {
+    "SYMB_COMPANY_NAME": "Bharat Bijlee Limited",
+    " SM_KEY_SYMBOL": "BARATBIJLE",
+    " SM_NEW_SYMBOL": "BBL",
+    " SM_APPLICABLE_FROM": "Nov-21-2006"
+  },
+  {
+    "SYMB_COMPANY_NAME": "Bharat Financial Inclusion Limited",
+    " SM_KEY_SYMBOL": "SKSMICRO",
+    " SM_NEW_SYMBOL": "BHARATFIN",
+    " SM_APPLICABLE_FROM": "Jul-01-2016"
+  },
+  {
+    "SYMB_COMPANY_NAME": "Bharati Defence and Infrastructure Limited",
+    " SM_KEY_SYMBOL": "BHARTISHIP",
+    " SM_NEW_SYMBOL": "BHARATIDIL",
+    " SM_APPLICABLE_FROM": "Feb-26-2016"
+  },
+  {
+    "SYMB_COMPANY_NAME": "Bharti Airtel Limited",
+    " SM_KEY_SYMBOL": "BHARTI",
+    " SM_NEW_SYMBOL": "BHARTIARTL",
+    " SM_APPLICABLE_FROM": "Jun-19-2006"
+  },
+  {
+    "SYMB_COMPANY_NAME": "Birla Cable Limited",
+    " SM_KEY_SYMBOL": "BIRLAERIC",
+    " SM_NEW_SYMBOL": "BIRLACABLE",
+    " SM_APPLICABLE_FROM": "Sep-26-2016"
+  },
+  {
+    "SYMB_COMPANY_NAME": "Birla Corporation Limited",
+    " SM_KEY_SYMBOL": "BIRLAJUTE",
+    " SM_NEW_SYMBOL": "BIRLACORPN",
+    " SM_APPLICABLE_FROM": "Jul-28-2008"
+  },
+  {
+    "SYMB_COMPANY_NAME": "Birla Power Solutions Limited",
+    " SM_KEY_SYMBOL": "BIRLAYAMAH",
+    " SM_NEW_SYMBOL": "BIRLAPOWER",
+    " SM_APPLICABLE_FROM": "Jun-06-2007"
+  },
+  {
+    "SYMB_COMPANY_NAME": "Blue Coast Hotels Limited",
+    " SM_KEY_SYMBOL": "MOREPENHTL",
+    " SM_NEW_SYMBOL": "BLUECOAST",
+    " SM_APPLICABLE_FROM": "Dec-05-2006"
+  },
+  {
+    "SYMB_COMPANY_NAME": "Bosch Chassis Systems India Limited",
+    " SM_KEY_SYMBOL": "KALYANBRAK",
+    " SM_NEW_SYMBOL": "BOSCHCHASY",
+    " SM_APPLICABLE_FROM": "Feb-10-2006"
+  },
+  {
+    "SYMB_COMPANY_NAME": "Bosch Limited",
+    " SM_KEY_SYMBOL": "MICO",
+    " SM_NEW_SYMBOL": "BOSCHLTD",
+    " SM_APPLICABLE_FROM": "Feb-28-2008"
+  },
+  {
+    "SYMB_COMPANY_NAME": "Brabourne Enterprises Limited",
+    " SM_KEY_SYMBOL": "SEARLEIND",
+    " SM_NEW_SYMBOL": "RPGLS",
+    " SM_APPLICABLE_FROM": "Dec-05-2006"
+  },
+  {
+    "SYMB_COMPANY_NAME": "Brabourne Enterprises Limited",
+    " SM_KEY_SYMBOL": "RPGLS",
+    " SM_NEW_SYMBOL": "BRABOURNE",
+    " SM_APPLICABLE_FROM": "Mar-14-2008"
+  },
+  {
+    "SYMB_COMPANY_NAME": "CORE Education & Technologies Limited",
+    " SM_KEY_SYMBOL": "COREPROTEC",
+    " SM_NEW_SYMBOL": "COREEDUTEC",
+    " SM_APPLICABLE_FROM": "Sep-07-2011"
+  },
+  {
+    "SYMB_COMPANY_NAME": "Capital First Limited",
+    " SM_KEY_SYMBOL": "FCH",
+    " SM_NEW_SYMBOL": "CAPF",
+    " SM_APPLICABLE_FROM": "Dec-06-2012"
+  },
+  {
+    "SYMB_COMPANY_NAME": "Capri Global Capital Limited",
+    " SM_KEY_SYMBOL": "MMFSL",
+    " SM_NEW_SYMBOL": "CGCL",
+    " SM_APPLICABLE_FROM": "Aug-05-2013"
+  },
+  {
+    "SYMB_COMPANY_NAME": "Career Point Limited",
+    " SM_KEY_SYMBOL": "CPIL",
+    " SM_NEW_SYMBOL": "CAREERP",
+    " SM_APPLICABLE_FROM": "Nov-16-2011"
+  },
+  {
+    "SYMB_COMPANY_NAME": "Carol Info Services Limited",
+    " SM_KEY_SYMBOL": "WOCKLIFE",
+    " SM_NEW_SYMBOL": "CAROLINFO",
+    " SM_APPLICABLE_FROM": "Sep-27-2004"
+  },
+  {
+    "SYMB_COMPANY_NAME": "Castex Technologies Limited",
+    " SM_KEY_SYMBOL": "AMTEKINDIA",
+    " SM_NEW_SYMBOL": "CASTEXTECH",
+    " SM_APPLICABLE_FROM": "Jun-11-2015"
+  },
+  {
+    "SYMB_COMPANY_NAME": "Centurion Bank of Punjab Limited",
+    " SM_KEY_SYMBOL": "CENBNK",
+    " SM_NEW_SYMBOL": "CENTBOP",
+    " SM_APPLICABLE_FROM": "Dec-06-2005"
+  },
+  {
+    "SYMB_COMPANY_NAME": "Chennai Petroleum Corporation Limited",
+    " SM_KEY_SYMBOL": "MADRASREFN",
+    " SM_NEW_SYMBOL": "CHENNPETRO",
+    " SM_APPLICABLE_FROM": "Aug-09-2000"
+  },
+  {
+    "SYMB_COMPANY_NAME": "Chettinad Cement Corporation Limited",
+    " SM_KEY_SYMBOL": "CHETNADCEM",
+    " SM_NEW_SYMBOL": "CHETTINAD",
+    " SM_APPLICABLE_FROM": "May-17-2007"
+  },
+  {
+    "SYMB_COMPANY_NAME": "Cholamandalam Investment and Finance Company Limited",
+    " SM_KEY_SYMBOL": "CHOLAINV",
+    " SM_NEW_SYMBOL": "CHOLADBS",
+    " SM_APPLICABLE_FROM": "Jun-01-2006"
+  },
+  {
+    "SYMB_COMPANY_NAME": "Cholamandalam Investment and Finance Company Limited",
+    " SM_KEY_SYMBOL": "CHOLADBS",
+    " SM_NEW_SYMBOL": "CHOLAFIN",
+    " SM_APPLICABLE_FROM": "Jun-22-2010"
+  },
+  {
+    "SYMB_COMPANY_NAME": "Cineline India Limited",
+    " SM_KEY_SYMBOL": "CINEPRO",
+    " SM_NEW_SYMBOL": "CINELINE",
+    " SM_APPLICABLE_FROM": "Aug-23-2013"
+  },
+  {
+    "SYMB_COMPANY_NAME": "Clariant Chemicals (India) Limited",
+    " SM_KEY_SYMBOL": "COLORCHEM",
+    " SM_NEW_SYMBOL": "CLNINDIA",
+    " SM_APPLICABLE_FROM": "Jun-05-2006"
+  },
+  {
+    "SYMB_COMPANY_NAME": "Coral Hub Limited",
+    " SM_KEY_SYMBOL": "VITLINFO",
+    " SM_NEW_SYMBOL": "CORALHUB",
+    " SM_APPLICABLE_FROM": "Jul-26-2010"
+  },
+  {
+    "SYMB_COMPANY_NAME": "Coromandel International Limited",
+    " SM_KEY_SYMBOL": "COROMNFERT",
+    " SM_NEW_SYMBOL": "COROMANDEL",
+    " SM_APPLICABLE_FROM": "Oct-12-2009"
+  },
+  {
+    "SYMB_COMPANY_NAME": "Country Condo's Limited",
+    " SM_KEY_SYMBOL": "NEOCURE",
+    " SM_NEW_SYMBOL": "COUNCODOS",
+    " SM_APPLICABLE_FROM": "Aug-31-2012"
+  },
+  {
+    "SYMB_COMPANY_NAME": "Crest Animation Studios Limited",
+    " SM_KEY_SYMBOL": "CRESTCOMM",
+    " SM_NEW_SYMBOL": "CRESTANI",
+    " SM_APPLICABLE_FROM": "Jan-04-2005"
+  },
+  {
+    "SYMB_COMPANY_NAME": "Crest Ventures Limited",
+    " SM_KEY_SYMBOL": "SHARYANRES",
+    " SM_NEW_SYMBOL": "SHARRESLTD",
+    " SM_APPLICABLE_FROM": "Dec-27-2006"
+  },
+  {
+    "SYMB_COMPANY_NAME": "Crest Ventures Limited",
+    " SM_KEY_SYMBOL": "SHARRESLTD",
+    " SM_NEW_SYMBOL": "CREST",
+    " SM_APPLICABLE_FROM": "Oct-16-2014"
+  },
+  {
+    "SYMB_COMPANY_NAME": "Cummins India Limited",
+    " SM_KEY_SYMBOL": "KIRLOSKCUM",
+    " SM_NEW_SYMBOL": "CUMMINSIND",
+    " SM_APPLICABLE_FROM": "Jun-17-2005"
+  },
+  {
+    "SYMB_COMPANY_NAME": "Cura Technologies Limited",
+    " SM_KEY_SYMBOL": "SOFTPRO",
+    " SM_NEW_SYMBOL": "CURATECH",
+    " SM_APPLICABLE_FROM": "Nov-23-2010"
+  },
+  {
+    "SYMB_COMPANY_NAME": "Cyient Limited",
+    " SM_KEY_SYMBOL": "INFOTECENT",
+    " SM_NEW_SYMBOL": "CYIENT",
+    " SM_APPLICABLE_FROM": "May-22-2014"
+  },
+  {
+    "SYMB_COMPANY_NAME": "DCB BANK LIMITED",
+    " SM_KEY_SYMBOL": "DCB",
+    " SM_NEW_SYMBOL": "DCBBANK",
+    " SM_APPLICABLE_FROM": "Jan-15-2014"
+  },
+  {
+    "SYMB_COMPANY_NAME": "DCM Shriram Limited",
+    " SM_KEY_SYMBOL": "DCMSRMCONS",
+    " SM_NEW_SYMBOL": "DCMSHRIRAM",
+    " SM_APPLICABLE_FROM": "Mar-13-2014"
+  },
+  {
+    "SYMB_COMPANY_NAME": "DIC India Limited",
+    " SM_KEY_SYMBOL": "COATESIND",
+    " SM_NEW_SYMBOL": "DICIND",
+    " SM_APPLICABLE_FROM": "Sep-06-2004"
+  },
+  {
+    "SYMB_COMPANY_NAME": "Dalmia Bharat Limited",
+    " SM_KEY_SYMBOL": "DALMIABEL",
+    " SM_NEW_SYMBOL": "DALMIABHA",
+    " SM_APPLICABLE_FROM": "Jan-09-2013"
+  },
+  {
+    "SYMB_COMPANY_NAME": "Dalmia Bharat Sugar and Industries Limited",
+    " SM_KEY_SYMBOL": "DALMIACEM",
+    " SM_NEW_SYMBOL": "DALMIASUG",
+    " SM_APPLICABLE_FROM": "Sep-30-2010"
+  },
+  {
+    "SYMB_COMPANY_NAME": "Dalmia Refractories Limited",
+    " SM_KEY_SYMBOL": "SHRINATRAJ",
+    " SM_NEW_SYMBOL": "DALMIAREF",
+    " SM_APPLICABLE_FROM": "May-22-2014"
+  },
+  {
+    "SYMB_COMPANY_NAME": "Datamatics Global Services Limited",
+    " SM_KEY_SYMBOL": "DATATECH",
+    " SM_NEW_SYMBOL": "DATAMATICS",
+    " SM_APPLICABLE_FROM": "Apr-20-2009"
+  },
+  {
+    "SYMB_COMPANY_NAME": "De Nora India Limited",
+    " SM_KEY_SYMBOL": "TITANOCOMP",
+    " SM_NEW_SYMBOL": "DENORA",
+    " SM_APPLICABLE_FROM": "Aug-20-2007"
+  },
+  {
+    "SYMB_COMPANY_NAME": "Deccan Cements Limited",
+    " SM_KEY_SYMBOL": "DECCANCEM",
+    " SM_NEW_SYMBOL": "DECCANCE",
+    " SM_APPLICABLE_FROM": "Aug-02-2007"
+  },
+  {
+    "SYMB_COMPANY_NAME": "Delta Corp Limited",
+    " SM_KEY_SYMBOL": "ARROWGROUP",
+    " SM_NEW_SYMBOL": "DELTACORP",
+    " SM_APPLICABLE_FROM": "Dec-11-2008"
+  },
+  {
+    "SYMB_COMPANY_NAME": "Delta Magnets Limited",
+    " SM_KEY_SYMBOL": "GPELECT",
+    " SM_NEW_SYMBOL": "DELTAMAGNT",
+    " SM_APPLICABLE_FROM": "Dec-15-2008"
+  },
+  {
+    "SYMB_COMPANY_NAME": "Dewan Housing Finance Corporation Limited",
+    " SM_KEY_SYMBOL": "DEWANHOUS",
+    " SM_NEW_SYMBOL": "DHFL",
+    " SM_APPLICABLE_FROM": "May-22-2012"
+  },
+  {
+    "SYMB_COMPANY_NAME": "Dhunseri Petrochem Limited",
+    " SM_KEY_SYMBOL": "DTIL",
+    " SM_NEW_SYMBOL": "DPTL",
+    " SM_APPLICABLE_FROM": "Jul-26-2010"
+  },
+  {
+    "SYMB_COMPANY_NAME": "Dhunseri Petrochem Limited",
+    " SM_KEY_SYMBOL": "DPTL",
+    " SM_NEW_SYMBOL": "DPL",
+    " SM_APPLICABLE_FROM": "Nov-12-2014"
+  },
+  {
+    "SYMB_COMPANY_NAME": "Digjam Limited",
+    " SM_KEY_SYMBOL": "BVXL",
+    " SM_NEW_SYMBOL": "DIGJAM",
+    " SM_APPLICABLE_FROM": "Apr-28-2008"
+  },
+  {
+    "SYMB_COMPANY_NAME": "Dr. Datson's Labs Limited",
+    " SM_KEY_SYMBOL": "AANJANEYA",
+    " SM_NEW_SYMBOL": "DRDATSONS",
+    " SM_APPLICABLE_FROM": "Sep-02-2013"
+  },
+  {
+    "SYMB_COMPANY_NAME": "Ducon Infratechnologies Limited",
+    " SM_KEY_SYMBOL": "DYNATECH",
+    " SM_NEW_SYMBOL": "DUCON",
+    " SM_APPLICABLE_FROM": "May-11-2016"
+  },
+  {
+    "SYMB_COMPANY_NAME": "E-Land Apparel Limited",
+    " SM_KEY_SYMBOL": "MUDRA",
+    " SM_NEW_SYMBOL": "ELAND",
+    " SM_APPLICABLE_FROM": "Mar-13-2015"
+  },
+  {
+    "SYMB_COMPANY_NAME": "EIH Associated Hotels Limited",
+    " SM_KEY_SYMBOL": "OBERHOTEL",
+    " SM_NEW_SYMBOL": "EIHAHOTELS",
+    " SM_APPLICABLE_FROM": "Apr-08-2008"
+  },
+  {
+    "SYMB_COMPANY_NAME": "Elecon Engineering Company Limited",
+    " SM_KEY_SYMBOL": "ELECONENGG",
+    " SM_NEW_SYMBOL": "ELECON",
+    " SM_APPLICABLE_FROM": "Sep-29-2006"
+  },
+  {
+    "SYMB_COMPANY_NAME": "Elgi Rubber Company Limited",
+    " SM_KEY_SYMBOL": "ELGITYRE",
+    " SM_NEW_SYMBOL": "ELGIRUBBER",
+    " SM_APPLICABLE_FROM": "Dec-22-2008"
+  },
+  {
+    "SYMB_COMPANY_NAME": "Entegra Limited",
+    " SM_KEY_SYMBOL": "INDUJENERT",
+    " SM_NEW_SYMBOL": "ENTEGRA",
+    " SM_APPLICABLE_FROM": "Apr-25-2007"
+  },
+  {
+    "SYMB_COMPANY_NAME": "Eon Electric Limited",
+    " SM_KEY_SYMBOL": "INDOASIFU",
+    " SM_NEW_SYMBOL": "EONELECT",
+    " SM_APPLICABLE_FROM": "Aug-18-2011"
+  },
+  {
+    "SYMB_COMPANY_NAME": "Era Infra Engineering Limited",
+    " SM_KEY_SYMBOL": "ERACONS",
+    " SM_NEW_SYMBOL": "ERAINFRA",
+    " SM_APPLICABLE_FROM": "Feb-25-2008"
+  },
+  {
+    "SYMB_COMPANY_NAME": "Everest Industries Limited",
+    " SM_KEY_SYMBOL": "ETERNEVRST",
+    " SM_NEW_SYMBOL": "EVERESTIND",
+    " SM_APPLICABLE_FROM": "May-27-2005"
+  },
+  {
+    "SYMB_COMPANY_NAME": "Excel Realty N Infra Limited",
+    " SM_KEY_SYMBOL": "EXCELINFO",
+    " SM_NEW_SYMBOL": "EXCEL",
+    " SM_APPLICABLE_FROM": "May-05-2015"
+  },
+  {
+    "SYMB_COMPANY_NAME": "Exide Industries Limited",
+    " SM_KEY_SYMBOL": "CHLORIDIND",
+    " SM_NEW_SYMBOL": "EXIDEIND",
+    " SM_APPLICABLE_FROM": "Sep-12-2005"
+  },
+  {
+    "SYMB_COMPANY_NAME": "FAG Bearings India Limited",
+    " SM_KEY_SYMBOL": "FAGPRECISN",
+    " SM_NEW_SYMBOL": "FAGBEARING",
+    " SM_APPLICABLE_FROM": "Aug-20-2001"
+  },
+  {
+    "SYMB_COMPANY_NAME": "FUTURE ENTERPRISES LIMITED",
+    " SM_KEY_SYMBOL": "PANTALOONR",
+    " SM_NEW_SYMBOL": "FRL",
+    " SM_APPLICABLE_FROM": "Apr-11-2013"
+  },
+  {
+    "SYMB_COMPANY_NAME": "FUTURE ENTERPRISES LIMITED",
+    " SM_KEY_SYMBOL": "FRL",
+    " SM_NEW_SYMBOL": "FEL",
+    " SM_APPLICABLE_FROM": "May-13-2016"
+  },
+  {
+    "SYMB_COMPANY_NAME": "Fame India Limited",
+    " SM_KEY_SYMBOL": "SHRINGAR",
+    " SM_NEW_SYMBOL": "FAME",
+    " SM_APPLICABLE_FROM": "Feb-25-2008"
+  },
+  {
+    "SYMB_COMPANY_NAME": "Federal-Mogul Goetze (India) Limited.",
+    " SM_KEY_SYMBOL": "GOETZEIND",
+    " SM_NEW_SYMBOL": "FMGOETZE",
+    " SM_APPLICABLE_FROM": "Sep-12-2006"
+  },
+  {
+    "SYMB_COMPANY_NAME": "Fidelity Mutual Fund - Fidelity Fixed Maturity Plan -SVI- Plan F - DP",
+    " SM_KEY_SYMBOL": "FIFMPS6FD",
+    " SM_NEW_SYMBOL": "LTFMPS6FD",
+    " SM_APPLICABLE_FROM": "Jan-14-2013"
+  },
+  {
+    "SYMB_COMPANY_NAME": "Flextronics Software Systems Limited",
+    " SM_KEY_SYMBOL": "HUGHESSOFT",
+    " SM_NEW_SYMBOL": "FSS",
+    " SM_APPLICABLE_FROM": "Mar-17-2005"
+  },
+  {
+    "SYMB_COMPANY_NAME": "Fresenius Kabi Oncology Limited",
+    " SM_KEY_SYMBOL": "DABURPHARM",
+    " SM_NEW_SYMBOL": "FKONCO",
+    " SM_APPLICABLE_FROM": "Feb-19-2009"
+  },
+  {
+    "SYMB_COMPANY_NAME": "Future Consumer Enterprise Limited",
+    " SM_KEY_SYMBOL": "FVIL",
+    " SM_NEW_SYMBOL": "FCEL",
+    " SM_APPLICABLE_FROM": "Oct-17-2013"
+  },
+  {
+    "SYMB_COMPANY_NAME": "Future Enterprises Limited",
+    " SM_KEY_SYMBOL": "PRETAILDVR",
+    " SM_NEW_SYMBOL": "FRLDVR",
+    " SM_APPLICABLE_FROM": "Apr-11-2013"
+  },
+  {
+    "SYMB_COMPANY_NAME": "Future Enterprises Limited",
+    " SM_KEY_SYMBOL": "FRLDVR",
+    " SM_NEW_SYMBOL": "FELDVR",
+    " SM_APPLICABLE_FROM": "May-13-2016"
+  },
+  {
+    "SYMB_COMPANY_NAME": "Future Market Networks Limited",
+    " SM_KEY_SYMBOL": "AGRE",
+    " SM_NEW_SYMBOL": "FMNL",
+    " SM_APPLICABLE_FROM": "Mar-06-2012"
+  },
+  {
+    "SYMB_COMPANY_NAME": "GE Power India Limited",
+    " SM_KEY_SYMBOL": "ABBALPO",
+    " SM_NEW_SYMBOL": "APIL",
+    " SM_APPLICABLE_FROM": "May-19-2003"
+  },
+  {
+    "SYMB_COMPANY_NAME": "GE Power India Limited",
+    " SM_KEY_SYMBOL": "APIL",
+    " SM_NEW_SYMBOL": "AIL",
+    " SM_APPLICABLE_FROM": "Jul-11-2012"
+  },
+  {
+    "SYMB_COMPANY_NAME": "GE Power India Limited",
+    " SM_KEY_SYMBOL": "AIL",
+    " SM_NEW_SYMBOL": "GEPIL",
+    " SM_APPLICABLE_FROM": "Sep-14-2016"
+  },
+  {
+    "SYMB_COMPANY_NAME": "GE T&D India Limited",
+    " SM_KEY_SYMBOL": "GECALSTHOM",
+    " SM_NEW_SYMBOL": "AREVA",
+    " SM_APPLICABLE_FROM": "Jun-30-2008"
+  },
+  {
+    "SYMB_COMPANY_NAME": "GE T&D India Limited",
+    " SM_KEY_SYMBOL": "AREVA",
+    " SM_NEW_SYMBOL": "AREVAT&D",
+    " SM_APPLICABLE_FROM": "Jul-14-2008"
+  },
+  {
+    "SYMB_COMPANY_NAME": "GE T&D India Limited",
+    " SM_KEY_SYMBOL": "AREVAT&D",
+    " SM_NEW_SYMBOL": "ALSTOMT&D",
+    " SM_APPLICABLE_FROM": "Mar-12-2012"
+  },
+  {
+    "SYMB_COMPANY_NAME": "GE T&D India Limited",
+    " SM_KEY_SYMBOL": "ALSTOMT&D",
+    " SM_NEW_SYMBOL": "GET&D",
+    " SM_APPLICABLE_FROM": "Sep-14-2016"
+  },
+  {
+    "SYMB_COMPANY_NAME": "GMR Industries Limited",
+    " SM_KEY_SYMBOL": "GMRVASAVI",
+    " SM_NEW_SYMBOL": "GMRINDSTRS",
+    " SM_APPLICABLE_FROM": "Apr-28-2006"
+  },
+  {
+    "SYMB_COMPANY_NAME": "GOCL CORPORATION LIMITED",
+    " SM_KEY_SYMBOL": "GULFCORP",
+    " SM_NEW_SYMBOL": "GOCLCORP",
+    " SM_APPLICABLE_FROM": "Nov-10-2015"
+  },
+  {
+    "SYMB_COMPANY_NAME": "GP Petroleums Limited",
+    " SM_KEY_SYMBOL": "SAHPETRO",
+    " SM_NEW_SYMBOL": "GULFPETRO",
+    " SM_APPLICABLE_FROM": "May-06-2015"
+  },
+  {
+    "SYMB_COMPANY_NAME": "GSL Nova Petrochemicals Limited",
+    " SM_KEY_SYMBOL": "NOVA",
+    " SM_NEW_SYMBOL": "GSLNOVA",
+    " SM_APPLICABLE_FROM": "Dec-18-2009"
+  },
+  {
+    "SYMB_COMPANY_NAME": "GSS Infotech Limited",
+    " SM_KEY_SYMBOL": "GSSAMERICA",
+    " SM_NEW_SYMBOL": "GSS",
+    " SM_APPLICABLE_FROM": "Aug-24-2011"
+  },
+  {
+    "SYMB_COMPANY_NAME": "GTL Limited",
+    " SM_KEY_SYMBOL": "GLOBALTELE",
+    " SM_NEW_SYMBOL": "GTL",
+    " SM_APPLICABLE_FROM": "Jan-14-2005"
+  },
+  {
+    "SYMB_COMPANY_NAME": "GTN Industries Limited",
+    " SM_KEY_SYMBOL": "GTNTEXT",
+    " SM_NEW_SYMBOL": "GTNIND",
+    " SM_APPLICABLE_FROM": "Feb-24-2006"
+  },
+  {
+    "SYMB_COMPANY_NAME": "Ganesh Housing Corporation Limited",
+    " SM_KEY_SYMBOL": "GANHSGFIN",
+    " SM_NEW_SYMBOL": "GANESHHOUC",
+    " SM_APPLICABLE_FROM": "Mar-02-2007"
+  },
+  {
+    "SYMB_COMPANY_NAME": "GeeCee Ventures Limited",
+    " SM_KEY_SYMBOL": "GWALCHEM",
+    " SM_NEW_SYMBOL": "GEECEE",
+    " SM_APPLICABLE_FROM": "Mar-05-2010"
+  },
+  {
+    "SYMB_COMPANY_NAME": "Genus Power Infrastructures Limited",
+    " SM_KEY_SYMBOL": "GENUSOVERE",
+    " SM_NEW_SYMBOL": "GENUSPOWER",
+    " SM_APPLICABLE_FROM": "Jan-14-2008"
+  },
+  {
+    "SYMB_COMPANY_NAME": "Geodesic Limited",
+    " SM_KEY_SYMBOL": "GEOINFO",
+    " SM_NEW_SYMBOL": "GEODESIC",
+    " SM_APPLICABLE_FROM": "Oct-06-2008"
+  },
+  {
+    "SYMB_COMPANY_NAME": "Geojit BNP Paribas Financial Services Limited",
+    " SM_KEY_SYMBOL": "GEOJIT",
+    " SM_NEW_SYMBOL": "GEOJITBNPP",
+    " SM_APPLICABLE_FROM": "Jun-05-2009"
+  },
+  {
+    "SYMB_COMPANY_NAME": "Gillette India Limited",
+    " SM_KEY_SYMBOL": "INDSHAVING",
+    " SM_NEW_SYMBOL": "GILLETTE",
+    " SM_APPLICABLE_FROM": "Apr-04-2006"
+  },
+  {
+    "SYMB_COMPANY_NAME": "GlaxoSmithKline Consumer Healthcare Limited",
+    " SM_KEY_SYMBOL": "SMITKLBECH",
+    " SM_NEW_SYMBOL": "GSKCONS",
+    " SM_APPLICABLE_FROM": "Jul-29-2003"
+  },
+  {
+    "SYMB_COMPANY_NAME": "Global Offshore Services Limited",
+    " SM_KEY_SYMBOL": "GARWOFFS",
+    " SM_NEW_SYMBOL": "GLOBOFFS",
+    " SM_APPLICABLE_FROM": "Jun-07-2011"
+  },
+  {
+    "SYMB_COMPANY_NAME": "Glodyne Technoserve Limited",
+    " SM_KEY_SYMBOL": "PARADYNE",
+    " SM_NEW_SYMBOL": "GLODYNE",
+    " SM_APPLICABLE_FROM": "Nov-19-2007"
+  },
+  {
+    "SYMB_COMPANY_NAME": "Golden Tobacco Limited",
+    " SM_KEY_SYMBOL": "GTCIND",
+    " SM_NEW_SYMBOL": "GOLDENTOBC",
+    " SM_APPLICABLE_FROM": "Sep-29-2008"
+  },
+  {
+    "SYMB_COMPANY_NAME": "Goldstone Infratech Limited",
+    " SM_KEY_SYMBOL": "GOLDTELE",
+    " SM_NEW_SYMBOL": "GOLDINFRA",
+    " SM_APPLICABLE_FROM": "Feb-29-2008"
+  },
+  {
+    "SYMB_COMPANY_NAME": "Graphite India Limited",
+    " SM_KEY_SYMBOL": "CARBEVFLOW",
+    " SM_NEW_SYMBOL": "GRAPHITE",
+    " SM_APPLICABLE_FROM": "Jan-13-2003"
+  },
+  {
+    "SYMB_COMPANY_NAME": "Greaves Cotton Limited",
+    " SM_KEY_SYMBOL": "GREAVES",
+    " SM_NEW_SYMBOL": "GREAVESCOT",
+    " SM_APPLICABLE_FROM": "Sep-09-2004"
+  },
+  {
+    "SYMB_COMPANY_NAME": "Greenply Industries Limited",
+    " SM_KEY_SYMBOL": "MITTALLAMI",
+    " SM_NEW_SYMBOL": "GREENPLY",
+    " SM_APPLICABLE_FROM": "Dec-09-2004"
+  },
+  {
+    "SYMB_COMPANY_NAME": "Gujarat Apollo Industries Limited",
+    " SM_KEY_SYMBOL": "GUJAPOLEQP",
+    " SM_NEW_SYMBOL": "GUJAPOLIND",
+    " SM_APPLICABLE_FROM": "Jun-04-2007"
+  },
+  {
+    "SYMB_COMPANY_NAME": "Gujarat Apollo Industries Limited",
+    " SM_KEY_SYMBOL": "GUJAPOLIND",
+    " SM_NEW_SYMBOL": "GUJAPOLLO",
+    " SM_APPLICABLE_FROM": "Jul-06-2007"
+  },
+  {
+    "SYMB_COMPANY_NAME": "Gulf Oil Corporation Limited",
+    " SM_KEY_SYMBOL": "IDLCHEM",
+    " SM_NEW_SYMBOL": "GULFOILCOR",
+    " SM_APPLICABLE_FROM": "Nov-08-2007"
+  },
+  {
+    "SYMB_COMPANY_NAME": "HCL Infosystems Limited",
+    " SM_KEY_SYMBOL": "HCL-HP",
+    " SM_NEW_SYMBOL": "HCL-INSYS",
+    " SM_APPLICABLE_FROM": "Apr-12-2000"
+  },
+  {
+    "SYMB_COMPANY_NAME": "HIL Limited",
+    " SM_KEY_SYMBOL": "HYDRBADIND",
+    " SM_NEW_SYMBOL": "HIL",
+    " SM_APPLICABLE_FROM": "Oct-26-2012"
+  },
+  {
+    "SYMB_COMPANY_NAME": "HSBC InvestDirect (India) Limited",
+    " SM_KEY_SYMBOL": "INVSTSMART",
+    " SM_NEW_SYMBOL": "HINVDIR",
+    " SM_APPLICABLE_FROM": "Sep-07-2009"
+  },
+  {
+    "SYMB_COMPANY_NAME": "HSIL Limited",
+    " SM_KEY_SYMBOL": "HINDSANIT",
+    " SM_NEW_SYMBOL": "HSIL",
+    " SM_APPLICABLE_FROM": "Apr-27-2009"
+  },
+  {
+    "SYMB_COMPANY_NAME": "HeidelbergCement India Limited",
+    " SM_KEY_SYMBOL": "MYSORECEM",
+    " SM_NEW_SYMBOL": "HEIDELBERG",
+    " SM_APPLICABLE_FROM": "May-15-2009"
+  },
+  {
+    "SYMB_COMPANY_NAME": "Hero MotoCorp Limited",
+    " SM_KEY_SYMBOL": "HEROHONDA",
+    " SM_NEW_SYMBOL": "HEROMOTOCO",
+    " SM_APPLICABLE_FROM": "Aug-08-2011"
+  },
+  {
+    "SYMB_COMPANY_NAME": "Himadri Speciality Chemical Limited",
+    " SM_KEY_SYMBOL": "HIMADCHEM",
+    " SM_NEW_SYMBOL": "HCIL",
+    " SM_APPLICABLE_FROM": "Mar-02-2007"
+  },
+  {
+    "SYMB_COMPANY_NAME": "Himadri Speciality Chemical Limited",
+    " SM_KEY_SYMBOL": "HCIL",
+    " SM_NEW_SYMBOL": "HSCL",
+    " SM_APPLICABLE_FROM": "Aug-16-2016"
+  },
+  {
+    "SYMB_COMPANY_NAME": "Hindalco Industries Limited",
+    " SM_KEY_SYMBOL": "HINDALC0",
+    " SM_NEW_SYMBOL": "HINDALCO",
+    " SM_APPLICABLE_FROM": "Aug-27-2007"
+  },
+  {
+    "SYMB_COMPANY_NAME": "Hinduja Foundries Limited",
+    " SM_KEY_SYMBOL": "ENNOREFO",
+    " SM_NEW_SYMBOL": "HINDUJAFO",
+    " SM_APPLICABLE_FROM": "Mar-24-2008"
+  },
+  {
+    "SYMB_COMPANY_NAME": "Hinduja Global Solutions Limited",
+    " SM_KEY_SYMBOL": "HTMTGLOBAL",
+    " SM_NEW_SYMBOL": "HGSL",
+    " SM_APPLICABLE_FROM": "Jan-23-2009"
+  },
+  {
+    "SYMB_COMPANY_NAME": "Hinduja Global Solutions Limited",
+    " SM_KEY_SYMBOL": "HGSL",
+    " SM_NEW_SYMBOL": "HGS",
+    " SM_APPLICABLE_FROM": "Nov-30-2011"
+  },
+  {
+    "SYMB_COMPANY_NAME": "Hinduja TMT Limited",
+    " SM_KEY_SYMBOL": "HINDUJAFIN",
+    " SM_NEW_SYMBOL": "HTMT",
+    " SM_APPLICABLE_FROM": "Jan-13-2003"
+  },
+  {
+    "SYMB_COMPANY_NAME": "Hinduja Ventures Limited",
+    " SM_KEY_SYMBOL": "HINDUJATMT",
+    " SM_NEW_SYMBOL": "HINDUJAVEN",
+    " SM_APPLICABLE_FROM": "Nov-29-2007"
+  },
+  {
+    "SYMB_COMPANY_NAME": "Hindustan Construction Company Limited",
+    " SM_KEY_SYMBOL": "HINDCONS",
+    " SM_NEW_SYMBOL": "HCC",
+    " SM_APPLICABLE_FROM": "Jul-10-2006"
+  },
+  {
+    "SYMB_COMPANY_NAME": "Hindustan Unilever Limited",
+    " SM_KEY_SYMBOL": "HINDLEVER",
+    " SM_NEW_SYMBOL": "HINDUNILVR",
+    " SM_APPLICABLE_FROM": "Jul-19-2007"
+  },
+  {
+    "SYMB_COMPANY_NAME": "Honda Siel Power Products Limited",
+    " SM_KEY_SYMBOL": "SHRMHONDA",
+    " SM_NEW_SYMBOL": "HONDAPOWER",
+    " SM_APPLICABLE_FROM": "Apr-04-2006"
+  },
+  {
+    "SYMB_COMPANY_NAME": "Honeywell Automation India Limited",
+    " SM_KEY_SYMBOL": "TATAHONEY",
+    " SM_NEW_SYMBOL": "HONAUT",
+    " SM_APPLICABLE_FROM": "Mar-24-2005"
+  },
+  {
+    "SYMB_COMPANY_NAME": "Hubtown Limited",
+    " SM_KEY_SYMBOL": "AKRUTI",
+    " SM_NEW_SYMBOL": "ACKRUTI",
+    " SM_APPLICABLE_FROM": "Jun-30-2009"
+  },
+  {
+    "SYMB_COMPANY_NAME": "Hubtown Limited",
+    " SM_KEY_SYMBOL": "ACKRUTI",
+    " SM_NEW_SYMBOL": "HUBTOWN",
+    " SM_APPLICABLE_FROM": "Nov-15-2011"
+  },
+  {
+    "SYMB_COMPANY_NAME": "ICICI Prudential Gold iWIN ETF",
+    " SM_KEY_SYMBOL": "IPGETF",
+    " SM_NEW_SYMBOL": "IGOLD",
+    " SM_APPLICABLE_FROM": "May-05-2014"
+  },
+  {
+    "SYMB_COMPANY_NAME": "ICICI Prudential Gold iWIN ETF",
+    " SM_KEY_SYMBOL": "IGOLD",
+    " SM_NEW_SYMBOL": "GOLDIWIN",
+    " SM_APPLICABLE_FROM": "Jul-25-2016"
+  },
+  {
+    "SYMB_COMPANY_NAME": "ICICI Prudential MF - ICICI Prudential IF S1 - DQDP",
+    " SM_KEY_SYMBOL": "IPRU8112",
+    " SM_NEW_SYMBOL": "IPRU8122",
+    " SM_APPLICABLE_FROM": "Dec-16-2013"
+  },
+  {
+    "SYMB_COMPANY_NAME": "ICICI Prudential Midcap Select iWIN ETF",
+    " SM_KEY_SYMBOL": "IMIDCAP",
+    " SM_NEW_SYMBOL": "MIDCAPIWIN",
+    " SM_APPLICABLE_FROM": "Jul-25-2016"
+  },
+  {
+    "SYMB_COMPANY_NAME": "ICICI Prudential NV20 iWIN ETF",
+    " SM_KEY_SYMBOL": "INV20",
+    " SM_NEW_SYMBOL": "NV20IWIN",
+    " SM_APPLICABLE_FROM": "Jul-25-2016"
+  },
+  {
+    "SYMB_COMPANY_NAME": "ICICI Prudential Nifty 100 iWIN ETF",
+    " SM_KEY_SYMBOL": "ICCNX100",
+    " SM_NEW_SYMBOL": "ICNX100",
+    " SM_APPLICABLE_FROM": "May-05-2014"
+  },
+  {
+    "SYMB_COMPANY_NAME": "ICICI Prudential Nifty 100 iWIN ETF",
+    " SM_KEY_SYMBOL": "ICNX100",
+    " SM_NEW_SYMBOL": "NIF100IWIN",
+    " SM_APPLICABLE_FROM": "Jul-25-2016"
+  },
+  {
+    "SYMB_COMPANY_NAME": "ICICI Prudential Nifty iWIN ETF",
+    " SM_KEY_SYMBOL": "NIFETF",
+    " SM_NEW_SYMBOL": "INIFTY",
+    " SM_APPLICABLE_FROM": "May-05-2014"
+  },
+  {
+    "SYMB_COMPANY_NAME": "ICICI Prudential Nifty iWIN ETF",
+    " SM_KEY_SYMBOL": "INIFTY",
+    " SM_NEW_SYMBOL": "NIFTYIWIN",
+    " SM_APPLICABLE_FROM": "Jul-25-2016"
+  },
+  {
+    "SYMB_COMPANY_NAME": "ICICI Prudential Sensex iWIN ETF",
+    " SM_KEY_SYMBOL": "SPICE",
+    " SM_NEW_SYMBOL": "ISENSEX",
+    " SM_APPLICABLE_FROM": "Aug-18-2014"
+  },
+  {
+    "SYMB_COMPANY_NAME": "ICICI Prudential Sensex iWIN ETF",
+    " SM_KEY_SYMBOL": "ISENSEX",
+    " SM_NEW_SYMBOL": "SENSEXIWIN",
+    " SM_APPLICABLE_FROM": "Jul-25-2016"
+  },
+  {
+    "SYMB_COMPANY_NAME": "IG Petrochemicals Limited",
+    " SM_KEY_SYMBOL": "IGPETRO",
+    " SM_NEW_SYMBOL": "IGPL",
+    " SM_APPLICABLE_FROM": "Jan-29-2007"
+  },
+  {
+    "SYMB_COMPANY_NAME": "IIFL Holdings Limited",
+    " SM_KEY_SYMBOL": "INDIAINFO",
+    " SM_NEW_SYMBOL": "IIFL",
+    " SM_APPLICABLE_FROM": "Mar-13-2014"
+  },
+  {
+    "SYMB_COMPANY_NAME": "IL&FS Engineering and Construction Company Limited",
+    " SM_KEY_SYMBOL": "MAYTASINFR",
+    " SM_NEW_SYMBOL": "IL&FSENGG",
+    " SM_APPLICABLE_FROM": "Feb-08-2011"
+  },
+  {
+    "SYMB_COMPANY_NAME": "IL&FS Transportation Networks Limited",
+    " SM_KEY_SYMBOL": "ILFSTRANS",
+    " SM_NEW_SYMBOL": "IL&FSTRANS",
+    " SM_APPLICABLE_FROM": "Apr-16-2010"
+  },
+  {
+    "SYMB_COMPANY_NAME": "INEOS Styrolution India Limited",
+    " SM_KEY_SYMBOL": "ABSIND",
+    " SM_NEW_SYMBOL": "LANABS",
+    " SM_APPLICABLE_FROM": "Jun-14-2005"
+  },
+  {
+    "SYMB_COMPANY_NAME": "INEOS Styrolution India Limited",
+    " SM_KEY_SYMBOL": "LANABS",
+    " SM_NEW_SYMBOL": "INEABS",
+    " SM_APPLICABLE_FROM": "Jul-21-2008"
+  },
+  {
+    "SYMB_COMPANY_NAME": "INEOS Styrolution India Limited",
+    " SM_KEY_SYMBOL": "INEABS",
+    " SM_NEW_SYMBOL": "STYABS",
+    " SM_APPLICABLE_FROM": "Jun-20-2012"
+  },
+  {
+    "SYMB_COMPANY_NAME": "INEOS Styrolution India Limited",
+    " SM_KEY_SYMBOL": "STYABS",
+    " SM_NEW_SYMBOL": "INEOSSTYRO",
+    " SM_APPLICABLE_FROM": "Apr-04-2016"
+  },
+  {
+    "SYMB_COMPANY_NAME": "ING Vysya Bank Limited",
+    " SM_KEY_SYMBOL": "VYSYABANK",
+    " SM_NEW_SYMBOL": "INGVYSYABK",
+    " SM_APPLICABLE_FROM": "Aug-16-2005"
+  },
+  {
+    "SYMB_COMPANY_NAME": "IOL Netcom Limited",
+    " SM_KEY_SYMBOL": "IOLB",
+    " SM_NEW_SYMBOL": "IOLN",
+    " SM_APPLICABLE_FROM": "Feb-18-2008"
+  },
+  {
+    "SYMB_COMPANY_NAME": "ITD Cementation India Limited",
+    " SM_KEY_SYMBOL": "TRAFALHSE",
+    " SM_NEW_SYMBOL": "ITDCEM",
+    " SM_APPLICABLE_FROM": "Aug-16-2005"
+  },
+  {
+    "SYMB_COMPANY_NAME": "IVRCL Assets & Holdings Limited",
+    " SM_KEY_SYMBOL": "IVRPRIME",
+    " SM_NEW_SYMBOL": "IVRCLAH",
+    " SM_APPLICABLE_FROM": "Apr-13-2010"
+  },
+  {
+    "SYMB_COMPANY_NAME": "IZMO Limited",
+    " SM_KEY_SYMBOL": "LOGIXMICRO",
+    " SM_NEW_SYMBOL": "IZMO",
+    " SM_APPLICABLE_FROM": "May-15-2015"
+  },
+  {
+    "SYMB_COMPANY_NAME": "Igarashi Motors India Limited",
+    " SM_KEY_SYMBOL": "CGIGARSH",
+    " SM_NEW_SYMBOL": "IGARASHI",
+    " SM_APPLICABLE_FROM": "Apr-21-2005"
+  },
+  {
+    "SYMB_COMPANY_NAME": "Indbank Merchant Banking Services Limited",
+    " SM_KEY_SYMBOL": "INDBANKMER",
+    " SM_NEW_SYMBOL": "INDBANK",
+    " SM_APPLICABLE_FROM": "Oct-08-2008"
+  },
+  {
+    "SYMB_COMPANY_NAME": "India Infoline Finance Limited",
+    " SM_KEY_SYMBOL": "IIISL",
+    " SM_NEW_SYMBOL": "IIFLFIN",
+    " SM_APPLICABLE_FROM": "Aug-27-2012"
+  },
+  {
+    "SYMB_COMPANY_NAME": "Indiabulls Ventures Limited",
+    " SM_KEY_SYMBOL": "IBSEC",
+    " SM_NEW_SYMBOL": "IBVENTURES",
+    " SM_APPLICABLE_FROM": "Apr-01-2015"
+  },
+  {
+    "SYMB_COMPANY_NAME": "Indo Count Industries Limited",
+    " SM_KEY_SYMBOL": "INDOCOUNT",
+    " SM_NEW_SYMBOL": "ICIL",
+    " SM_APPLICABLE_FROM": "Sep-12-2005"
+  },
+  {
+    "SYMB_COMPANY_NAME": "Infomedia India Limited",
+    " SM_KEY_SYMBOL": "TATAPRESS",
+    " SM_NEW_SYMBOL": "TATAINFO",
+    " SM_APPLICABLE_FROM": "Sep-17-2003"
+  },
+  {
+    "SYMB_COMPANY_NAME": "Infosys Limited",
+    " SM_KEY_SYMBOL": "INFOSYSTCH",
+    " SM_NEW_SYMBOL": "INFY",
+    " SM_APPLICABLE_FROM": "Jun-29-2011"
+  },
+  {
+    "SYMB_COMPANY_NAME": "Insecticides (India) Limited",
+    " SM_KEY_SYMBOL": "IILTD",
+    " SM_NEW_SYMBOL": "INSECTICID",
+    " SM_APPLICABLE_FROM": "May-11-2009"
+  },
+  {
+    "SYMB_COMPANY_NAME": "International Paper APPM Limited",
+    " SM_KEY_SYMBOL": "APPAPER",
+    " SM_NEW_SYMBOL": "IPAPPM",
+    " SM_APPLICABLE_FROM": "Jan-21-2014"
+  },
+  {
+    "SYMB_COMPANY_NAME": "Invesco India Gold Exchange Traded Fund",
+    " SM_KEY_SYMBOL": "RELIGAREGO",
+    " SM_NEW_SYMBOL": "IVZINGOLD",
+    " SM_APPLICABLE_FROM": "Jun-23-2016"
+  },
+  {
+    "SYMB_COMPANY_NAME": "Invesco India Nifty Exchange Traded Fund",
+    " SM_KEY_SYMBOL": "RELGRNIFTY",
+    " SM_NEW_SYMBOL": "IVZINNIFTY",
+    " SM_APPLICABLE_FROM": "Jun-23-2016"
+  },
+  {
+    "SYMB_COMPANY_NAME": "Invesco MF – Invesco India AIF - Sr 1 - Pl B - DS-P-GO",
+    " SM_KEY_SYMBOL": "RIMFAI1BDG",
+    " SM_NEW_SYMBOL": "IVZINA1BDG",
+    " SM_APPLICABLE_FROM": "Jun-23-2016"
+  },
+  {
+    "SYMB_COMPANY_NAME": "Invesco MF – Invesco India AIF - Sr 1 - Pl B - RS-P-GO",
+    " SM_KEY_SYMBOL": "RIMFAI1BRG",
+    " SM_NEW_SYMBOL": "IVZINA1BRG",
+    " SM_APPLICABLE_FROM": "Jun-23-2016"
+  },
+  {
+    "SYMB_COMPANY_NAME": "JBM Auto Limited",
+    " SM_KEY_SYMBOL": "JBMAUTOCOM",
+    " SM_NEW_SYMBOL": "JBMA",
+    " SM_APPLICABLE_FROM": "Jan-04-2006"
+  },
+  {
+    "SYMB_COMPANY_NAME": "JD Orgochem Limited",
+    " SM_KEY_SYMBOL": "JAYSYNTDYE",
+    " SM_NEW_SYMBOL": "JDORGO",
+    " SM_APPLICABLE_FROM": "Sep-13-2004"
+  },
+  {
+    "SYMB_COMPANY_NAME": "JSW Holdings Limited",
+    " SM_KEY_SYMBOL": "JINDALSWHL",
+    " SM_NEW_SYMBOL": "JSWHL",
+    " SM_APPLICABLE_FROM": "Jul-30-2013"
+  },
+  {
+    "SYMB_COMPANY_NAME": "JSW ISPAT Steel Limited",
+    " SM_KEY_SYMBOL": "ISPATIND",
+    " SM_NEW_SYMBOL": "JSWISPAT",
+    " SM_APPLICABLE_FROM": "Aug-16-2011"
+  },
+  {
+    "SYMB_COMPANY_NAME": "JSW Steel Limited",
+    " SM_KEY_SYMBOL": "JSWSTL",
+    " SM_NEW_SYMBOL": "JSWSTEEL",
+    " SM_APPLICABLE_FROM": "Sep-16-2005"
+  },
+  {
+    "SYMB_COMPANY_NAME": "Jai Balaji Industries Limited",
+    " SM_KEY_SYMBOL": "BALASPONGE",
+    " SM_NEW_SYMBOL": "JAIBALAJI",
+    " SM_APPLICABLE_FROM": "Aug-10-2007"
+  },
+  {
+    "SYMB_COMPANY_NAME": "Jaiprakash Power Ventures Limited",
+    " SM_KEY_SYMBOL": "JPHYDRO",
+    " SM_NEW_SYMBOL": "JPPOWER",
+    " SM_APPLICABLE_FROM": "Jan-08-2010"
+  },
+  {
+    "SYMB_COMPANY_NAME": "Jayaswal Neco Industries Limited",
+    " SM_KEY_SYMBOL": "NAGPURENG",
+    " SM_NEW_SYMBOL": "JAYNECOIND",
+    " SM_APPLICABLE_FROM": "Feb-22-2008"
+  },
+  {
+    "SYMB_COMPANY_NAME": "Jindal Saw Limited",
+    " SM_KEY_SYMBOL": "SAWPIPES",
+    " SM_NEW_SYMBOL": "JINDALSAW",
+    " SM_APPLICABLE_FROM": "Feb-18-2005"
+  },
+  {
+    "SYMB_COMPANY_NAME": "Jindal Stainless Limited",
+    " SM_KEY_SYMBOL": "JSTAINLESS",
+    " SM_NEW_SYMBOL": "JSL",
+    " SM_APPLICABLE_FROM": "Oct-23-2008"
+  },
+  {
+    "SYMB_COMPANY_NAME": "Johnson Controls – Hitachi Air Conditioning India Limited",
+    " SM_KEY_SYMBOL": "AMTREXAPPL",
+    " SM_NEW_SYMBOL": "HITACHIHOM",
+    " SM_APPLICABLE_FROM": "Apr-04-2006"
+  },
+  {
+    "SYMB_COMPANY_NAME": "Johnson Controls – Hitachi Air Conditioning India Limited",
+    " SM_KEY_SYMBOL": "HITACHIHOM",
+    " SM_NEW_SYMBOL": "JCHAC",
+    " SM_APPLICABLE_FROM": "Sep-12-2016"
+  },
+  {
+    "SYMB_COMPANY_NAME": "Jubilant Life Sciences Limited",
+    " SM_KEY_SYMBOL": "VAMORGANIC",
+    " SM_NEW_SYMBOL": "JUBILANT",
+    " SM_APPLICABLE_FROM": "Sep-30-2003"
+  },
+  {
+    "SYMB_COMPANY_NAME": "KSS Limited",
+    " SM_KEY_SYMBOL": "KSERAPRO",
+    " SM_NEW_SYMBOL": "KSERASERA",
+    " SM_APPLICABLE_FROM": "Mar-07-2011"
+  },
+  {
+    "SYMB_COMPANY_NAME": "Kalyani Steels Limited",
+    " SM_KEY_SYMBOL": "KALYANISTL",
+    " SM_NEW_SYMBOL": "KALSTEELS",
+    " SM_APPLICABLE_FROM": "Oct-21-2008"
+  },
+  {
+    "SYMB_COMPANY_NAME": "Kamdhenu Limited",
+    " SM_KEY_SYMBOL": "KIL",
+    " SM_NEW_SYMBOL": "KAMDHENU",
+    " SM_APPLICABLE_FROM": "Mar-18-2016"
+  },
+  {
+    "SYMB_COMPANY_NAME": "Kansai Nerolac Paints Limited",
+    " SM_KEY_SYMBOL": "GOODLASNER",
+    " SM_NEW_SYMBOL": "KANSAINER",
+    " SM_APPLICABLE_FROM": "Jul-26-2006"
+  },
+  {
+    "SYMB_COMPANY_NAME": "Karuturi Global Limited",
+    " SM_KEY_SYMBOL": "KNL",
+    " SM_NEW_SYMBOL": "KGL",
+    " SM_APPLICABLE_FROM": "Nov-20-2008"
+  },
+  {
+    "SYMB_COMPANY_NAME": "Kesar Enterprises Limited",
+    " SM_KEY_SYMBOL": "KESARENTER",
+    " SM_NEW_SYMBOL": "KESARENT",
+    " SM_APPLICABLE_FROM": "Jan-02-2007"
+  },
+  {
+    "SYMB_COMPANY_NAME": "Kinetic Motor Company Limited",
+    " SM_KEY_SYMBOL": "KINHONDA",
+    " SM_NEW_SYMBOL": "KINETICMOT",
+    " SM_APPLICABLE_FROM": "Sep-20-2004"
+  },
+  {
+    "SYMB_COMPANY_NAME": "Kingfisher Airlines Limited",
+    " SM_KEY_SYMBOL": "AIRDECCAN",
+    " SM_NEW_SYMBOL": "KFA",
+    " SM_APPLICABLE_FROM": "Oct-06-2008"
+  },
+  {
+    "SYMB_COMPANY_NAME": "Kiri Industries Limited",
+    " SM_KEY_SYMBOL": "KIRIDYES",
+    " SM_NEW_SYMBOL": "KIRIINDUS",
+    " SM_APPLICABLE_FROM": "Mar-28-2011"
+  },
+  {
+    "SYMB_COMPANY_NAME": "Kirloskar Electric Company Limited",
+    " SM_KEY_SYMBOL": "KIRELECTRI",
+    " SM_NEW_SYMBOL": "KECL",
+    " SM_APPLICABLE_FROM": "Mar-09-2010"
+  },
+  {
+    "SYMB_COMPANY_NAME": "Kohinoor Foods Limited",
+    " SM_KEY_SYMBOL": "SATNAMOVER",
+    " SM_NEW_SYMBOL": "KOHINOOR",
+    " SM_APPLICABLE_FROM": "Aug-18-2006"
+  },
+  {
+    "SYMB_COMPANY_NAME": "Kokuyo Camlin Limited",
+    " SM_KEY_SYMBOL": "CAMLIN",
+    " SM_NEW_SYMBOL": "KOKUYOCMLN",
+    " SM_APPLICABLE_FROM": "Feb-14-2012"
+  },
+  {
+    "SYMB_COMPANY_NAME": "Kotak Mahindra Bank Limited",
+    " SM_KEY_SYMBOL": "KOTAKMAH",
+    " SM_NEW_SYMBOL": "KOTAKBANK",
+    " SM_APPLICABLE_FROM": "Apr-21-2003"
+  },
+  {
+    "SYMB_COMPANY_NAME": "Kotak Mahindra MF - Kotak NV 20 ETF - DPO",
+    " SM_KEY_SYMBOL": "KTKNV20ETF",
+    " SM_NEW_SYMBOL": "KOTAKNV20",
+    " SM_APPLICABLE_FROM": "Dec-21-2015"
+  },
+  {
+    "SYMB_COMPANY_NAME": "L&T Fixed Maturity Plan Series - VI Plan F",
+    " SM_KEY_SYMBOL": "FIFMPS6FG",
+    " SM_NEW_SYMBOL": "LTFMPS6FG",
+    " SM_APPLICABLE_FROM": "Jan-14-2013"
+  },
+  {
+    "SYMB_COMPANY_NAME": "L&T Fixed Maturity Plane Series - VI Plan E",
+    " SM_KEY_SYMBOL": "FIFMPS6EG",
+    " SM_NEW_SYMBOL": "LTFMPS6EG",
+    " SM_APPLICABLE_FROM": "Jan-14-2013"
+  },
+  {
+    "SYMB_COMPANY_NAME": "L&T Fixed Maturiy Plan Series - VI Plan F",
+    " SM_KEY_SYMBOL": "FIFMPS6ED",
+    " SM_NEW_SYMBOL": "LTFMPS6ED",
+    " SM_APPLICABLE_FROM": "Jan-14-2013"
+  },
+  {
+    "SYMB_COMPANY_NAME": "LIC MF - LIC MF EXCHANGE TRADED FUND - NIFTY 50",
+    " SM_KEY_SYMBOL": "LICNFENGP",
+    " SM_NEW_SYMBOL": "LICNETFN50",
+    " SM_APPLICABLE_FROM": "Dec-30-2015"
+  },
+  {
+    "SYMB_COMPANY_NAME": "LIC MF - LIC MF G-sec LT ETF - GO",
+    " SM_KEY_SYMBOL": "LICNMFET",
+    " SM_NEW_SYMBOL": "LICNETFGSC",
+    " SM_APPLICABLE_FROM": "Dec-30-2015"
+  },
+  {
+    "SYMB_COMPANY_NAME": "LIC Mutual Fund - LIC MF EXCHANGE TRADED FUND - SENSEX",
+    " SM_KEY_SYMBOL": "LICNFESGP",
+    " SM_NEW_SYMBOL": "LICNETFSEN",
+    " SM_APPLICABLE_FROM": "Dec-30-2015"
+  },
+  {
+    "SYMB_COMPANY_NAME": "Linde India Limited",
+    " SM_KEY_SYMBOL": "IOL",
+    " SM_NEW_SYMBOL": "BOC",
+    " SM_APPLICABLE_FROM": "Mar-10-2005"
+  },
+  {
+    "SYMB_COMPANY_NAME": "Linde India Limited",
+    " SM_KEY_SYMBOL": "BOC",
+    " SM_NEW_SYMBOL": "LINDEINDIA",
+    " SM_APPLICABLE_FROM": "Apr-10-2013"
+  },
+  {
+    "SYMB_COMPANY_NAME": "Lotte India Corporation Limited",
+    " SM_KEY_SYMBOL": "PARRYSCON",
+    " SM_NEW_SYMBOL": "LOTTEINDIA",
+    " SM_APPLICABLE_FROM": "Dec-17-2004"
+  },
+  {
+    "SYMB_COMPANY_NAME": "MM Forgings Limited",
+    " SM_KEY_SYMBOL": "MMFORGINGS",
+    " SM_NEW_SYMBOL": "MMFL",
+    " SM_APPLICABLE_FROM": "Dec-20-2006"
+  },
+  {
+    "SYMB_COMPANY_NAME": "MPS Limited",
+    " SM_KEY_SYMBOL": "MACMILLAN",
+    " SM_NEW_SYMBOL": "MPSLTD",
+    " SM_APPLICABLE_FROM": "Sep-11-2009"
+  },
+  {
+    "SYMB_COMPANY_NAME": "Maan Aluminium Limited",
+    " SM_KEY_SYMBOL": "MANALU",
+    " SM_NEW_SYMBOL": "MAANALU",
+    " SM_APPLICABLE_FROM": "Mar-16-2011"
+  },
+  {
+    "SYMB_COMPANY_NAME": "Madura Coats Limited",
+    " SM_KEY_SYMBOL": "COATVIYELA",
+    " SM_NEW_SYMBOL": "MADURACOAT",
+    " SM_APPLICABLE_FROM": "Nov-29-2002"
+  },
+  {
+    "SYMB_COMPANY_NAME": "Mahindra CIE Automotive Limited",
+    " SM_KEY_SYMBOL": "MAHINDFORG",
+    " SM_NEW_SYMBOL": "MAHINDCIE",
+    " SM_APPLICABLE_FROM": "Dec-17-2013"
+  },
+  {
+    "SYMB_COMPANY_NAME": "Mahindra Lifespace Developers Limited",
+    " SM_KEY_SYMBOL": "GESCOCORP",
+    " SM_NEW_SYMBOL": "MAHLIFE",
+    " SM_APPLICABLE_FROM": "Nov-23-2007"
+  },
+  {
+    "SYMB_COMPANY_NAME": "Man Industries (India) Limited",
+    " SM_KEY_SYMBOL": "MANALUMN",
+    " SM_NEW_SYMBOL": "MANINDS",
+    " SM_APPLICABLE_FROM": "Jun-24-2005"
+  },
+  {
+    "SYMB_COMPANY_NAME": "Marico Limited",
+    " SM_KEY_SYMBOL": "MARICOIND",
+    " SM_NEW_SYMBOL": "MARICO",
+    " SM_APPLICABLE_FROM": "Jun-14-2005"
+  },
+  {
+    "SYMB_COMPANY_NAME": "Marksans Pharma Limited",
+    " SM_KEY_SYMBOL": "TASCPHARMA",
+    " SM_NEW_SYMBOL": "MARKSANS",
+    " SM_APPLICABLE_FROM": "Nov-14-2005"
+  },
+  {
+    "SYMB_COMPANY_NAME": "Max Financial Services Limited",
+    " SM_KEY_SYMBOL": "MAX",
+    " SM_NEW_SYMBOL": "MFSL",
+    " SM_APPLICABLE_FROM": "Feb-26-2016"
+  },
+  {
+    "SYMB_COMPANY_NAME": "Mercator Limited",
+    " SM_KEY_SYMBOL": "MLL",
+    " SM_NEW_SYMBOL": "MERCATOR",
+    " SM_APPLICABLE_FROM": "Dec-08-2011"
+  },
+  {
+    "SYMB_COMPANY_NAME": "Merck Limited",
+    " SM_KEY_SYMBOL": "EMERCK",
+    " SM_NEW_SYMBOL": "MERCK",
+    " SM_APPLICABLE_FROM": "Nov-05-2007"
+  },
+  {
+    "SYMB_COMPANY_NAME": "Metalyst Forgings Limited",
+    " SM_KEY_SYMBOL": "AHMEDFORGE",
+    " SM_NEW_SYMBOL": "METALFORGE",
+    " SM_APPLICABLE_FROM": "Jun-01-2015"
+  },
+  {
+    "SYMB_COMPANY_NAME": "Metkore Alloys & Industries Limited",
+    " SM_KEY_SYMBOL": "GMRFER",
+    " SM_NEW_SYMBOL": "CRONIMET",
+    " SM_APPLICABLE_FROM": "Jun-02-2010"
+  },
+  {
+    "SYMB_COMPANY_NAME": "Metkore Alloys & Industries Limited",
+    " SM_KEY_SYMBOL": "CRONIMET",
+    " SM_NEW_SYMBOL": "METKORE",
+    " SM_APPLICABLE_FROM": "Apr-02-2012"
+  },
+  {
+    "SYMB_COMPANY_NAME": "Micro Inks Limited",
+    " SM_KEY_SYMBOL": "HINDINKS",
+    " SM_NEW_SYMBOL": "MICRO",
+    " SM_APPLICABLE_FROM": "Mar-26-2004"
+  },
+  {
+    "SYMB_COMPANY_NAME": "Mirza International Limited",
+    " SM_KEY_SYMBOL": "MIRZATAN",
+    " SM_NEW_SYMBOL": "MIRZAINT",
+    " SM_APPLICABLE_FROM": "Jul-05-2006"
+  },
+  {
+    "SYMB_COMPANY_NAME": "MphasiS Limited",
+    " SM_KEY_SYMBOL": "BFLSOFTWAR",
+    " SM_NEW_SYMBOL": "MPHASISBFL",
+    " SM_APPLICABLE_FROM": "Jun-15-2004"
+  },
+  {
+    "SYMB_COMPANY_NAME": "MphasiS Limited",
+    " SM_KEY_SYMBOL": "MPHASISBFL",
+    " SM_NEW_SYMBOL": "MPHASIS",
+    " SM_APPLICABLE_FROM": "Dec-26-2006"
+  },
+  {
+    "SYMB_COMPANY_NAME": "NCC Limited",
+    " SM_KEY_SYMBOL": "NAGARCONST",
+    " SM_NEW_SYMBOL": "NCC",
+    " SM_APPLICABLE_FROM": "Mar-15-2011"
+  },
+  {
+    "SYMB_COMPANY_NAME": "NLC India Limited",
+    " SM_KEY_SYMBOL": "NEYVELILIG",
+    " SM_NEW_SYMBOL": "NLCINDIA",
+    " SM_APPLICABLE_FROM": "Aug-04-2016"
+  },
+  {
+    "SYMB_COMPANY_NAME": "Nagreeka Exports Limited",
+    " SM_KEY_SYMBOL": "NAGREKAEXP",
+    " SM_NEW_SYMBOL": "NAGREEKA",
+    " SM_APPLICABLE_FROM": "Dec-22-2005"
+  },
+  {
+    "SYMB_COMPANY_NAME": "Nahar Poly Films Limited",
+    " SM_KEY_SYMBOL": "NAHAREXPOT",
+    " SM_NEW_SYMBOL": "NAHARINVST",
+    " SM_APPLICABLE_FROM": "Nov-01-2007"
+  },
+  {
+    "SYMB_COMPANY_NAME": "Nahar Poly Films Limited",
+    " SM_KEY_SYMBOL": "NAHARINVST",
+    " SM_NEW_SYMBOL": "NAHARPOLY",
+    " SM_APPLICABLE_FROM": "Jun-15-2011"
+  },
+  {
+    "SYMB_COMPANY_NAME": "Nalwa Sons Investments Limited",
+    " SM_KEY_SYMBOL": "JSTRIPS",
+    " SM_NEW_SYMBOL": "NSIL",
+    " SM_APPLICABLE_FROM": "Jun-07-2005"
+  },
+  {
+    "SYMB_COMPANY_NAME": "Nandan Denim Limited",
+    " SM_KEY_SYMBOL": "NANDANEXIM",
+    " SM_NEW_SYMBOL": "NDL",
+    " SM_APPLICABLE_FROM": "Nov-21-2013"
+  },
+  {
+    "SYMB_COMPANY_NAME": "Nava Bharat Ventures Limited",
+    " SM_KEY_SYMBOL": "NAVBARFERO",
+    " SM_NEW_SYMBOL": "NBVENTURES",
+    " SM_APPLICABLE_FROM": "Jul-31-2006"
+  },
+  {
+    "SYMB_COMPANY_NAME": "Navneet Education Limited",
+    " SM_KEY_SYMBOL": "NAVNETPUBL",
+    " SM_NEW_SYMBOL": "NAVNETEDUL",
+    " SM_APPLICABLE_FROM": "Sep-19-2013"
+  },
+  {
+    "SYMB_COMPANY_NAME": "Net 4 India Limited",
+    " SM_KEY_SYMBOL": "NET4INDIA",
+    " SM_NEW_SYMBOL": "NET4",
+    " SM_APPLICABLE_FROM": "Feb-28-2011"
+  },
+  {
+    "SYMB_COMPANY_NAME": "Netvista Information Technology Limited",
+    " SM_KEY_SYMBOL": "KRAFTIND",
+    " SM_NEW_SYMBOL": "NETVISTAIT",
+    " SM_APPLICABLE_FROM": "Aug-09-2000"
+  },
+  {
+    "SYMB_COMPANY_NAME": "Next Mediaworks Limited",
+    " SM_KEY_SYMBOL": "MID-DAY",
+    " SM_NEW_SYMBOL": "NEXTMEDIA",
+    " SM_APPLICABLE_FROM": "Jun-15-2011"
+  },
+  {
+    "SYMB_COMPANY_NAME": "Nilkamal Limited",
+    " SM_KEY_SYMBOL": "NILKAMPLST",
+    " SM_NEW_SYMBOL": "NILKAMAL",
+    " SM_APPLICABLE_FROM": "Jan-05-2007"
+  },
+  {
+    "SYMB_COMPANY_NAME": "Noesis Industries Limited",
+    " SM_KEY_SYMBOL": "MEDIA",
+    " SM_NEW_SYMBOL": "MVLIND",
+    " SM_APPLICABLE_FROM": "Feb-20-2009"
+  },
+  {
+    "SYMB_COMPANY_NAME": "Noesis Industries Limited",
+    " SM_KEY_SYMBOL": "MVLIND",
+    " SM_NEW_SYMBOL": "NOESISIND",
+    " SM_APPLICABLE_FROM": "Jun-04-2014"
+  },
+  {
+    "SYMB_COMPANY_NAME": "NuCent Finance Limited",
+    " SM_KEY_SYMBOL": "PRESSMAN",
+    " SM_NEW_SYMBOL": "NUCENTFIN",
+    " SM_APPLICABLE_FROM": "Aug-20-2001"
+  },
+  {
+    "SYMB_COMPANY_NAME": "OCL India Limited",
+    " SM_KEY_SYMBOL": "ORISSACEM",
+    " SM_NEW_SYMBOL": "OCL",
+    " SM_APPLICABLE_FROM": "Sep-15-2004"
+  },
+  {
+    "SYMB_COMPANY_NAME": "Oberoi Realty Limited",
+    " SM_KEY_SYMBOL": "OBEROIREAL",
+    " SM_NEW_SYMBOL": "OBEROIRLTY",
+    " SM_APPLICABLE_FROM": "Dec-10-2010"
+  },
+  {
+    "SYMB_COMPANY_NAME": "Oracle Financial Services Software Limited",
+    " SM_KEY_SYMBOL": "I-FLEX",
+    " SM_NEW_SYMBOL": "OFSS",
+    " SM_APPLICABLE_FROM": "Sep-18-2008"
+  },
+  {
+    "SYMB_COMPANY_NAME": "Orchid Pharma Limited",
+    " SM_KEY_SYMBOL": "ORCHIDCHEM",
+    " SM_NEW_SYMBOL": "ORCHIDPHAR",
+    " SM_APPLICABLE_FROM": "Dec-21-2015"
+  },
+  {
+    "SYMB_COMPANY_NAME": "Orient Bell Limited",
+    " SM_KEY_SYMBOL": "ORIENTCERA",
+    " SM_NEW_SYMBOL": "ORIENTBELL",
+    " SM_APPLICABLE_FROM": "Apr-17-2012"
+  },
+  {
+    "SYMB_COMPANY_NAME": "Oriental Trimex Limited",
+    " SM_KEY_SYMBOL": "OTL",
+    " SM_NEW_SYMBOL": "ORIENTALTL",
+    " SM_APPLICABLE_FROM": "Dec-17-2009"
+  },
+  {
+    "SYMB_COMPANY_NAME": "PAE Limited",
+    " SM_KEY_SYMBOL": "PREMAUTOEL",
+    " SM_NEW_SYMBOL": "PAEL",
+    " SM_APPLICABLE_FROM": "Nov-23-2005"
+  },
+  {
+    "SYMB_COMPANY_NAME": "PIL ITALICA LIFESTYLE LIMITED",
+    " SM_KEY_SYMBOL": "PILIND",
+    " SM_NEW_SYMBOL": "PILITA",
+    " SM_APPLICABLE_FROM": "Sep-03-2015"
+  },
+  {
+    "SYMB_COMPANY_NAME": "PSL Limited",
+    " SM_KEY_SYMBOL": "PSLHOLD",
+    " SM_NEW_SYMBOL": "PSL",
+    " SM_APPLICABLE_FROM": "May-19-2003"
+  },
+  {
+    "SYMB_COMPANY_NAME": "PVP Ventures Limited",
+    " SM_KEY_SYMBOL": "SOFTSOLINT",
+    " SM_NEW_SYMBOL": "PVP",
+    " SM_APPLICABLE_FROM": "Jun-23-2008"
+  },
+  {
+    "SYMB_COMPANY_NAME": "Palred Technologies Limited",
+    " SM_KEY_SYMBOL": "FOURSOFT",
+    " SM_NEW_SYMBOL": "PALRED",
+    " SM_APPLICABLE_FROM": "Jan-16-2014"
+  },
+  {
+    "SYMB_COMPANY_NAME": "Panasonic AVC Networks India Company Limited.",
+    " SM_KEY_SYMBOL": "MTAL",
+    " SM_NEW_SYMBOL": "PAVCI",
+    " SM_APPLICABLE_FROM": "Mar-12-2004"
+  },
+  {
+    "SYMB_COMPANY_NAME": "Parrys Sugar Industries Limited",
+    " SM_KEY_SYMBOL": "GMRINDS",
+    " SM_NEW_SYMBOL": "PARRYSUGAR",
+    " SM_APPLICABLE_FROM": "Dec-02-2010"
+  },
+  {
+    "SYMB_COMPANY_NAME": "Pearl Global Industries Limited",
+    " SM_KEY_SYMBOL": "HOPFL",
+    " SM_NEW_SYMBOL": "PGIL",
+    " SM_APPLICABLE_FROM": "Jul-02-2012"
+  },
+  {
+    "SYMB_COMPANY_NAME": "Peninsula Land Limited",
+    " SM_KEY_SYMBOL": "MORARJESPG",
+    " SM_NEW_SYMBOL": "MORAREALTY",
+    " SM_APPLICABLE_FROM": "Oct-15-2004"
+  },
+  {
+    "SYMB_COMPANY_NAME": "Peninsula Land Limited",
+    " SM_KEY_SYMBOL": "MORAREALTY",
+    " SM_NEW_SYMBOL": "PENINLAND",
+    " SM_APPLICABLE_FROM": "Jun-09-2006"
+  },
+  {
+    "SYMB_COMPANY_NAME": "Pharmacia Healthcare Limited",
+    " SM_KEY_SYMBOL": "ABBOTTLAB",
+    " SM_NEW_SYMBOL": "PHARMACIA",
+    " SM_APPLICABLE_FROM": "Mar-24-2003"
+  },
+  {
+    "SYMB_COMPANY_NAME": "Phoenix Lamps Limited",
+    " SM_KEY_SYMBOL": "PHOENIXLMP",
+    " SM_NEW_SYMBOL": "HALONIX",
+    " SM_APPLICABLE_FROM": "Mar-09-2009"
+  },
+  {
+    "SYMB_COMPANY_NAME": "Phoenix Lamps Limited",
+    " SM_KEY_SYMBOL": "HALONIX",
+    " SM_NEW_SYMBOL": "PHOENIXLL",
+    " SM_APPLICABLE_FROM": "Oct-30-2013"
+  },
+  {
+    "SYMB_COMPANY_NAME": "Piramal Enterprises Limited",
+    " SM_KEY_SYMBOL": "NICOLASPIR",
+    " SM_NEW_SYMBOL": "PIRHEALTH",
+    " SM_APPLICABLE_FROM": "Jun-19-2008"
+  },
+  {
+    "SYMB_COMPANY_NAME": "Piramal Enterprises Limited",
+    " SM_KEY_SYMBOL": "PIRHEALTH",
+    " SM_NEW_SYMBOL": "PEL",
+    " SM_APPLICABLE_FROM": "Sep-21-2012"
+  },
+  {
+    "SYMB_COMPANY_NAME": "Piramal Glass Limited",
+    " SM_KEY_SYMBOL": "GUJGLASS",
+    " SM_NEW_SYMBOL": "PIRGLASS",
+    " SM_APPLICABLE_FROM": "May-12-2008"
+  },
+  {
+    "SYMB_COMPANY_NAME": "Piramal Phytocare Limited",
+    " SM_KEY_SYMBOL": "PIRLIFE",
+    " SM_NEW_SYMBOL": "PIRPHYTO",
+    " SM_APPLICABLE_FROM": "Oct-23-2013"
+  },
+  {
+    "SYMB_COMPANY_NAME": "Precot Meridian Limited",
+    " SM_KEY_SYMBOL": "PRECOTMILL",
+    " SM_NEW_SYMBOL": "PRECOT",
+    " SM_APPLICABLE_FROM": "Nov-01-2006"
+  },
+  {
+    "SYMB_COMPANY_NAME": "Premier Limited",
+    " SM_KEY_SYMBOL": "PREMAUTO",
+    " SM_NEW_SYMBOL": "PREMIER",
+    " SM_APPLICABLE_FROM": "Jun-14-2005"
+  },
+  {
+    "SYMB_COMPANY_NAME": "Pressman Advertising Limited",
+    " SM_KEY_SYMBOL": "NUCENT",
+    " SM_NEW_SYMBOL": "PRESSMN",
+    " SM_APPLICABLE_FROM": "Sep-11-2013"
+  },
+  {
+    "SYMB_COMPANY_NAME": "Pricol Limited",
+    " SM_KEY_SYMBOL": "PREMINSTR",
+    " SM_NEW_SYMBOL": "PRICOL",
+    " SM_APPLICABLE_FROM": "Aug-16-2005"
+  },
+  {
+    "SYMB_COMPANY_NAME": "Procter & Gamble Hygiene and Health Care Limited",
+    " SM_KEY_SYMBOL": "P&G",
+    " SM_NEW_SYMBOL": "PGHH",
+    " SM_APPLICABLE_FROM": "Jul-07-2004"
+  },
+  {
+    "SYMB_COMPANY_NAME": "Prozone Intu Properties Limited",
+    " SM_KEY_SYMBOL": "PROZONE",
+    " SM_NEW_SYMBOL": "PROZONECSC",
+    " SM_APPLICABLE_FROM": "Sep-24-2012"
+  },
+  {
+    "SYMB_COMPANY_NAME": "Prozone Intu Properties Limited",
+    " SM_KEY_SYMBOL": "PROZONECSC",
+    " SM_NEW_SYMBOL": "PROZONINTU",
+    " SM_APPLICABLE_FROM": "Oct-07-2014"
+  },
+  {
+    "SYMB_COMPANY_NAME": "Pudumjee Industries Limited",
+    " SM_KEY_SYMBOL": "PDUMJEAGRO",
+    " SM_NEW_SYMBOL": "PDUMJEIND",
+    " SM_APPLICABLE_FROM": "Mar-28-2008"
+  },
+  {
+    "SYMB_COMPANY_NAME": "Quintegra Solutions Limited",
+    " SM_KEY_SYMBOL": "SOFFIASOFT",
+    " SM_NEW_SYMBOL": "QUINTEGRA",
+    " SM_APPLICABLE_FROM": "Aug-22-2005"
+  },
+  {
+    "SYMB_COMPANY_NAME": "RPG Cables Limited",
+    " SM_KEY_SYMBOL": "RPGTELECOM",
+    " SM_NEW_SYMBOL": "RPGCABLES",
+    " SM_APPLICABLE_FROM": "Apr-04-2006"
+  },
+  {
+    "SYMB_COMPANY_NAME": "RPG Transmission Limited",
+    " SM_KEY_SYMBOL": "SAELTD",
+    " SM_NEW_SYMBOL": "RPGTLTD",
+    " SM_APPLICABLE_FROM": "Dec-05-2006"
+  },
+  {
+    "SYMB_COMPANY_NAME": "RSWM Limited",
+    " SM_KEY_SYMBOL": "RAJASSPG",
+    " SM_NEW_SYMBOL": "RSWM",
+    " SM_APPLICABLE_FROM": "Sep-01-2006"
+  },
+  {
+    "SYMB_COMPANY_NAME": "Rain Industries Limited",
+    " SM_KEY_SYMBOL": "PRIYADCEM",
+    " SM_NEW_SYMBOL": "RAINCOM",
+    " SM_APPLICABLE_FROM": "Mar-03-2008"
+  },
+  {
+    "SYMB_COMPANY_NAME": "Rain Industries Limited",
+    " SM_KEY_SYMBOL": "RAINCOM",
+    " SM_NEW_SYMBOL": "RAIN",
+    " SM_APPLICABLE_FROM": "Aug-23-2013"
+  },
+  {
+    "SYMB_COMPANY_NAME": "Rane Holdings Limited",
+    " SM_KEY_SYMBOL": "RANEMADRAS",
+    " SM_NEW_SYMBOL": "RANEHOLDIN",
+    " SM_APPLICABLE_FROM": "Aug-22-2005"
+  },
+  {
+    "SYMB_COMPANY_NAME": "RattanIndia Infrastructure Limited",
+    " SM_KEY_SYMBOL": "IBIPL",
+    " SM_NEW_SYMBOL": "RTNINFRA",
+    " SM_APPLICABLE_FROM": "Nov-20-2014"
+  },
+  {
+    "SYMB_COMPANY_NAME": "RattanIndia Power Limited",
+    " SM_KEY_SYMBOL": "IBPOW",
+    " SM_NEW_SYMBOL": "RTNPOWER",
+    " SM_APPLICABLE_FROM": "Nov-20-2014"
+  },
+  {
+    "SYMB_COMPANY_NAME": "Reliance Broadcast Network Limited",
+    " SM_KEY_SYMBOL": "RMEDIA",
+    " SM_NEW_SYMBOL": "RBN",
+    " SM_APPLICABLE_FROM": "Aug-20-2010"
+  },
+  {
+    "SYMB_COMPANY_NAME": "Reliance Communications Limited",
+    " SM_KEY_SYMBOL": "RCVL",
+    " SM_NEW_SYMBOL": "RCOM",
+    " SM_APPLICABLE_FROM": "Jun-30-2006"
+  },
+  {
+    "SYMB_COMPANY_NAME": "Reliance Defence and Engineering Limited",
+    " SM_KEY_SYMBOL": "PIPAVAVYD",
+    " SM_NEW_SYMBOL": "PIPAVAVDOC",
+    " SM_APPLICABLE_FROM": "Sep-29-2011"
+  },
+  {
+    "SYMB_COMPANY_NAME": "Reliance Defence and Engineering Limited",
+    " SM_KEY_SYMBOL": "PIPAVAVDOC",
+    " SM_NEW_SYMBOL": "RDEL",
+    " SM_APPLICABLE_FROM": "Mar-18-2016"
+  },
+  {
+    "SYMB_COMPANY_NAME": "Reliance Infrastructure Limited",
+    " SM_KEY_SYMBOL": "BSES",
+    " SM_NEW_SYMBOL": "REL",
+    " SM_APPLICABLE_FROM": "Mar-12-2004"
+  },
+  {
+    "SYMB_COMPANY_NAME": "Reliance Infrastructure Limited",
+    " SM_KEY_SYMBOL": "REL",
+    " SM_NEW_SYMBOL": "RELINFRA",
+    " SM_APPLICABLE_FROM": "May-16-2008"
+  },
+  {
+    "SYMB_COMPANY_NAME": "Reliance MediaWorks Limited",
+    " SM_KEY_SYMBOL": "ADLABSFILM",
+    " SM_NEW_SYMBOL": "RELMEDIA",
+    " SM_APPLICABLE_FROM": "Oct-20-2009"
+  },
+  {
+    "SYMB_COMPANY_NAME": "Roofit Industries Limited",
+    " SM_KEY_SYMBOL": "RATNABLDG",
+    " SM_NEW_SYMBOL": "ROOFITIND",
+    " SM_APPLICABLE_FROM": "Sep-15-1999"
+  },
+  {
+    "SYMB_COMPANY_NAME": "SBI-ETF Gold",
+    " SM_KEY_SYMBOL": "SBIGETS",
+    " SM_NEW_SYMBOL": "SETFGOLD",
+    " SM_APPLICABLE_FROM": "Nov-24-2015"
+  },
+  {
+    "SYMB_COMPANY_NAME": "SBI-ETF Nifty 50",
+    " SM_KEY_SYMBOL": "SETFNIFTY",
+    " SM_NEW_SYMBOL": "SETFNIF50",
+    " SM_APPLICABLE_FROM": "Nov-24-2015"
+  },
+  {
+    "SYMB_COMPANY_NAME": "SBI-ETF Nifty Bank",
+    " SM_KEY_SYMBOL": "SETFBANK",
+    " SM_NEW_SYMBOL": "SETFNIFBK",
+    " SM_APPLICABLE_FROM": "Nov-24-2015"
+  },
+  {
+    "SYMB_COMPANY_NAME": "SBI-ETF Nifty Next 50",
+    " SM_KEY_SYMBOL": "SETFNIFJR",
+    " SM_NEW_SYMBOL": "SETFNN50",
+    " SM_APPLICABLE_FROM": "Nov-24-2015"
+  },
+  {
+    "SYMB_COMPANY_NAME": "SHRI ASTER SILICATES LIMITED",
+    " SM_KEY_SYMBOL": "ASTERSILI",
+    " SM_NEW_SYMBOL": "SHRIASTER",
+    " SM_APPLICABLE_FROM": "Feb-03-2014"
+  },
+  {
+    "SYMB_COMPANY_NAME": "SI Group - India Limited",
+    " SM_KEY_SYMBOL": "HERDILCHEM",
+    " SM_NEW_SYMBOL": "SCHENHERD",
+    " SM_APPLICABLE_FROM": "Apr-04-2006"
+  },
+  {
+    "SYMB_COMPANY_NAME": "SI Group - India Limited",
+    " SM_KEY_SYMBOL": "SCHENHERD",
+    " SM_NEW_SYMBOL": "SIGROUPIND",
+    " SM_APPLICABLE_FROM": "Nov-28-2006"
+  },
+  {
+    "SYMB_COMPANY_NAME": "SIL Investments Limited",
+    " SM_KEY_SYMBOL": "SUTLEJINDS",
+    " SM_NEW_SYMBOL": "SILINV",
+    " SM_APPLICABLE_FROM": "Jun-21-2007"
+  },
+  {
+    "SYMB_COMPANY_NAME": "SKF India Limited",
+    " SM_KEY_SYMBOL": "SKFBEARING",
+    " SM_NEW_SYMBOL": "SKFINDIA",
+    " SM_APPLICABLE_FROM": "Oct-20-2004"
+  },
+  {
+    "SYMB_COMPANY_NAME": "SKIL Infrastructure Limited",
+    " SM_KEY_SYMBOL": "HORIZONBAT",
+    " SM_NEW_SYMBOL": "HORIZONINF",
+    " SM_APPLICABLE_FROM": "Feb-22-2008"
+  },
+  {
+    "SYMB_COMPANY_NAME": "SKIL Infrastructure Limited",
+    " SM_KEY_SYMBOL": "HORIZONINF",
+    " SM_NEW_SYMBOL": "SKIL",
+    " SM_APPLICABLE_FROM": "Mar-24-2014"
+  },
+  {
+    "SYMB_COMPANY_NAME": "SML Isuzu Limited",
+    " SM_KEY_SYMBOL": "SWARAJMAZD",
+    " SM_NEW_SYMBOL": "SMLISUZU",
+    " SM_APPLICABLE_FROM": "Jan-17-2011"
+  },
+  {
+    "SYMB_COMPANY_NAME": "SPML Infra Limited",
+    " SM_KEY_SYMBOL": "SUBHASPROJ",
+    " SM_NEW_SYMBOL": "SPMLINFRA",
+    " SM_APPLICABLE_FROM": "May-14-2010"
+  },
+  {
+    "SYMB_COMPANY_NAME": "SQS India BFSI Limited",
+    " SM_KEY_SYMBOL": "THINKSOFT",
+    " SM_NEW_SYMBOL": "SQSBFSI",
+    " SM_APPLICABLE_FROM": "Sep-30-2014"
+  },
+  {
+    "SYMB_COMPANY_NAME": "SREI Infrastructure Finance Limited",
+    " SM_KEY_SYMBOL": "SREINTFIN",
+    " SM_NEW_SYMBOL": "SREINFRA",
+    " SM_APPLICABLE_FROM": "Jul-21-2010"
+  },
+  {
+    "SYMB_COMPANY_NAME": "SURANA SOLAR LIMITED",
+    " SM_KEY_SYMBOL": "SURANAVEL",
+    " SM_NEW_SYMBOL": "SURANASOL",
+    " SM_APPLICABLE_FROM": "Nov-19-2014"
+  },
+  {
+    "SYMB_COMPANY_NAME": "SVOGL OIL GAS AND ENERGY LIMITED",
+    " SM_KEY_SYMBOL": "SHIV-VANI",
+    " SM_NEW_SYMBOL": "SVOGL",
+    " SM_APPLICABLE_FROM": "Oct-23-2015"
+  },
+  {
+    "SYMB_COMPANY_NAME": "Sagar Cements Limited",
+    " SM_KEY_SYMBOL": "SAGARCEM",
+    " SM_NEW_SYMBOL": "SAGCEM",
+    " SM_APPLICABLE_FROM": "Jan-29-2007"
+  },
+  {
+    "SYMB_COMPANY_NAME": "Sambhaav Media Limited",
+    " SM_KEY_SYMBOL": "PERLENGINF",
+    " SM_NEW_SYMBOL": "SAMBHAAV",
+    " SM_APPLICABLE_FROM": "Oct-18-2005"
+  },
+  {
+    "SYMB_COMPANY_NAME": "Sanofi India Limited",
+    " SM_KEY_SYMBOL": "HOECHST",
+    " SM_NEW_SYMBOL": "AVENTIS",
+    " SM_APPLICABLE_FROM": "May-19-2003"
+  },
+  {
+    "SYMB_COMPANY_NAME": "Sanofi India Limited",
+    " SM_KEY_SYMBOL": "AVENTIS",
+    " SM_NEW_SYMBOL": "SANOFI",
+    " SM_APPLICABLE_FROM": "Jul-11-2012"
+  },
+  {
+    "SYMB_COMPANY_NAME": "Saregama India Limited",
+    " SM_KEY_SYMBOL": "GRAMOPHONE",
+    " SM_NEW_SYMBOL": "SAREGAMA",
+    " SM_APPLICABLE_FROM": "Aug-20-2001"
+  },
+  {
+    "SYMB_COMPANY_NAME": "Sathavahana Ispat Limited",
+    " SM_KEY_SYMBOL": "SATHVANISP",
+    " SM_NEW_SYMBOL": "SATHAISPAT",
+    " SM_APPLICABLE_FROM": "Dec-27-2006"
+  },
+  {
+    "SYMB_COMPANY_NAME": "Savita Oil Technologies Limited",
+    " SM_KEY_SYMBOL": "SAVITACHEM",
+    " SM_NEW_SYMBOL": "SOTL",
+    " SM_APPLICABLE_FROM": "Aug-24-2009"
+  },
+  {
+    "SYMB_COMPANY_NAME": "Seamec Limited",
+    " SM_KEY_SYMBOL": "PEERLESHIP",
+    " SM_NEW_SYMBOL": "SEAMECLTD",
+    " SM_APPLICABLE_FROM": "Aug-20-2001"
+  },
+  {
+    "SYMB_COMPANY_NAME": "Sezal Glass Limited",
+    " SM_KEY_SYMBOL": "SEJALGLASS",
+    " SM_NEW_SYMBOL": "SEZALGLASS",
+    " SM_APPLICABLE_FROM": "Jul-14-2010"
+  },
+  {
+    "SYMB_COMPANY_NAME": "Shalimar Paints Limited",
+    " SM_KEY_SYMBOL": "SHALMPAINT",
+    " SM_NEW_SYMBOL": "SHALPAINTS",
+    " SM_APPLICABLE_FROM": "Mar-03-2008"
+  },
+  {
+    "SYMB_COMPANY_NAME": "Shasun Pharmaceuticals Limited",
+    " SM_KEY_SYMBOL": "SHASUNCHEM",
+    " SM_NEW_SYMBOL": "SHASUNPHAR",
+    " SM_APPLICABLE_FROM": "Jan-28-2011"
+  },
+  {
+    "SYMB_COMPANY_NAME": "Shirpur Gold Refinery Limited",
+    " SM_KEY_SYMBOL": "AGEEGOLD",
+    " SM_NEW_SYMBOL": "SHIRPUR-G",
+    " SM_APPLICABLE_FROM": "Jan-17-2013"
+  },
+  {
+    "SYMB_COMPANY_NAME": "Shiva Texyarn Limited",
+    " SM_KEY_SYMBOL": "ANAMALFIN",
+    " SM_NEW_SYMBOL": "SHIVTEX",
+    " SM_APPLICABLE_FROM": "Jan-22-2004"
+  },
+  {
+    "SYMB_COMPANY_NAME": "Shreyas Shipping & Logistics Limited",
+    " SM_KEY_SYMBOL": "SHREYASHIP",
+    " SM_NEW_SYMBOL": "SHREYAS",
+    " SM_APPLICABLE_FROM": "Apr-03-2006"
+  },
+  {
+    "SYMB_COMPANY_NAME": "Simplex Infrastructures Limited",
+    " SM_KEY_SYMBOL": "SIMPLEXCON",
+    " SM_NEW_SYMBOL": "SIMPLEXINF",
+    " SM_APPLICABLE_FROM": "Dec-21-2005"
+  },
+  {
+    "SYMB_COMPANY_NAME": "Siti Networks Limited",
+    " SM_KEY_SYMBOL": "WWIL",
+    " SM_NEW_SYMBOL": "SITICABLE",
+    " SM_APPLICABLE_FROM": "Oct-03-2012"
+  },
+  {
+    "SYMB_COMPANY_NAME": "Siti Networks Limited",
+    " SM_KEY_SYMBOL": "SITICABLE",
+    " SM_NEW_SYMBOL": "SITINET",
+    " SM_APPLICABLE_FROM": "Aug-17-2016"
+  },
+  {
+    "SYMB_COMPANY_NAME": "Siyaram Silk Mills Limited",
+    " SM_KEY_SYMBOL": "SIYARSILK",
+    " SM_NEW_SYMBOL": "SIYSIL",
+    " SM_APPLICABLE_FROM": "Jan-29-2007"
+  },
+  {
+    "SYMB_COMPANY_NAME": "Smartlink Network Systems Limited",
+    " SM_KEY_SYMBOL": "D-LINK",
+    " SM_NEW_SYMBOL": "SMARTLINK",
+    " SM_APPLICABLE_FROM": "Jul-29-2009"
+  },
+  {
+    "SYMB_COMPANY_NAME": "Solar Industries India Limited",
+    " SM_KEY_SYMBOL": "SOLAREX",
+    " SM_NEW_SYMBOL": "SOLARINDS",
+    " SM_APPLICABLE_FROM": "Apr-13-2009"
+  },
+  {
+    "SYMB_COMPANY_NAME": "Somany Ceramics Limited",
+    " SM_KEY_SYMBOL": "SPLLTD",
+    " SM_NEW_SYMBOL": "SOMANYCERA",
+    " SM_APPLICABLE_FROM": "Mar-21-2007"
+  },
+  {
+    "SYMB_COMPANY_NAME": "Sovereign Gold Bonds 2.75% NOV 2023 Tr-I",
+    " SM_KEY_SYMBOL": "SBNOV23",
+    " SM_NEW_SYMBOL": "SGBNOV23",
+    " SM_APPLICABLE_FROM": "Sep-15-2016"
+  },
+  {
+    "SYMB_COMPANY_NAME": "Sovereign Gold Bonds 2.75% NOV 2023 Tr-I",
+    " SM_KEY_SYMBOL": "GBNOV23",
+    " SM_NEW_SYMBOL": "SBNOV23",
+    " SM_APPLICABLE_FROM": "Sep-15-2016"
+  },
+  {
+    "SYMB_COMPANY_NAME": "Spentex Industries Limited",
+    " SM_KEY_SYMBOL": "SPENTXIND",
+    " SM_NEW_SYMBOL": "SPENTEX",
+    " SM_APPLICABLE_FROM": "Dec-20-2006"
+  },
+  {
+    "SYMB_COMPANY_NAME": "Sphere Global Services Limited",
+    " SM_KEY_SYMBOL": "ARHAMFISCL",
+    " SM_NEW_SYMBOL": "COLORCHIPS",
+    " SM_APPLICABLE_FROM": "Apr-04-2006"
+  },
+  {
+    "SYMB_COMPANY_NAME": "Sphere Global Services Limited",
+    " SM_KEY_SYMBOL": "COLORCHIPS",
+    " SM_NEW_SYMBOL": "SPHEREGSL",
+    " SM_APPLICABLE_FROM": "Oct-13-2015"
+  },
+  {
+    "SYMB_COMPANY_NAME": "Spice Mobility Limited",
+    " SM_KEY_SYMBOL": "SPICEMOBIL",
+    " SM_NEW_SYMBOL": "SMOBILITY",
+    " SM_APPLICABLE_FROM": "Jul-26-2011"
+  },
+  {
+    "SYMB_COMPANY_NAME": "Spice Mobility Limited",
+    " SM_KEY_SYMBOL": "SMOBILITY",
+    " SM_NEW_SYMBOL": "SPICEMOBI",
+    " SM_APPLICABLE_FROM": "Aug-19-2014"
+  },
+  {
+    "SYMB_COMPANY_NAME": "Srikalahasthi Pipes Limited",
+    " SM_KEY_SYMBOL": "LANCOIND",
+    " SM_NEW_SYMBOL": "LANCOIN",
+    " SM_APPLICABLE_FROM": "Aug-28-2007"
+  },
+  {
+    "SYMB_COMPANY_NAME": "Srikalahasthi Pipes Limited",
+    " SM_KEY_SYMBOL": "LANCOIN",
+    " SM_NEW_SYMBOL": "SRIPIPES",
+    " SM_APPLICABLE_FROM": "Dec-17-2014"
+  },
+  {
+    "SYMB_COMPANY_NAME": "Stel Holdings Limited",
+    " SM_KEY_SYMBOL": "SENTINEL",
+    " SM_NEW_SYMBOL": "STEL",
+    " SM_APPLICABLE_FROM": "Nov-08-2011"
+  },
+  {
+    "SYMB_COMPANY_NAME": "Sterling Biotech Limited",
+    " SM_KEY_SYMBOL": "STERLINTEA",
+    " SM_NEW_SYMBOL": "STERLINBIO",
+    " SM_APPLICABLE_FROM": "Jul-09-2003"
+  },
+  {
+    "SYMB_COMPANY_NAME": "Sterlite Technologies Limited",
+    " SM_KEY_SYMBOL": "STROPTICAL",
+    " SM_NEW_SYMBOL": "STRTECH",
+    " SM_APPLICABLE_FROM": "Dec-17-2007"
+  },
+  {
+    "SYMB_COMPANY_NAME": "Store One Retail India Limited",
+    " SM_KEY_SYMBOL": "PIRAMYDRET",
+    " SM_NEW_SYMBOL": "IBRETAILS",
+    " SM_APPLICABLE_FROM": "Jun-09-2008"
+  },
+  {
+    "SYMB_COMPANY_NAME": "Store One Retail India Limited",
+    " SM_KEY_SYMBOL": "IBRETAILS",
+    " SM_NEW_SYMBOL": "STOREONE",
+    " SM_APPLICABLE_FROM": "Oct-26-2009"
+  },
+  {
+    "SYMB_COMPANY_NAME": "Summit Securities Limited",
+    " SM_KEY_SYMBOL": "KECINTL",
+    " SM_NEW_SYMBOL": "KECINFRA",
+    " SM_APPLICABLE_FROM": "Feb-21-2006"
+  },
+  {
+    "SYMB_COMPANY_NAME": "Summit Securities Limited",
+    " SM_KEY_SYMBOL": "KECINFRA",
+    " SM_NEW_SYMBOL": "SUMMIT",
+    " SM_APPLICABLE_FROM": "Apr-21-2008"
+  },
+  {
+    "SYMB_COMPANY_NAME": "Sunflag Iron And Steel Company Limited",
+    " SM_KEY_SYMBOL": "SUNFLAGIRN",
+    " SM_NEW_SYMBOL": "SUNFLAG",
+    " SM_APPLICABLE_FROM": "Sep-29-2005"
+  },
+  {
+    "SYMB_COMPANY_NAME": "Supreme Tex Mart Limited",
+    " SM_KEY_SYMBOL": "SUPREMYARN",
+    " SM_NEW_SYMBOL": "SUPREMETEX",
+    " SM_APPLICABLE_FROM": "Feb-15-2008"
+  },
+  {
+    "SYMB_COMPANY_NAME": "Surana Telecom and Power Limited",
+    " SM_KEY_SYMBOL": "SURANATELE",
+    " SM_NEW_SYMBOL": "SURANAT&P",
+    " SM_APPLICABLE_FROM": "Feb-08-2010"
+  },
+  {
+    "SYMB_COMPANY_NAME": "Swelect Energy Systems Limited",
+    " SM_KEY_SYMBOL": "NUMERICPW",
+    " SM_NEW_SYMBOL": "SWELECTES",
+    " SM_APPLICABLE_FROM": "Jul-09-2012"
+  },
+  {
+    "SYMB_COMPANY_NAME": "TECHINDIA NIRMAN LIMITED",
+    " SM_KEY_SYMBOL": "NATHSEED",
+    " SM_NEW_SYMBOL": "TECHIN",
+    " SM_APPLICABLE_FROM": "Oct-31-2014"
+  },
+  {
+    "SYMB_COMPANY_NAME": "TGB BANQUETS AND HOTELS LIMITED",
+    " SM_KEY_SYMBOL": "BHAGWATIHO",
+    " SM_NEW_SYMBOL": "TGBHOTELS",
+    " SM_APPLICABLE_FROM": "May-31-2013"
+  },
+  {
+    "SYMB_COMPANY_NAME": "TV18 Broadcast Limited",
+    " SM_KEY_SYMBOL": "GBN",
+    " SM_NEW_SYMBOL": "IBN18",
+    " SM_APPLICABLE_FROM": "May-15-2008"
+  },
+  {
+    "SYMB_COMPANY_NAME": "TV18 Broadcast Limited",
+    " SM_KEY_SYMBOL": "IBN18",
+    " SM_NEW_SYMBOL": "TV18BRDCST",
+    " SM_APPLICABLE_FROM": "Jul-19-2011"
+  },
+  {
+    "SYMB_COMPANY_NAME": "TVS Motor Company Limited",
+    " SM_KEY_SYMBOL": "TVS-SUZUKI",
+    " SM_NEW_SYMBOL": "TVSMOTOR",
+    " SM_APPLICABLE_FROM": "Dec-03-2001"
+  },
+  {
+    "SYMB_COMPANY_NAME": "TVS Srichakra Limited",
+    " SM_KEY_SYMBOL": "SRICHAKTYR",
+    " SM_NEW_SYMBOL": "TVSSRICHAK",
+    " SM_APPLICABLE_FROM": "Feb-13-2007"
+  },
+  {
+    "SYMB_COMPANY_NAME": "Tarmat Limited",
+    " SM_KEY_SYMBOL": "ROMAN",
+    " SM_NEW_SYMBOL": "TARMAT",
+    " SM_APPLICABLE_FROM": "Sep-12-2012"
+  },
+  {
+    "SYMB_COMPANY_NAME": "Tata Coffee Limited",
+    " SM_KEY_SYMBOL": "CONSCOFFEE",
+    " SM_NEW_SYMBOL": "TATACOFFEE",
+    " SM_APPLICABLE_FROM": "Apr-04-2006"
+  },
+  {
+    "SYMB_COMPANY_NAME": "Tata Communications Limited",
+    " SM_KEY_SYMBOL": "VSNL",
+    " SM_NEW_SYMBOL": "TATACOMM",
+    " SM_APPLICABLE_FROM": "Feb-25-2008"
+  },
+  {
+    "SYMB_COMPANY_NAME": "Tata Global Beverages Limited",
+    " SM_KEY_SYMBOL": "TATATEA",
+    " SM_NEW_SYMBOL": "TATAGLOBAL",
+    " SM_APPLICABLE_FROM": "Jul-21-2010"
+  },
+  {
+    "SYMB_COMPANY_NAME": "Tata Investment Corporation Limited",
+    " SM_KEY_SYMBOL": "INVESTCORP",
+    " SM_NEW_SYMBOL": "TATAINVEST",
+    " SM_APPLICABLE_FROM": "Jul-07-2005"
+  },
+  {
+    "SYMB_COMPANY_NAME": "Tata Motors Limited",
+    " SM_KEY_SYMBOL": "TELCO",
+    " SM_NEW_SYMBOL": "TATAMOTORS",
+    " SM_APPLICABLE_FROM": "Dec-26-2003"
+  },
+  {
+    "SYMB_COMPANY_NAME": "Tata Sponge Iron Limited",
+    " SM_KEY_SYMBOL": "IPITATASPO",
+    " SM_NEW_SYMBOL": "TATASPONGE",
+    " SM_APPLICABLE_FROM": "Feb-11-2004"
+  },
+  {
+    "SYMB_COMPANY_NAME": "Tata Steel Limited",
+    " SM_KEY_SYMBOL": "TISCO",
+    " SM_NEW_SYMBOL": "TATASTEEL",
+    " SM_APPLICABLE_FROM": "Oct-17-2005"
+  },
+  {
+    "SYMB_COMPANY_NAME": "Tata Teleservices (Maharashtra) Limited",
+    " SM_KEY_SYMBOL": "HUGHESTELE",
+    " SM_NEW_SYMBOL": "TATATELSER",
+    " SM_APPLICABLE_FROM": "Jun-25-2003"
+  },
+  {
+    "SYMB_COMPANY_NAME": "Tata Teleservices (Maharashtra) Limited",
+    " SM_KEY_SYMBOL": "TATATELSER",
+    " SM_NEW_SYMBOL": "TTML",
+    " SM_APPLICABLE_FROM": "Jan-14-2005"
+  },
+  {
+    "SYMB_COMPANY_NAME": "Texmaco Infrastructure & Holdings Limited",
+    " SM_KEY_SYMBOL": "TEXMACOLTD",
+    " SM_NEW_SYMBOL": "TEXINFRA",
+    " SM_APPLICABLE_FROM": "Mar-20-2012"
+  },
+  {
+    "SYMB_COMPANY_NAME": "The Madras Aluminium Company Limited",
+    " SM_KEY_SYMBOL": "MADRASALMN",
+    " SM_NEW_SYMBOL": "MALCO",
+    " SM_APPLICABLE_FROM": "Apr-12-2007"
+  },
+  {
+    "SYMB_COMPANY_NAME": "The Ramco Cements Limited",
+    " SM_KEY_SYMBOL": "MADRASCEM",
+    " SM_NEW_SYMBOL": "RAMCOCEM",
+    " SM_APPLICABLE_FROM": "Sep-30-2013"
+  },
+  {
+    "SYMB_COMPANY_NAME": "Timken India Limited",
+    " SM_KEY_SYMBOL": "TATATIMKEN",
+    " SM_NEW_SYMBOL": "TIMKEN",
+    " SM_APPLICABLE_FROM": "Feb-06-2007"
+  },
+  {
+    "SYMB_COMPANY_NAME": "Torrent Power AEC Limited",
+    " SM_KEY_SYMBOL": "AHMEDELEC",
+    " SM_NEW_SYMBOL": "TORRENTAEC",
+    " SM_APPLICABLE_FROM": "Jun-17-2005"
+  },
+  {
+    "SYMB_COMPANY_NAME": "Torrent Power SEC Limited",
+    " SM_KEY_SYMBOL": "SURATELEC",
+    " SM_NEW_SYMBOL": "TORRENTSEC",
+    " SM_APPLICABLE_FROM": "Jun-07-2005"
+  },
+  {
+    "SYMB_COMPANY_NAME": "Trent Limited",
+    " SM_KEY_SYMBOL": "LAKME",
+    " SM_NEW_SYMBOL": "TRENT",
+    " SM_APPLICABLE_FROM": "Jun-07-2004"
+  },
+  {
+    "SYMB_COMPANY_NAME": "Trident Limited",
+    " SM_KEY_SYMBOL": "ABSHEKINDS",
+    " SM_NEW_SYMBOL": "TRIDENT",
+    " SM_APPLICABLE_FROM": "May-03-2011"
+  },
+  {
+    "SYMB_COMPANY_NAME": "Trigyn Technologies Limited",
+    " SM_KEY_SYMBOL": "LEADEDSYS",
+    " SM_NEW_SYMBOL": "TRIGYN",
+    " SM_APPLICABLE_FROM": "Jul-26-2005"
+  },
+  {
+    "SYMB_COMPANY_NAME": "UFLEX Limited",
+    " SM_KEY_SYMBOL": "FLEX",
+    " SM_NEW_SYMBOL": "UFLEX",
+    " SM_APPLICABLE_FROM": "Apr-17-2007"
+  },
+  {
+    "SYMB_COMPANY_NAME": "UPL Limited",
+    " SM_KEY_SYMBOL": "UNIPHOS",
+    " SM_NEW_SYMBOL": "UPL",
+    " SM_APPLICABLE_FROM": "Oct-23-2013"
+  },
+  {
+    "SYMB_COMPANY_NAME": "Ujaas Energy Limited",
+    " SM_KEY_SYMBOL": "MBSWITCH",
+    " SM_NEW_SYMBOL": "UJAAS",
+    " SM_APPLICABLE_FROM": "Sep-23-2013"
+  },
+  {
+    "SYMB_COMPANY_NAME": "Usha Martin Education & Solutions Limited",
+    " SM_KEY_SYMBOL": "UMITL",
+    " SM_NEW_SYMBOL": "UMESL",
+    " SM_APPLICABLE_FROM": "Jan-07-2010"
+  },
+  {
+    "SYMB_COMPANY_NAME": "Usha Martin Limited",
+    " SM_KEY_SYMBOL": "USHABEL",
+    " SM_NEW_SYMBOL": "USHAMART",
+    " SM_APPLICABLE_FROM": "Oct-20-2004"
+  },
+  {
+    "SYMB_COMPANY_NAME": "Uttam Value Steels Limited",
+    " SM_KEY_SYMBOL": "LLOYDSTEEL",
+    " SM_NEW_SYMBOL": "UTTAMVALUE",
+    " SM_APPLICABLE_FROM": "Apr-29-2013"
+  },
+  {
+    "SYMB_COMPANY_NAME": "V2 Retail Limited",
+    " SM_KEY_SYMBOL": "VISHALRET",
+    " SM_NEW_SYMBOL": "V2RETAIL",
+    " SM_APPLICABLE_FROM": "Feb-24-2012"
+  },
+  {
+    "SYMB_COMPANY_NAME": "VA Tech Wabag Limited",
+    " SM_KEY_SYMBOL": "VATECH",
+    " SM_NEW_SYMBOL": "WABAG",
+    " SM_APPLICABLE_FROM": "Dec-15-2010"
+  },
+  {
+    "SYMB_COMPANY_NAME": "VAKRANGEE LIMITED",
+    " SM_KEY_SYMBOL": "VAKRANSOFT",
+    " SM_NEW_SYMBOL": "VAKRANGEE",
+    " SM_APPLICABLE_FROM": "Nov-27-2013"
+  },
+  {
+    "SYMB_COMPANY_NAME": "VTX Industries Limited",
+    " SM_KEY_SYMBOL": "VIJAYTEX",
+    " SM_NEW_SYMBOL": "VTXIND",
+    " SM_APPLICABLE_FROM": "Apr-04-2011"
+  },
+  {
+    "SYMB_COMPANY_NAME": "Vaibhav Global Limited",
+    " SM_KEY_SYMBOL": "VAIBHAVGEM",
+    " SM_NEW_SYMBOL": "VAIBHAVGBL",
+    " SM_APPLICABLE_FROM": "Dec-24-2012"
+  },
+  {
+    "SYMB_COMPANY_NAME": "Value Industries Limited",
+    " SM_KEY_SYMBOL": "VDOCONAPPL",
+    " SM_NEW_SYMBOL": "VALUEIND",
+    " SM_APPLICABLE_FROM": "May-22-2008"
+  },
+  {
+    "SYMB_COMPANY_NAME": "Vardhman Holdings Limited",
+    " SM_KEY_SYMBOL": "VSGML",
+    " SM_NEW_SYMBOL": "VHL",
+    " SM_APPLICABLE_FROM": "Apr-17-2006"
+  },
+  {
+    "SYMB_COMPANY_NAME": "Vardhman Textiles Limited",
+    " SM_KEY_SYMBOL": "MAHAVIRSPG",
+    " SM_NEW_SYMBOL": "VTL",
+    " SM_APPLICABLE_FROM": "Oct-11-2006"
+  },
+  {
+    "SYMB_COMPANY_NAME": "Vatsa Music Limited",
+    " SM_KEY_SYMBOL": "BABABUSERV",
+    " SM_NEW_SYMBOL": "VATSMUSC",
+    " SM_APPLICABLE_FROM": "Aug-20-2001"
+  },
+  {
+    "SYMB_COMPANY_NAME": "Vedanta Limited",
+    " SM_KEY_SYMBOL": "SESAGOA",
+    " SM_NEW_SYMBOL": "SSLT",
+    " SM_APPLICABLE_FROM": "Oct-04-2013"
+  },
+  {
+    "SYMB_COMPANY_NAME": "Vedanta Limited",
+    " SM_KEY_SYMBOL": "SSLT",
+    " SM_NEW_SYMBOL": "VEDL",
+    " SM_APPLICABLE_FROM": "May-07-2015"
+  },
+  {
+    "SYMB_COMPANY_NAME": "Venky's (India) Limited",
+    " SM_KEY_SYMBOL": "WESTHATCH",
+    " SM_NEW_SYMBOL": "VENKEYS",
+    " SM_APPLICABLE_FROM": "Sep-17-2003"
+  },
+  {
+    "SYMB_COMPANY_NAME": "Videocon Industries Limited",
+    " SM_KEY_SYMBOL": "VDOLEASE",
+    " SM_NEW_SYMBOL": "VIDEOIND",
+    " SM_APPLICABLE_FROM": "Sep-21-2004"
+  },
+  {
+    "SYMB_COMPANY_NAME": "Vikas EcoTech Limited",
+    " SM_KEY_SYMBOL": "VIKASGLOB",
+    " SM_NEW_SYMBOL": "VIKASECO",
+    " SM_APPLICABLE_FROM": "Dec-21-2015"
+  },
+  {
+    "SYMB_COMPANY_NAME": "W S Industries (I) Limited",
+    " SM_KEY_SYMBOL": "WSIND",
+    " SM_NEW_SYMBOL": "WSI",
+    " SM_APPLICABLE_FROM": "Aug-01-2007"
+  },
+  {
+    "SYMB_COMPANY_NAME": "WABCO India Limited",
+    " SM_KEY_SYMBOL": "WABCO-TVS",
+    " SM_NEW_SYMBOL": "WABCOINDIA",
+    " SM_APPLICABLE_FROM": "Sep-06-2011"
+  },
+  {
+    "SYMB_COMPANY_NAME": "Wartsila India Limited",
+    " SM_KEY_SYMBOL": "WARTDEISEL",
+    " SM_NEW_SYMBOL": "WARTSILA",
+    " SM_APPLICABLE_FROM": "Sep-20-2000"
+  },
+  {
+    "SYMB_COMPANY_NAME": "Welspun Corp Limited",
+    " SM_KEY_SYMBOL": "WELGUJ",
+    " SM_NEW_SYMBOL": "WELCORP",
+    " SM_APPLICABLE_FROM": "May-17-2010"
+  },
+  {
+    "SYMB_COMPANY_NAME": "Welspun Enterprises Limited",
+    " SM_KEY_SYMBOL": "MSKPROJ",
+    " SM_NEW_SYMBOL": "WELPROJ",
+    " SM_APPLICABLE_FROM": "Jan-04-2011"
+  },
+  {
+    "SYMB_COMPANY_NAME": "Welspun Enterprises Limited",
+    " SM_KEY_SYMBOL": "WELPROJ",
+    " SM_NEW_SYMBOL": "WELENT",
+    " SM_APPLICABLE_FROM": "Jun-24-2015"
+  },
+  {
+    "SYMB_COMPANY_NAME": "Wendt (India) Limited",
+    " SM_KEY_SYMBOL": "WENDTINDIA",
+    " SM_NEW_SYMBOL": "WENDT",
+    " SM_APPLICABLE_FROM": "Aug-07-2006"
+  },
+  {
+    "SYMB_COMPANY_NAME": "Windsor Machines Limited",
+    " SM_KEY_SYMBOL": "DGPWINDSOR",
+    " SM_NEW_SYMBOL": "WINDSOR",
+    " SM_APPLICABLE_FROM": "Apr-05-2005"
+  },
+  {
+    "SYMB_COMPANY_NAME": "Winsome Diamonds and Jewellery Limited",
+    " SM_KEY_SYMBOL": "SURAJDIAMN",
+    " SM_NEW_SYMBOL": "WINSOMEDJ",
+    " SM_APPLICABLE_FROM": "Jul-24-2012"
+  },
+  {
+    "SYMB_COMPANY_NAME": "Wopolin Plastics Limited",
+    " SM_KEY_SYMBOL": "BAJAJPLAST",
+    " SM_NEW_SYMBOL": "WOPOLIN",
+    " SM_APPLICABLE_FROM": "Nov-23-2005"
+  },
+  {
+    "SYMB_COMPANY_NAME": "Wyeth Limited",
+    " SM_KEY_SYMBOL": "WYETHLEDE",
+    " SM_NEW_SYMBOL": "WYETH",
+    " SM_APPLICABLE_FROM": "Sep-01-2006"
+  },
+  {
+    "SYMB_COMPANY_NAME": "XL Energy Limited",
+    " SM_KEY_SYMBOL": "XLTL",
+    " SM_NEW_SYMBOL": "XLTELENE",
+    " SM_APPLICABLE_FROM": "Jul-22-2009"
+  },
+  {
+    "SYMB_COMPANY_NAME": "XL Energy Limited",
+    " SM_KEY_SYMBOL": "XLTELENE",
+    " SM_NEW_SYMBOL": "XLENERGY",
+    " SM_APPLICABLE_FROM": "Dec-13-2010"
+  },
+  {
+    "SYMB_COMPANY_NAME": "Xchanging Solutions Limited",
+    " SM_KEY_SYMBOL": "SCANDENT",
+    " SM_NEW_SYMBOL": "CAMBRIDGE",
+    " SM_APPLICABLE_FROM": "Jul-17-2006"
+  },
+  {
+    "SYMB_COMPANY_NAME": "Xchanging Solutions Limited",
+    " SM_KEY_SYMBOL": "CAMBRIDGE",
+    " SM_NEW_SYMBOL": "XCHANGING",
+    " SM_APPLICABLE_FROM": "Jun-25-2012"
+  },
+  {
+    "SYMB_COMPANY_NAME": "ZUARI GLOBAL LIMITED",
+    " SM_KEY_SYMBOL": "ZUARIAGRO",
+    " SM_NEW_SYMBOL": "ZUARIGLOB",
+    " SM_APPLICABLE_FROM": "Sep-25-2012"
+  },
+  {
+    "SYMB_COMPANY_NAME": "Zandu Realty Limited",
+    " SM_KEY_SYMBOL": "ZANDUPHARM",
+    " SM_NEW_SYMBOL": "ZANDUREALT",
+    " SM_APPLICABLE_FROM": "Mar-10-2010"
+  },
+  {
+    "SYMB_COMPANY_NAME": "Zee Entertainment Enterprises Limited",
+    " SM_KEY_SYMBOL": "ZEETELE",
+    " SM_NEW_SYMBOL": "ZEEL",
+    " SM_APPLICABLE_FROM": "Feb-28-2007"
+  },
+  {
+    "SYMB_COMPANY_NAME": "Zee Media Corporation Limited",
+    " SM_KEY_SYMBOL": "ZEENEWS",
+    " SM_NEW_SYMBOL": "ZEEMEDIA",
+    " SM_APPLICABLE_FROM": "Jul-30-2013"
+  },
+  {
+    "SYMB_COMPANY_NAME": "Zensar Technologies Limited",
+    " SM_KEY_SYMBOL": "FUJITSICIM",
+    " SM_NEW_SYMBOL": "ZENSARTECH",
+    " SM_APPLICABLE_FROM": "Mar-04-2004"
+  },
+  {
+    "SYMB_COMPANY_NAME": "e-Serve International Limited",
+    " SM_KEY_SYMBOL": "CITICORSEC",
+    " SM_NEW_SYMBOL": "E-SERVEINT",
+    " SM_APPLICABLE_FROM": "Jul-09-2003"
+  },
+  {
+    "SYMB_COMPANY_NAME": "iGate Global Solutions Limited",
+    " SM_KEY_SYMBOL": "MASCOT",
+    " SM_NEW_SYMBOL": "IGS",
+    " SM_APPLICABLE_FROM": "Aug-07-2003"
+  }
+]

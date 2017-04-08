@@ -27,18 +27,18 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content">
 
-            <TextView
-                android:id="@+id/txtViewShareSymbol"
-                android:layout_width="wrap_content"
-                android:layout_centerHorizontal="true"
-                android:layout_centerVertical="true"
-                android:layout_alignParentLeft="true"
-                android:layout_height="wrap_content"
-                android:text="@string/enter_share"
-                />
+            <!--<TextView-->
+                <!--android:id="@+id/txtViewShareSymbol"-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_centerHorizontal="true"-->
+                <!--android:layout_centerVertical="true"-->
+                <!--android:layout_alignParentLeft="true"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:text="@string/enter_share"-->
+                <!--/>-->
 
-            <EditText
-                android:layout_toRightOf="@+id/txtViewShareSymbol"
+            <AutoCompleteTextView
+                android:hint="@string/enter_share"
                 android:maxLength="17"
                 android:id="@+id/edtTxtShareSymbol"
                 android:layout_width="match_parent"

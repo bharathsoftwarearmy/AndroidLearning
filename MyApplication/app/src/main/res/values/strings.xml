@@ -30,7 +30,7 @@
     <string name="hint_login">Login username</string>
     <string name="header_login">Application Login</string>
 
-    <string name="enter_share">Enter the symbol of share</string>
+    <string name="enter_share">Enter the share name</string>
 
     <string name="notify_price">Trigger price: </string>
     <string name="dialog_trigger_price">Enter the Trigger Price</string>

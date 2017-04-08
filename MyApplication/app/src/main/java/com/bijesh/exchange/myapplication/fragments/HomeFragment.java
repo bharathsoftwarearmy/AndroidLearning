@@ -6,11 +6,15 @@ import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.support.v4.app.Fragment;
 import android.support.v4.widget.SwipeRefreshLayout;
+import android.text.Editable;
+import android.text.TextWatcher;
 import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.AdapterView;
+import android.widget.ArrayAdapter;
+import android.widget.AutoCompleteTextView;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ImageView;
@@ -29,6 +33,7 @@ import com.bijesh.exchange.myapplication.contentproviders.MyApplicationDBHandler
 import com.bijesh.exchange.myapplication.dialogs.ApplicationProgressDialog;
 import com.bijesh.exchange.myapplication.models.adaptermodels.StockChange;
 import com.bijesh.exchange.myapplication.models.dbmodels.Share;
+import com.bijesh.exchange.myapplication.models.parsers.ShareSymbol;
 import com.bijesh.exchange.myapplication.models.webservicemodels.StockData;
 import com.bijesh.exchange.myapplication.restservices.GsonRequest;
 import com.bijesh.exchange.myapplication.utils.DBUtils;
@@ -65,9 +70,13 @@ public class HomeFragment extends BaseFragment implements Response.Listener, Res
     private ImageView imgViewAddShare;
     private RelativeLayout relativeLayoutShareInput;
     private Button mBtnAddShare;
-    private EditText mEdtTxtShare;
+    private AutoCompleteTextView mEdtTxtShare;
     private SwipeRefreshLayout mSwipeRefreshLayout;
     List<String> mUrls;
+    private BaseApplication mBaseApplication;
+    private static final String[] COUNTRIES = new String[] {
+            "Belgium", "France", "Italy", "Germany", "Spain"
+    };
 
     @Nullable
     @Override
@@ -95,16 +104,18 @@ public class HomeFragment extends BaseFragment implements Response.Listener, Res
 
     private void initComponents(View mRootView){
 
+        mBaseApplication = (BaseApplication)getActivity().getApplication();
         mSwipeRefreshLayout = (SwipeRefreshLayout) mRootView.findViewById(R.id.swipe_refresh_layout);
 
         mStockListView = (ListView) mRootView.findViewById(R.id.stockList);
         imgViewAddShare = (ImageView) mRootView.findViewById(R.id.imgViewAddShare);
         relativeLayoutShareInput = (RelativeLayout) mRootView.findViewById(R.id.inputShareDetailContainer);
         mBtnAddShare = (Button) mRootView.findViewById(R.id.btnAddShare);
-        mEdtTxtShare = (EditText) mRootView.findViewById(R.id.edtTxtShareSymbol);
+        mEdtTxtShare = (AutoCompleteTextView) mRootView.findViewById(R.id.edtTxtShareSymbol);
 
-
-
+        ArrayAdapter<ShareSymbol> adapter = new ArrayAdapter<ShareSymbol>
+                (getActivity(), android.R.layout.simple_dropdown_item_1line, mBaseApplication.getShareSymbol());
+        mEdtTxtShare.setAdapter(adapter);
 
         mSwipeRefreshLayout.setOnRefreshListener(new SwipeRefreshLayout.OnRefreshListener() {
             @Override
@@ -144,7 +155,7 @@ public class HomeFragment extends BaseFragment implements Response.Listener, Res
         mStockListView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
-                Toast.makeText(getActivity(),"Item selected",Toast.LENGTH_LONG);
+//                Toast.makeText(getActivity(),"Item selected",Toast.LENGTH_LONG);
                 ShareDetailFragment shareDetailFragment = new ShareDetailFragment();
                 Bundle bundle = new Bundle();
                 bundle.putSerializable(BUNDLE_STOCK,mStockList.get(position).getStock().get(0));

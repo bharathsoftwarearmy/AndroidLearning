@@ -8,6 +8,7 @@ import android.content.Intent;
 import android.media.RingtoneManager;
 import android.net.Uri;
 import android.os.AsyncTask;
+import android.service.notification.StatusBarNotification;
 import android.support.v4.app.TaskStackBuilder;
 import android.support.v7.app.NotificationCompat;
 import android.util.Log;
@@ -91,9 +92,9 @@ public class DownloadStockDataTask extends AsyncTask<List<String>,Void,List<Stoc
         boolean retFlag = false;
         Share share = null;
         MyApplicationDBHandler dbHandler = BaseApplication.getDBHandler();
+        long currentTime = Calendar.getInstance().getTimeInMillis();
         share = dbHandler.getShare(stock.getSymbol());
         if(Double.parseDouble(stock.getPChange()) < -3 || Double.parseDouble(stock.getPChange()) > 3){
-            long currentTime = Calendar.getInstance().getTimeInMillis();
             if(share.getPreviousNotificationTime() == 0){
                 share.setPreviousNotificationTime(currentTime);
                 dbHandler.updateShare(share);
@@ -105,14 +106,27 @@ public class DownloadStockDataTask extends AsyncTask<List<String>,Void,List<Stoc
                 return true;
             }
         }
-        if(Double.parseDouble(stock.getLastPrice().trim()) >= share.getTriggerPrice()){
-            retFlag = true;
+        if(share.getTriggerPrice() > 0) {
+            if (Double.parseDouble(stock.getLastPrice().trim()) >= share.getTriggerPrice()) {
+                if(isGreaterThanAnHour(share.getPreviousNotificationTime(),currentTime)){
+                    share.setPreviousNotificationTime(currentTime);
+                    dbHandler.updateShare(share);
+                    return true;
+                }
+            }
         }
+//        boolean isNotified = isAlreadyNotified(stock,1);
         return retFlag;
     }
 
+//    private boolean isAlreadyNotified(Stock stock,int notifyId){
+//        String ns = Context.NOTIFICATION_SERVICE;
+//        NotificationManager nMgr = (NotificationManager) mContext.getSystemService(ns);
+//        StatusBarNotification[] allNotifications = nMgr.getActiveNotifications();
+//        return true;
+//    }
+
     private boolean isGreaterThanAnHour(long time,long currentTime){
-        Log.d(TAG,"$$$ currentTime "+currentTime);
         if(currentTime > (AN_HOUR + time))
             return true;
         else
