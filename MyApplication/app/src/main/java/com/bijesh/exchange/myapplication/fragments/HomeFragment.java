@@ -27,6 +27,7 @@ import com.android.volley.Response;
 import com.android.volley.VolleyError;
 import com.bijesh.exchange.myapplication.BaseApplication;
 import com.bijesh.exchange.myapplication.R;
+import com.bijesh.exchange.myapplication.adapters.autocompleteadapters.ShareAutoCompleteAdapter;
 import com.bijesh.exchange.myapplication.adapters.listviewadapters.HomeScreenAdapter;
 import com.bijesh.exchange.myapplication.constants.ApplicationConstants;
 import com.bijesh.exchange.myapplication.contentproviders.MyApplicationDBHandler;
@@ -113,9 +114,11 @@ public class HomeFragment extends BaseFragment implements Response.Listener, Res
         mBtnAddShare = (Button) mRootView.findViewById(R.id.btnAddShare);
         mEdtTxtShare = (AutoCompleteTextView) mRootView.findViewById(R.id.edtTxtShareSymbol);
 
-        ArrayAdapter<ShareSymbol> adapter = new ArrayAdapter<ShareSymbol>
-                (getActivity(), android.R.layout.simple_dropdown_item_1line, mBaseApplication.getShareSymbol());
-        mEdtTxtShare.setAdapter(adapter);
+//        ArrayAdapter<ShareSymbol> adapter = new ArrayAdapter<ShareSymbol>
+//                (getActivity(), android.R.layout.simple_dropdown_item_1line, mBaseApplication.getShareSymbol());
+        mEdtTxtShare.setAdapter(new ShareAutoCompleteAdapter(getContext(),
+                android.R.layout.simple_dropdown_item_1line, mBaseApplication.getShareSymbol()));
+//        mEdtTxtShare.setAdapter(adapter);
 
         mSwipeRefreshLayout.setOnRefreshListener(new SwipeRefreshLayout.OnRefreshListener() {
             @Override
