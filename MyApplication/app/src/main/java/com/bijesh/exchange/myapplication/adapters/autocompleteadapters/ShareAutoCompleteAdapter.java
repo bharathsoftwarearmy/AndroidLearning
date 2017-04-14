@@ -13,8 +13,11 @@ import android.widget.Filter;
 import android.widget.Filterable;
 import android.widget.TextView;
 
+import com.bijesh.exchange.myapplication.BaseApplication;
+import com.bijesh.exchange.myapplication.models.dbmodels.Share;
 import com.bijesh.exchange.myapplication.models.parsers.ShareSymbol;
 
+import java.util.ArrayList;
 import java.util.List;
 
 /**
@@ -28,6 +31,7 @@ public class ShareAutoCompleteAdapter  extends ArrayAdapter<ShareSymbol> impleme
     private int resId;
     private List<ShareSymbol> mListShareSymbols;
     private StringBuilder mStringBuiler = new StringBuilder();
+    private BaseApplication mBaseApplication;
 
     public ShareAutoCompleteAdapter(@NonNull Context context, @LayoutRes int resource) {
         super(context, resource);
@@ -50,6 +54,7 @@ public class ShareAutoCompleteAdapter  extends ArrayAdapter<ShareSymbol> impleme
         this.resId = resource;
         this.mListShareSymbols = objects;
         mInflater = LayoutInflater.from(context);
+        mBaseApplication = (BaseApplication)context.getApplicationContext();
     }
 
     public ShareAutoCompleteAdapter(@NonNull Context context, @LayoutRes int resource, @IdRes int textViewResourceId, @NonNull List<ShareSymbol> objects) {
@@ -87,17 +92,51 @@ public class ShareAutoCompleteAdapter  extends ArrayAdapter<ShareSymbol> impleme
         return new Filter() {
             @Override
             protected FilterResults performFiltering(CharSequence constraint) {
-                List<ShareSymbol> shareSymbol;
+                List<ShareSymbol> shareSymbol = null;
                 if(constraint != null){
-
+                    if(mListShareSymbols != null && mListShareSymbols.size() > 0) {
+                        shareSymbol = getFilteredShareSymbols(mListShareSymbols,constraint.toString());
+                    }else{
+                        shareSymbol = getFilteredShareSymbols(mBaseApplication.getShareSymbol(),constraint.toString());
+                    }
                 }
-                return null;
+                if(shareSymbol == null){
+                    shareSymbol = new ArrayList<>();
+                }
+                FilterResults filterResults = new FilterResults();
+                filterResults.values = shareSymbol;
+                filterResults.count = shareSymbol.size();
+                return filterResults;
             }
 
             @Override
             protected void publishResults(CharSequence constraint, FilterResults results) {
+                clear();
+                for(ShareSymbol shareSymbol:(List<ShareSymbol>)results.values){
+                    add(shareSymbol);
+                }
+                if(results.count > 0){
+                    notifyDataSetChanged();
+                }else{
+                    notifyDataSetInvalidated();
+                }
+            }
 
+            @Override
+            public CharSequence convertResultToString(Object resultValue) {
+                return resultValue == null ? "":((ShareSymbol)resultValue).getSYMBCOMPANYNAME();
             }
         };
     }
+
+    private List<ShareSymbol> getFilteredShareSymbols(List<ShareSymbol> allShareSymbols,String constraints){
+        List<ShareSymbol> returnList = new ArrayList<>();
+        for(ShareSymbol shareSymbol:allShareSymbols){
+            if(shareSymbol.getSYMBCOMPANYNAME().contains(constraints)){
+                returnList.add(shareSymbol);
+            }
+        }
+        return returnList;
+    }
+
 }

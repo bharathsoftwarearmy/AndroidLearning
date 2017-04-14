@@ -116,9 +116,9 @@ public class HomeFragment extends BaseFragment implements Response.Listener, Res
 
 //        ArrayAdapter<ShareSymbol> adapter = new ArrayAdapter<ShareSymbol>
 //                (getActivity(), android.R.layout.simple_dropdown_item_1line, mBaseApplication.getShareSymbol());
-        mEdtTxtShare.setAdapter(new ShareAutoCompleteAdapter(getContext(),
-                android.R.layout.simple_dropdown_item_1line, mBaseApplication.getShareSymbol()));
-//        mEdtTxtShare.setAdapter(adapter);
+        ShareAutoCompleteAdapter adapter = new ShareAutoCompleteAdapter(getContext(),
+                android.R.layout.simple_dropdown_item_1line, mBaseApplication.getShareSymbol());
+        mEdtTxtShare.setAdapter(adapter);
 
         mSwipeRefreshLayout.setOnRefreshListener(new SwipeRefreshLayout.OnRefreshListener() {
             @Override

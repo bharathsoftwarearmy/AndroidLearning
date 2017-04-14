@@ -94,7 +94,7 @@ public class BaseApplication extends Application {
     }
 
     public List<ShareSymbol> getShareSymbol(){
-        if(allShareSymbols != null){
+        if(allShareSymbols != null && allShareSymbols.size() > 0){
             return allShareSymbols;
         }else{
             this.allShareSymbols = initShareSymbols();
