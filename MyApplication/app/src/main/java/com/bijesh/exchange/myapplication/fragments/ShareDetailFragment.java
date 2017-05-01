@@ -1,6 +1,7 @@
 package com.bijesh.exchange.myapplication.fragments;
 
 import android.os.Bundle;
+import android.renderscript.Double2;
 import android.support.annotation.Nullable;
 import android.support.design.widget.FloatingActionButton;
 import android.text.Editable;
@@ -17,22 +18,26 @@ import com.bijesh.exchange.myapplication.R;
 import com.bijesh.exchange.myapplication.constants.ApplicationConstants;
 import com.bijesh.exchange.myapplication.contentproviders.MyApplicationDBHandler;
 import com.bijesh.exchange.myapplication.customcomponents.uicomponents.MyApplicationButton;
+import com.bijesh.exchange.myapplication.dialogs.SharesInputDialog;
 import com.bijesh.exchange.myapplication.dialogs.TriggerInputDialog;
 import com.bijesh.exchange.myapplication.models.dbmodels.Share;
 import com.bijesh.exchange.myapplication.models.webservicemodels.Stock;
 import com.bijesh.exchange.myapplication.utils.FragmentUtil;
 
+import java.text.DecimalFormat;
+
 /**
  * Created by Bijesh on 10/29/2016.
  */
 
-public class ShareDetailFragment extends BaseFragment implements ApplicationConstants,TriggerInputDialog.OnInputDialogReceivedListener {
+public class ShareDetailFragment extends BaseFragment implements ApplicationConstants,TriggerInputDialog.OnInputDialogReceivedListener ,
+        SharesInputDialog.OnShareDialogReceivedListener{
 
     private static final String TAG = ShareDetailFragment.class.getSimpleName();
     private View mRootView;
     private Stock mStock;
-    private TextView mTxtViewShareName,mTxtViewTriggerPrice;
-    private FloatingActionButton mFabNotify,mFabDelete;
+    private TextView mTxtViewShareName,mTxtViewTriggerPrice,mTxtViewNumberOfShares,mTxtViewCurrentValue;
+    private FloatingActionButton mFabNotify,mFabDelete,mFabShares;
     private MyApplicationDBHandler myApplicationDBHandler;
     private MyApplicationButton mBtnDelete;
     private Share mShare;
@@ -66,12 +71,18 @@ public class ShareDetailFragment extends BaseFragment implements ApplicationCons
 
             mTxtViewShareName = (TextView)rootView.findViewById(R.id.txtViewShareName);
             mTxtViewTriggerPrice = (TextView) rootView.findViewById(R.id.txtViewTriggerPrice);
+            mTxtViewNumberOfShares = (TextView) rootView.findViewById(R.id.txtViewNumberOfShares);
+            mTxtViewCurrentValue = (TextView) rootView.findViewById(R.id.txtViewCurrentValue);
+
             mFabNotify = (FloatingActionButton) rootView.findViewById(R.id.fabNotify);
             mFabDelete = (FloatingActionButton) rootView.findViewById(R.id.fabDelete);
+            mFabShares = (FloatingActionButton) rootView.findViewById(R.id.fabShares);
             mEdtTxtComments = (EditText) rootView.findViewById(R.id.edtTxtComments);
 
             mTxtViewShareName.setText(stock.getCompanyName());
             mTxtViewTriggerPrice.setText(mShare.getTriggerPrice()+"");
+            mTxtViewNumberOfShares.setText(mShare.getNumberOfShares()+"");
+            mTxtViewCurrentValue.setText(getCurrentValue(stock.getLastPrice(),mShare.getNumberOfShares()));
 
             mEdtTxtComments.setText(mShare.getComments());
 
@@ -96,6 +107,14 @@ public class ShareDetailFragment extends BaseFragment implements ApplicationCons
                     TriggerInputDialog triggerInputDialog = new TriggerInputDialog(getActivity(),ShareDetailFragment.this);
                     triggerInputDialog.setArguments(bundle);
                     triggerInputDialog.show();
+                }
+            });
+
+            mFabShares.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View v) {
+                    SharesInputDialog sharesInputDialog = new SharesInputDialog(getActivity(),ShareDetailFragment.this);
+                    sharesInputDialog.show();
                 }
             });
 
@@ -129,6 +148,16 @@ public class ShareDetailFragment extends BaseFragment implements ApplicationCons
         }
     }
 
+    private String getCurrentValue(String priceString,int numOfShares){
+        double price = Double.parseDouble(priceString);
+        if(numOfShares > 0) {
+            DecimalFormat df = new DecimalFormat("####0.00");
+            double val = price * numOfShares;
+            return df.format(val);
+        }
+        return "0.00";
+    }
+
     @Override
     public void onInputReceived(Bundle bundle) {
         if(bundle != null){
@@ -137,6 +166,17 @@ public class ShareDetailFragment extends BaseFragment implements ApplicationCons
             MyApplicationDBHandler dbHandler = BaseApplication.getDBHandler();
             mShare.setTriggerPrice(price);
             dbHandler.updateShare(mShare);
+        }
+    }
+
+    @Override
+    public void onSharesReceived(Bundle bundle) {
+        if(bundle != null){
+            int numberOfShares = bundle.getInt(BUNDLE_SHARES_NUMBER);
+            mTxtViewNumberOfShares.setText(numberOfShares+"");
+            mTxtViewCurrentValue.setText(getCurrentValue(mStock.getLastPrice(),numberOfShares));
+            mShare.setNumberOfShares(numberOfShares);
+            myApplicationDBHandler.updateShareNumbers(mShare);
         }
     }
 }

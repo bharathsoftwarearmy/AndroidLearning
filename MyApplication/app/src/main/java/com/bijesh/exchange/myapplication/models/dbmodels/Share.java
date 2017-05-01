@@ -11,6 +11,15 @@ public class Share {
     private long previousNotificationTime;
     private double triggerPrice;
     private String comments;
+    private int numberOfShares;
+
+    public int getNumberOfShares() {
+        return numberOfShares;
+    }
+
+    public void setNumberOfShares(int numberOfShares) {
+        this.numberOfShares = numberOfShares;
+    }
 
     public String getComments() {
         return comments;

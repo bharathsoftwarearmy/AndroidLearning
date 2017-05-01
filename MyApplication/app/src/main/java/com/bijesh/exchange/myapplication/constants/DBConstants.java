@@ -28,6 +28,7 @@ public interface DBConstants {
     String COLUMN_SHARE_PREVIOUS_NOTIFICATION_TIME = "PreviousNofiticationTime";
     String COLUMN_SHARE_TRIGGER_PRICE = "TriggerPrice";
     String COLUMN_SHARE_COMMENTS = "Comments";
+    String COLUMN_NUMBER_OF_SHARES = "NoOfShares";
 
 
 }

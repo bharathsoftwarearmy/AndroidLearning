@@ -22,5 +22,7 @@
     <color name="lessThan3Percentage">#F44336</color>
     <color name="lessThan5Percentage">#B71C1C</color>
 
+    <color name="number_of_shares">#0479FE</color>
+
 
 </resources>

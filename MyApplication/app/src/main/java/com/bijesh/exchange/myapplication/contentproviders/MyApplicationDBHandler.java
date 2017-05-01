@@ -96,7 +96,7 @@ public class MyApplicationDBHandler extends SQLiteOpenHelper implements DBConsta
 
         Cursor cursor = db.query(TABLE_SHARE_DETAILS, new String[]{COLUMN_ID,
                         COLUMN_SHARE_NAME, COLUMN_SHARE_SYMBOL,COLUMN_SHARE_PREVIOUS_NOTIFICATION_TIME
-        ,COLUMN_SHARE_TRIGGER_PRICE,COLUMN_SHARE_COMMENTS}, COLUMN_SHARE_SYMBOL + "=?",
+        ,COLUMN_SHARE_TRIGGER_PRICE,COLUMN_SHARE_COMMENTS,COLUMN_NUMBER_OF_SHARES}, COLUMN_SHARE_SYMBOL + "=?",
                 new String[]{symbol}, null, null, null, null);
         if (cursor != null)
             cursor.moveToFirst();
@@ -107,6 +107,7 @@ public class MyApplicationDBHandler extends SQLiteOpenHelper implements DBConsta
         share.setPreviousNotificationTime(DBUtils.getPreviousNotificationTimeAsLong(cursor.getString(3)));
         share.setTriggerPrice(Double.parseDouble(cursor.getString(4)));
         share.setComments(cursor.getString(5));
+        share.setNumberOfShares(cursor.getInt(6));
         return share;
     }
 
@@ -177,6 +178,22 @@ public class MyApplicationDBHandler extends SQLiteOpenHelper implements DBConsta
         return db.update(TABLE_SHARE_DETAILS, values, COLUMN_SHARE_SYMBOL + " = ?",
                 new String[]{share.getShareSymbol()});
     }
+
+    /**
+     * Updates the share comments
+     * @param share
+     * @return
+     */
+    public int updateShareNumbers(Share share){
+        SQLiteDatabase db = this.getWritableDatabase();
+        ContentValues values = new ContentValues();
+        values.put(COLUMN_NUMBER_OF_SHARES,share.getNumberOfShares());
+        // updating row
+        return db.update(TABLE_SHARE_DETAILS, values, COLUMN_SHARE_SYMBOL + " = ?",
+                new String[]{share.getShareSymbol()});
+    }
+
+
 
 
         // Deleting a share

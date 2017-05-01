@@ -25,6 +25,7 @@
 
     <string name="header_company">Company</string>
     <string name="header_price">Price</string>
+    <string name="header_no_shares">No: of Shares</string>
     <string name="header_per_change">Simple Details</string>
     <string name="action_login">Login</string>
     <string name="hint_login">Login username</string>
@@ -33,6 +34,8 @@
     <string name="enter_share">Enter the share name</string>
 
     <string name="notify_price">Trigger price: </string>
+    <string name="number_of_shares">No. of Shares:</string>
+    <string name="current_value">Current value:</string>
     <string name="dialog_trigger_price">Enter the Trigger Price</string>
 
     <string name="ok">Ok</string>
