@@ -30,6 +30,14 @@
         <activity android:name=".contentprovidertest.LabelDetailsActivity"/>
 
         <service android:name=".services.ApplicationService"></service>
+
+        <receiver android:name=".content.RelaunchApplicationServiceReciever">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED"></action>
+                <action android:name="com.bijesh.exchange.myapplication"></action>
+            </intent-filter>
+        </receiver>
+
     </application>
 
 </manifest>

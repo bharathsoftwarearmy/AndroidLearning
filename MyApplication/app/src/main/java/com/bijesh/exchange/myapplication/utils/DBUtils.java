@@ -29,7 +29,7 @@ public class DBUtils implements DBConstants {
         String table = "CREATE TABLE " + TABLE_SHARE_DETAILS + "("+COLUMN_ID+" INTEGER PRIMARY KEY, "+
                 COLUMN_SHARE_NAME + " TEXT, " + COLUMN_SHARE_SYMBOL + " TEXT UNIQUE, "+
         COLUMN_SHARE_PREVIOUS_NOTIFICATION_TIME+ " TEXT DEFAULT \"NA\" , "+COLUMN_SHARE_TRIGGER_PRICE
-        +" TEXT DEFAULT \"0\")";
+        +" TEXT DEFAULT \"0\" ,"+COLUMN_SHARE_COMMENTS+" TEXT  )";
         Log.d(TAG,table);
         return table;
     }

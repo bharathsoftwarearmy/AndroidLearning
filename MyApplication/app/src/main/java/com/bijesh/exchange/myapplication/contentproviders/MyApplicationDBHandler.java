@@ -96,7 +96,7 @@ public class MyApplicationDBHandler extends SQLiteOpenHelper implements DBConsta
 
         Cursor cursor = db.query(TABLE_SHARE_DETAILS, new String[]{COLUMN_ID,
                         COLUMN_SHARE_NAME, COLUMN_SHARE_SYMBOL,COLUMN_SHARE_PREVIOUS_NOTIFICATION_TIME
-        ,COLUMN_SHARE_TRIGGER_PRICE}, COLUMN_SHARE_SYMBOL + "=?",
+        ,COLUMN_SHARE_TRIGGER_PRICE,COLUMN_SHARE_COMMENTS}, COLUMN_SHARE_SYMBOL + "=?",
                 new String[]{symbol}, null, null, null, null);
         if (cursor != null)
             cursor.moveToFirst();
@@ -106,6 +106,7 @@ public class MyApplicationDBHandler extends SQLiteOpenHelper implements DBConsta
         share.setShareSymbol(cursor.getString(2));
         share.setPreviousNotificationTime(DBUtils.getPreviousNotificationTimeAsLong(cursor.getString(3)));
         share.setTriggerPrice(Double.parseDouble(cursor.getString(4)));
+        share.setComments(cursor.getString(5));
         return share;
     }
 
@@ -157,6 +158,21 @@ public class MyApplicationDBHandler extends SQLiteOpenHelper implements DBConsta
         ContentValues values = new ContentValues();
         values.put(COLUMN_SHARE_PREVIOUS_NOTIFICATION_TIME, share.getPreviousNotificationTime());
         values.put(COLUMN_SHARE_TRIGGER_PRICE,share.getTriggerPrice());
+        values.put(COLUMN_SHARE_COMMENTS,share.getComments());
+        // updating row
+        return db.update(TABLE_SHARE_DETAILS, values, COLUMN_SHARE_SYMBOL + " = ?",
+                new String[]{share.getShareSymbol()});
+    }
+
+    /**
+     * Updates the share comments
+     * @param share
+     * @return
+     */
+    public int updateShareComments(Share share){
+        SQLiteDatabase db = this.getWritableDatabase();
+        ContentValues values = new ContentValues();
+        values.put(COLUMN_SHARE_COMMENTS,share.getComments());
         // updating row
         return db.update(TABLE_SHARE_DETAILS, values, COLUMN_SHARE_SYMBOL + " = ?",
                 new String[]{share.getShareSymbol()});
@@ -170,31 +186,6 @@ public class MyApplicationDBHandler extends SQLiteOpenHelper implements DBConsta
                 new String[] { share.getShareSymbol() });
         db.close();
     }
-
-//    // Getting shops Count
-//    public int getShopsCount() {
-//        String countQuery = "SELECT  * FROM " + TABLE_SHOPS;
-//        SQLiteDatabase db = this.getReadableDatabase();
-//        Cursor cursor = db.rawQuery(countQuery, null);
-//        cursor.close();
-//
-//        // return count
-//        return cursor.getCount();
-//    }
-
-    // Updating a User
-//    public int updateUser(User user) {
-//        SQLiteDatabase db = this.getWritableDatabase();
-//
-//        ContentValues values = new ContentValues();
-//        values.put(COLUMN_USER_NAME, user.getUserName());
-//        values.put(COLUMN_PASSWORD, user.getPassword());
-//
-//        // updating row
-//        return db.update(TABLE_USERS, values, COLUMN_ID + " = ?",
-//                new String[]{String.valueOf(shop.getId())});
-//    }
-//
 
 
 

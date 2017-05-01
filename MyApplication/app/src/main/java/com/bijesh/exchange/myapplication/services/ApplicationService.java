@@ -9,6 +9,7 @@ import android.os.IBinder;
 import android.os.Looper;
 import android.os.Message;
 import android.support.annotation.Nullable;
+import android.util.AndroidException;
 import android.widget.Toast;
 
 import com.bijesh.exchange.myapplication.constants.ApplicationConstants;
@@ -86,6 +87,9 @@ public class ApplicationService extends Service implements ApplicationConstants{
             timer.cancel();
             timer = null;
         }
+        if(timerTask != null){
+            timerTask.cancel();
+        }
     }
 
     public void initializeTimerTask() {
@@ -107,4 +111,15 @@ public class ApplicationService extends Service implements ApplicationConstants{
         };
     }
 
+    @Override
+    public void onDestroy() {
+        super.onDestroy();
+        try {
+            stoptimertask();
+        }catch (Exception e){
+            e.printStackTrace();
+        }
+        Intent intent = new Intent("com.bijesh.exchange.myapplication");
+        sendBroadcast(intent);
+    }
 }

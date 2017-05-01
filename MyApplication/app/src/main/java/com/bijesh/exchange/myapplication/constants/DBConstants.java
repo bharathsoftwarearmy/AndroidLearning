@@ -7,7 +7,7 @@ package com.bijesh.exchange.myapplication.constants;
 public interface DBConstants {
 
     // Database Version
-    public static final int DATABASE_VERSION = 1;
+    public static final int DATABASE_VERSION = 2;
 
     // Database Name
     public static final String DATABASE_NAME = "MyApplication";
@@ -27,6 +27,7 @@ public interface DBConstants {
     String COLUMN_SHARE_SYMBOL = "ShareSymbol";
     String COLUMN_SHARE_PREVIOUS_NOTIFICATION_TIME = "PreviousNofiticationTime";
     String COLUMN_SHARE_TRIGGER_PRICE = "TriggerPrice";
+    String COLUMN_SHARE_COMMENTS = "Comments";
 
 
 }

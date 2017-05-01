@@ -10,6 +10,15 @@ public class Share {
     private String shareSymbol;
     private long previousNotificationTime;
     private double triggerPrice;
+    private String comments;
+
+    public String getComments() {
+        return comments;
+    }
+
+    public void setComments(String comments) {
+        this.comments = comments;
+    }
 
     public double getTriggerPrice() {
         return triggerPrice;

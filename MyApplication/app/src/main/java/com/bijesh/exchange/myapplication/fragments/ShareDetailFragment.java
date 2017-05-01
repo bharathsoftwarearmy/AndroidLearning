@@ -3,10 +3,13 @@ package com.bijesh.exchange.myapplication.fragments;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.support.design.widget.FloatingActionButton;
+import android.text.Editable;
+import android.text.TextWatcher;
 import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.EditText;
 import android.widget.TextView;
 
 import com.bijesh.exchange.myapplication.BaseApplication;
@@ -33,6 +36,8 @@ public class ShareDetailFragment extends BaseFragment implements ApplicationCons
     private MyApplicationDBHandler myApplicationDBHandler;
     private MyApplicationButton mBtnDelete;
     private Share mShare;
+    private EditText mEdtTxtComments;
+
 
     @Nullable
     @Override
@@ -63,9 +68,12 @@ public class ShareDetailFragment extends BaseFragment implements ApplicationCons
             mTxtViewTriggerPrice = (TextView) rootView.findViewById(R.id.txtViewTriggerPrice);
             mFabNotify = (FloatingActionButton) rootView.findViewById(R.id.fabNotify);
             mFabDelete = (FloatingActionButton) rootView.findViewById(R.id.fabDelete);
+            mEdtTxtComments = (EditText) rootView.findViewById(R.id.edtTxtComments);
 
             mTxtViewShareName.setText(stock.getCompanyName());
             mTxtViewTriggerPrice.setText(mShare.getTriggerPrice()+"");
+
+            mEdtTxtComments.setText(mShare.getComments());
 
             mBtnDelete = (MyApplicationButton) rootView.findViewById(R.id.btnDelete);
 
@@ -97,6 +105,24 @@ public class ShareDetailFragment extends BaseFragment implements ApplicationCons
                     MyApplicationDBHandler dbHandler = BaseApplication.getDBHandler();
                     dbHandler.deleteShare(mShare);
                     FragmentUtil.removeFragment(getActivity(),ShareDetailFragment.this);
+                }
+            });
+
+            mEdtTxtComments.addTextChangedListener(new TextWatcher() {
+                @Override
+                public void beforeTextChanged(CharSequence s, int start, int count, int after) {
+
+                }
+
+                @Override
+                public void onTextChanged(CharSequence s, int start, int before, int count) {
+
+                }
+
+                @Override
+                public void afterTextChanged(Editable s) {
+                    mShare.setComments(s.toString());
+                    myApplicationDBHandler.updateShareComments(mShare);
                 }
             });
 
